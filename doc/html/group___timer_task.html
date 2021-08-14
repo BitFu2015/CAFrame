@@ -1,0 +1,501 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.3.1"/>
+<title>CAFrame: 定时任务管理</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">CAFrame
+   &#160;<span id="projectnumber">V2.2</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.3.1 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">宏定义</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">定时任务管理</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:ga161c76fbaa6c6ad9bc2784a02153a998"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___timer_task.html#ga161c76fbaa6c6ad9bc2784a02153a998">frm_timer_task_setstep</a>(X, Y)</td></tr>
+<tr class="separator:ga161c76fbaa6c6ad9bc2784a02153a998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga12aff3f9bbbd46e3fe55d8ab13b072d7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___timer_task.html#ga12aff3f9bbbd46e3fe55d8ab13b072d7">frm_timer_task_nextstep</a>(X)</td></tr>
+<tr class="separator:ga12aff3f9bbbd46e3fe55d8ab13b072d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab28efdd1f6c2bd13ad0d8d87c001ace2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___timer_task.html#gab28efdd1f6c2bd13ad0d8d87c001ace2">TT_BEGIN</a>(T)</td></tr>
+<tr class="separator:gab28efdd1f6c2bd13ad0d8d87c001ace2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1312330a736ed1a2964777a17b23908f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___timer_task.html#ga1312330a736ed1a2964777a17b23908f">TT_END</a>(T)</td></tr>
+<tr class="separator:ga1312330a736ed1a2964777a17b23908f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0c02f42e4497c205792062635af217b3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___timer_task.html#ga0c02f42e4497c205792062635af217b3">TT_LOOP</a>(T)</td></tr>
+<tr class="separator:ga0c02f42e4497c205792062635af217b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9e4affcd5f4fd61dfef04952d35c94c2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___timer_task.html#ga9e4affcd5f4fd61dfef04952d35c94c2">TT_WAIT</a>(T, Y)</td></tr>
+<tr class="separator:ga9e4affcd5f4fd61dfef04952d35c94c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa33202ce61f5a44382a667b7209c6ce5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___timer_task.html#gaa33202ce61f5a44382a667b7209c6ce5">TT_DELAY</a>(T, Y)</td></tr>
+<tr class="separator:gaa33202ce61f5a44382a667b7209c6ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga011c07ebccc4d6a8869a814874458871"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___timer_task.html#ga011c07ebccc4d6a8869a814874458871">TT_RESTART</a>(T)</td></tr>
+<tr class="separator:ga011c07ebccc4d6a8869a814874458871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3c7f5e4cf7cfb054c4ce5bf6e0edc278"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___timer_task.html#ga3c7f5e4cf7cfb054c4ce5bf6e0edc278">TT_EXIT</a>(T)</td></tr>
+<tr class="separator:ga3c7f5e4cf7cfb054c4ce5bf6e0edc278"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ga976991c3a1c677309669378bf2a8145e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___timer_task.html#ga976991c3a1c677309669378bf2a8145e">frm_begin_timer_task</a> (PTIMER_TASK pTask)</td></tr>
+<tr class="memdesc:ga976991c3a1c677309669378bf2a8145e"><td class="mdescLeft">&#160;</td><td class="mdescRight">开始执行定时任务  <a href="#ga976991c3a1c677309669378bf2a8145e">更多...</a><br/></td></tr>
+<tr class="separator:ga976991c3a1c677309669378bf2a8145e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacf17ad2759af75758561837214e201bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___timer_task.html#gacf17ad2759af75758561837214e201bf">frm_end_timer_task</a> (PTIMER_TASK pTask)</td></tr>
+<tr class="memdesc:gacf17ad2759af75758561837214e201bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">停止指定的定时任务  <a href="#gacf17ad2759af75758561837214e201bf">更多...</a><br/></td></tr>
+<tr class="separator:gacf17ad2759af75758561837214e201bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga543eed7957d5477ea5d487c814fb1a78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___timer_task.html#ga543eed7957d5477ea5d487c814fb1a78">frm_bind_timer_task</a> (uint8_t id, PTIMER_TASK pTask, void(*fn)(PTIMER_TASK))</td></tr>
+<tr class="memdesc:ga543eed7957d5477ea5d487c814fb1a78"><td class="mdescLeft">&#160;</td><td class="mdescRight">定时任务绑定到定时器  <a href="#ga543eed7957d5477ea5d487c814fb1a78">更多...</a><br/></td></tr>
+<tr class="separator:ga543eed7957d5477ea5d487c814fb1a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<pre class="fragment">定时任务用于实现延时分步操作功能。
+例如我们需要实现这样一个功能：在一个温控系统中，电加热棒打开前先打开风机再延时10秒后打开电热，
+关闭时先关闭电加热棒，再延时30秒关风机，并且要求关闭后在3分钟内不得再次打开。
+使用定时任务实现此功能的代码如下：
+</pre> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;CAFrame.h&quot;</span></div>
+<div class="line"></div>
+<div class="line"><span class="comment">//定时任务对象定义</span></div>
+<div class="line">TIMER_TASK g_OpenTask,g_CloseTask;</div>
+<div class="line"></div>
+<div class="line">uint8_t g_RunStatus=0;                      <span class="comment">//当前运行状态</span></div>
+<div class="line">uint8_t g_ControlStatus=0;  <span class="comment">//当前控制输入状态</span></div>
+<div class="line"></div>
+<div class="line"><span class="keywordtype">void</span> Timer1Event(<span class="keywordtype">void</span>)</div>
+<div class="line">{</div>
+<div class="line">    LED_TOGGLE; </div>
+<div class="line">    </div>
+<div class="line">    printf(<span class="stringliteral">&quot;RunStatus:%d,ControlStatus:%d\r\n&quot;</span>,g_RunStatus,g_ControlStatus);</div>
+<div class="line">}</div>
+<div class="line"></div>
+<div class="line"><span class="comment">//开机任务处理函数</span></div>
+<div class="line"><span class="keywordtype">void</span> OpenTask(PTIMER_TASK pTask)</div>
+<div class="line">{</div>
+<div class="line">    <a class="code" href="group___timer_task.html#gab28efdd1f6c2bd13ad0d8d87c001ace2">TT_BEGIN</a>(pTask); </div>
+<div class="line"></div>
+<div class="line">    <a class="code" href="group___output_driver.html#gaf2720512412f6e60150ca5f4bf8a3d78" title="开关量输出控制函数，在驱动(driver.c)中必须实现此函数。">drv_output</a>(IO_Y1,1);<span class="comment">//打开风机</span></div>
+<div class="line"></div>
+<div class="line">    <a class="code" href="group___timer_task.html#gaa33202ce61f5a44382a667b7209c6ce5">TT_DELAY</a>(pTask,10);<span class="comment">//延时10秒</span></div>
+<div class="line">    </div>
+<div class="line">    <a class="code" href="group___output_driver.html#gaf2720512412f6e60150ca5f4bf8a3d78" title="开关量输出控制函数，在驱动(driver.c)中必须实现此函数。">drv_output</a>(IO_Y2,1);<span class="comment">//打开电热</span></div>
+<div class="line">    g_RunStatus=1;<span class="comment">//开机完成状态</span></div>
+<div class="line"></div>
+<div class="line">    <a class="code" href="group___timer_task.html#ga1312330a736ed1a2964777a17b23908f">TT_END</a>(pTask);</div>
+<div class="line">}</div>
+<div class="line"></div>
+<div class="line"><span class="comment">//关机任务处理函数</span></div>
+<div class="line"><span class="keywordtype">void</span> CloseTask(PTIMER_TASK pTask)</div>
+<div class="line">{</div>
+<div class="line">    <a class="code" href="group___timer_task.html#gab28efdd1f6c2bd13ad0d8d87c001ace2">TT_BEGIN</a>(pTask);</div>
+<div class="line"></div>
+<div class="line">    <a class="code" href="group___output_driver.html#gaf2720512412f6e60150ca5f4bf8a3d78" title="开关量输出控制函数，在驱动(driver.c)中必须实现此函数。">drv_output</a>(IO_Y2,0);<span class="comment">//关闭电热</span></div>
+<div class="line">    </div>
+<div class="line">    <a class="code" href="group___timer_task.html#gaa33202ce61f5a44382a667b7209c6ce5">TT_DELAY</a>(pTask,30); <span class="comment">//延时30秒</span></div>
+<div class="line">    </div>
+<div class="line">    <a class="code" href="group___output_driver.html#gaf2720512412f6e60150ca5f4bf8a3d78" title="开关量输出控制函数，在驱动(driver.c)中必须实现此函数。">drv_output</a>(IO_Y1,0);<span class="comment">//关闭风机</span></div>
+<div class="line">    </div>
+<div class="line">    <a class="code" href="group___timer_task.html#gaa33202ce61f5a44382a667b7209c6ce5">TT_DELAY</a>(pTask,180);<span class="comment">//等待3分钟避免频繁启动</span></div>
+<div class="line"></div>
+<div class="line">    g_RunStatus=0;<span class="comment">//关机完成状态</span></div>
+<div class="line">    </div>
+<div class="line">    <a class="code" href="group___timer_task.html#ga1312330a736ed1a2964777a17b23908f">TT_END</a>(pTask);</div>
+<div class="line">}</div>
+<div class="line"></div>
+<div class="line"><span class="comment">//定时器1事件处理函数</span></div>
+<div class="line"><span class="keywordtype">void</span> TaskTimerEvent(<span class="keywordtype">void</span>)</div>
+<div class="line">{</div>
+<div class="line">    <span class="comment">//注：如果定时器所邦定的定时任务处于执行状态，则以下代码不会得到执行</span></div>
+<div class="line">    <span class="comment">//只有所有邦定到此定时器的定时任务均处于停止时才会执行此函数</span></div>
+<div class="line">    </div>
+<div class="line">    <span class="comment">//如果控制状态改变</span></div>
+<div class="line">    <span class="keywordflow">if</span>(g_ControlStatus != g_RunStatus)</div>
+<div class="line">    {</div>
+<div class="line">            <span class="keywordflow">if</span>(g_RunStatus)<span class="comment">//正处在开机状态</span></div>
+<div class="line">                    <a class="code" href="group___timer_task.html#ga976991c3a1c677309669378bf2a8145e" title="开始执行定时任务">frm_begin_timer_task</a>(&amp;g_CloseTask);</div>
+<div class="line">            <span class="keywordflow">else</span></div>
+<div class="line">                    <a class="code" href="group___timer_task.html#ga976991c3a1c677309669378bf2a8145e" title="开始执行定时任务">frm_begin_timer_task</a>(&amp;g_OpenTask);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line"></div>
+<div class="line"><span class="keywordtype">void</span> InputEvent1(uint16_t x)</div>
+<div class="line">{</div>
+<div class="line">    <span class="comment">//控制开关状态切换</span></div>
+<div class="line">    g_ControlStatus=g_ControlStatus?0:1; </div>
+<div class="line">}</div>
+<div class="line"></div>
+<div class="line"><span class="keywordtype">void</span> InitApp(<span class="keywordtype">void</span>)</div>
+<div class="line">{</div>
+<div class="line">    <span class="comment">//普通定时事件，此定时器与此功能无关，仅用于调试</span></div>
+<div class="line">    <a class="code" href="group___timer_driver.html#ga673016f8a1f79a9d815ba2bb9843534d" title="安装定时器函数">frm_install_timer_event</a>(0,2000,Timer1Event);</div>
+<div class="line">    </div>
+<div class="line">    <span class="comment">//控制定时器</span></div>
+<div class="line">    <a class="code" href="group___timer_driver.html#ga673016f8a1f79a9d815ba2bb9843534d" title="安装定时器函数">frm_install_timer_event</a>(1,1000,TaskTimerEvent);</div>
+<div class="line">    <a class="code" href="group___timer_task.html#ga543eed7957d5477ea5d487c814fb1a78" title="定时任务绑定到定时器">frm_bind_timer_task</a>(1,&amp;g_OpenTask,OpenTask); <span class="comment">//邦定开机任务</span></div>
+<div class="line">    <a class="code" href="group___timer_task.html#ga543eed7957d5477ea5d487c814fb1a78" title="定时任务绑定到定时器">frm_bind_timer_task</a>(1,&amp;g_CloseTask,CloseTask);<span class="comment">//邦定关机任务</span></div>
+<div class="line">    </div>
+<div class="line">    <span class="comment">//安装控制按键输入事件</span></div>
+<div class="line">    <span class="comment">//IO_X1输入下降沿触发事件,低电平至少保持5ms</span></div>
+<div class="line">    <a class="code" href="group___input_driver.html#ga4e7408177e8c7ac0714cfd5831d12727" title="安装开关输入事件">frm_install_input_event</a>(IO_X1,InputEvent1,5,ET_FALLING_EDGE); </div>
+<div class="line">}</div>
+</div><!-- fragment --> <h2 class="groupheader">宏定义说明</h2>
+<a class="anchor" id="ga12aff3f9bbbd46e3fe55d8ab13b072d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define frm_timer_task_nextstep</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>设置定时任务转换到下一个执行步骤　</p>
+<dl class="section note"><dt>注解</dt><dd>此函数为兼容老版程序而保留，新设计中应避免使用！ </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga161c76fbaa6c6ad9bc2784a02153a998"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define frm_timer_task_setstep</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">X, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Y&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>设置定时任务的当前执行步骤</p>
+<dl class="section note"><dt>注解</dt><dd>此函数为兼容老版程序而保留，新设计中应避免使用！　 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gab28efdd1f6c2bd13ad0d8d87c001ace2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TT_BEGIN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">T</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>定时任务开始处理，在定时任务处理函数的开始处调用； </p>
+<dl class="section note"><dt>注解</dt><dd>此函数为任务分支结构处理函数，不能在条件、循环等结构语句内使用！</dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">T</td><td>定时任务对象地址 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gaa33202ce61f5a44382a667b7209c6ce5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TT_DELAY</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">T, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Y&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>定时任务中延时处理； 注：此函数为任务分支结构处理函数，不能在条件、循环等结构语句内使用！</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">T</td><td>定时任务对象地址 </td></tr>
+    <tr><td class="paramname">Y</td><td>延时周期，本函数将实现Y次定时器（本任务绑定的定时器）周期延时； </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga1312330a736ed1a2964777a17b23908f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TT_END</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">T</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>定时任务结束处理，在定时任务的结束处调用；用此宏结束的定时任务顺序执行完成后退出； </p>
+<dl class="section note"><dt>注解</dt><dd>此函数为任务分支结构处理函数，不能在条件、循环等结构语句内使用！</dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">T</td><td>定时任务对象地址 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga3c7f5e4cf7cfb054c4ce5bf6e0edc278"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TT_EXIT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">T</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>定时任务退出处理　</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">T</td><td>定时任务对象地址 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga0c02f42e4497c205792062635af217b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TT_LOOP</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">T</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>定时任务循环处理,在定时任务的结束处调用；用此宏结束的定时任务顺序执行完成后自动重新回到开始处继续执行， 不会自动结束； </p>
+<dl class="section note"><dt>注解</dt><dd>此函数为任务分支结构处理函数，不能在条件、循环等结构语句内使用！</dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">T</td><td>定时任务对象地址 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga011c07ebccc4d6a8869a814874458871"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TT_RESTART</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">T</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>定时任务重新开始执行，重新从TT_BEGIN处开始执行；</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">T</td><td>定时任务对象地址 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga9e4affcd5f4fd61dfef04952d35c94c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TT_WAIT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">T, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Y&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>定时任务中等待某条件　 </p>
+<dl class="section note"><dt>注解</dt><dd>此函数为任务分支结构处理函数，不能在条件、循环等结构语句内使用！</dd></dl>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">T</td><td>定时任务对象地址 </td></tr>
+    <tr><td class="paramname">Y</td><td>条件表达式，当Y的结果为0时等待，大于0时退出等待； </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">函数说明</h2>
+<a class="anchor" id="ga976991c3a1c677309669378bf2a8145e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frm_begin_timer_task </td>
+          <td>(</td>
+          <td class="paramtype">PTIMER_TASK&#160;</td>
+          <td class="paramname"><em>pTask</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>开始执行定时任务 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pTask</td><td>定时任务对象地址 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga543eed7957d5477ea5d487c814fb1a78"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frm_bind_timer_task </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PTIMER_TASK&#160;</td>
+          <td class="paramname"><em>pTask</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)(PTIMER_TASK)&#160;</td>
+          <td class="paramname"><em>fn</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>定时任务绑定到定时器 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>定时器序号 </td></tr>
+    <tr><td class="paramname">pTask</td><td>定时任务对象地址 </td></tr>
+    <tr><td class="paramname">fn</td><td>定时任务处理函数 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gacf17ad2759af75758561837214e201bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frm_end_timer_task </td>
+          <td>(</td>
+          <td class="paramtype">PTIMER_TASK&#160;</td>
+          <td class="paramname"><em>pTask</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>停止指定的定时任务 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pTask</td><td>定时任务对象地址 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2021年 八月 6日 星期五 13:53:47 , 为 CAFrame使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.3.1
+</small></address>
+</body>
+</html>

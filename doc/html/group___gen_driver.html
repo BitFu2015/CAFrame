@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.3.1"/>
+<title>CAFrame: 标准驱动函数</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">CAFrame
+   &#160;<span id="projectnumber">V2.2</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.3.1 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">标准驱动函数</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:gacac348a1bb7febc060d36f3664c8e147"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gacac348a1bb7febc060d36f3664c8e147"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___gen_driver.html#gacac348a1bb7febc060d36f3664c8e147">drv_init</a> (void)</td></tr>
+<tr class="memdesc:gacac348a1bb7febc060d36f3664c8e147"><td class="mdescLeft">&#160;</td><td class="mdescRight">框架初始化前调用，用于初如化硬件设备。在驱动(driver.c)中必须实现此函数。 <br/></td></tr>
+<tr class="separator:gacac348a1bb7febc060d36f3664c8e147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad8d994f2fbe4e7509d1f0fe3f4291e4c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad8d994f2fbe4e7509d1f0fe3f4291e4c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___gen_driver.html#gad8d994f2fbe4e7509d1f0fe3f4291e4c">drv_wdt_reset</a> (void)</td></tr>
+<tr class="memdesc:gad8d994f2fbe4e7509d1f0fe3f4291e4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">看门狗复位，在框架主循环中调用，在驱动(driver.c)中必须实现此函数。 <br/></td></tr>
+<tr class="separator:gad8d994f2fbe4e7509d1f0fe3f4291e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf9dee3031707f9bc3d9dd9b8e00c1c61"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf9dee3031707f9bc3d9dd9b8e00c1c61"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___gen_driver.html#gaf9dee3031707f9bc3d9dd9b8e00c1c61">drv_enter_critical</a> (void)</td></tr>
+<tr class="memdesc:gaf9dee3031707f9bc3d9dd9b8e00c1c61"><td class="mdescLeft">&#160;</td><td class="mdescRight">安全关闭中断，在执行一段不希望被中断的代码时使用，此函数需与drv_exit_critical配对使用。在驱动(driver.c)中必须实现此函数。 <br/></td></tr>
+<tr class="separator:gaf9dee3031707f9bc3d9dd9b8e00c1c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa4bf7ba2237e92eda181447487e7d3d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa4bf7ba2237e92eda181447487e7d3d9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___gen_driver.html#gaa4bf7ba2237e92eda181447487e7d3d9">drv_exit_critical</a> (void)</td></tr>
+<tr class="memdesc:gaa4bf7ba2237e92eda181447487e7d3d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">退出中断保护代码段,此函数需与drv_enter_critical配对使用。在驱动(driver.c)中必须实现此函数。 <br/></td></tr>
+<tr class="separator:gaa4bf7ba2237e92eda181447487e7d3d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae7a0c579c1ea1c7d8b7b2497e88ed74b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___gen_driver.html#gae7a0c579c1ea1c7d8b7b2497e88ed74b">drv_eeprom_read</a> (uint16_t addr, uint8_t *buf, uint8_t size)</td></tr>
+<tr class="memdesc:gae7a0c579c1ea1c7d8b7b2497e88ed74b"><td class="mdescLeft">&#160;</td><td class="mdescRight">安全读取EEPROM接口函数,在驱动(driver.c)中必须实现此函数。  <a href="#gae7a0c579c1ea1c7d8b7b2497e88ed74b">更多...</a><br/></td></tr>
+<tr class="separator:gae7a0c579c1ea1c7d8b7b2497e88ed74b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad5536e0589213449fe40a486f90f0e68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___gen_driver.html#gad5536e0589213449fe40a486f90f0e68">drv_eeprom_write</a> (uint16_t addr, uint8_t *buf, uint8_t size)</td></tr>
+<tr class="memdesc:gad5536e0589213449fe40a486f90f0e68"><td class="mdescLeft">&#160;</td><td class="mdescRight">安全写入EEPROM接口函数,在驱动(driver.c)中必须实现此函数。  <a href="#gad5536e0589213449fe40a486f90f0e68">更多...</a><br/></td></tr>
+<tr class="separator:gad5536e0589213449fe40a486f90f0e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<p>驱动通用接口函数 为了使驱动层和应用层接口程序标准化，框架定义了一些标准化的函数， 框架移植到新的硬件上时应在driver.c中实现这些函数功能。 </p>
+<h2 class="groupheader">函数说明</h2>
+<a class="anchor" id="gae7a0c579c1ea1c7d8b7b2497e88ed74b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void drv_eeprom_read </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>安全读取EEPROM接口函数,在驱动(driver.c)中必须实现此函数。 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">addr</td><td>读取地址 </td></tr>
+    <tr><td class="paramname">buf</td><td>读取缓冲区 </td></tr>
+    <tr><td class="paramname">size</td><td>读取长度(字节) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gad5536e0589213449fe40a486f90f0e68"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void drv_eeprom_write </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>安全写入EEPROM接口函数,在驱动(driver.c)中必须实现此函数。 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">addr</td><td>写入地址 </td></tr>
+    <tr><td class="paramname">buf</td><td>写入缓冲区 </td></tr>
+    <tr><td class="paramname">size</td><td>写入长度(字节) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2021年 八月 6日 星期五 13:53:47 , 为 CAFrame使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.3.1
+</small></address>
+</body>
+</html>

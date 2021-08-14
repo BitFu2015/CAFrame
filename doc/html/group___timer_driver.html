@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.3.1"/>
+<title>CAFrame: 定时器接口</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">CAFrame
+   &#160;<span id="projectnumber">V2.2</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.3.1 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">定时器接口</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ga673016f8a1f79a9d815ba2bb9843534d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___timer_driver.html#ga673016f8a1f79a9d815ba2bb9843534d">frm_install_timer_event</a> (uint8_t id, uint16_t tms, void(*fn)(void))</td></tr>
+<tr class="memdesc:ga673016f8a1f79a9d815ba2bb9843534d"><td class="mdescLeft">&#160;</td><td class="mdescRight">安装定时器函数  <a href="#ga673016f8a1f79a9d815ba2bb9843534d">更多...</a><br/></td></tr>
+<tr class="separator:ga673016f8a1f79a9d815ba2bb9843534d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga065db1486852ff35258d445708e25c29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___timer_driver.html#ga065db1486852ff35258d445708e25c29">frm_timer_enable</a> (uint8_t id)</td></tr>
+<tr class="memdesc:ga065db1486852ff35258d445708e25c29"><td class="mdescLeft">&#160;</td><td class="mdescRight">开启指定定时器  <a href="#ga065db1486852ff35258d445708e25c29">更多...</a><br/></td></tr>
+<tr class="separator:ga065db1486852ff35258d445708e25c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaafb628d16015d2517a794d2bcf3de5f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___timer_driver.html#gaafb628d16015d2517a794d2bcf3de5f5">frm_timer_disable</a> (uint8_t id)</td></tr>
+<tr class="memdesc:gaafb628d16015d2517a794d2bcf3de5f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">禁止指定定时器  <a href="#gaafb628d16015d2517a794d2bcf3de5f5">更多...</a><br/></td></tr>
+<tr class="separator:gaafb628d16015d2517a794d2bcf3de5f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6239005052cef8c53f88a6a081aeb320"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___timer_driver.html#ga6239005052cef8c53f88a6a081aeb320">frm_timer_reset</a> (uint8_t id)</td></tr>
+<tr class="memdesc:ga6239005052cef8c53f88a6a081aeb320"><td class="mdescLeft">&#160;</td><td class="mdescRight">定时器重新开始计数  <a href="#ga6239005052cef8c53f88a6a081aeb320">更多...</a><br/></td></tr>
+<tr class="separator:ga6239005052cef8c53f88a6a081aeb320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<pre class="fragment">定时器操作十分简单，一个最简单的示例如下(app.c)：
+</pre> <div class="fragment"><div class="line"><span class="keywordtype">void</span> TimerEvent1(<span class="keywordtype">void</span>)</div>
+<div class="line">{</div>
+<div class="line">    LED_FLASH;<span class="comment">//发光管闪烁</span></div>
+<div class="line">}   </div>
+<div class="line"><span class="keywordtype">void</span> InitApp(<span class="keywordtype">void</span>)</div>
+<div class="line">{</div>
+<div class="line">    <a class="code" href="group___timer_driver.html#ga673016f8a1f79a9d815ba2bb9843534d" title="安装定时器函数">frm_install_timer_event</a>(0,300,TimerEvent1);<span class="comment">//安装0号定时器事件处理函数,定时触发周期为300ms</span></div>
+<div class="line">    <span class="comment">// ... 其它初始化操作</span></div>
+<div class="line">}</div>
+</div><!-- fragment --> <dl class="section note"><dt>注解</dt><dd>要注意frm_install_timer_event函数第一个参数要小于在Cfg.h中定义的TIMER_MAX_COUNT </dd></dl>
+<h2 class="groupheader">函数说明</h2>
+<a class="anchor" id="ga673016f8a1f79a9d815ba2bb9843534d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frm_install_timer_event </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>tms</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)(void)&#160;</td>
+          <td class="paramname"><em>fn</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>安装定时器函数 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>定时器编号 0开始计数的编号 </td></tr>
+    <tr><td class="paramname">tms</td><td>定时器事件产生周期(毫秒为单位) </td></tr>
+    <tr><td class="paramname">fn</td><td>定时事件处理函数<br/>
+原型:void func(void) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="gaafb628d16015d2517a794d2bcf3de5f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frm_timer_disable </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>禁止指定定时器 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>定时器编号 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga065db1486852ff35258d445708e25c29"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frm_timer_enable </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>开启指定定时器 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>定时器编号 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga6239005052cef8c53f88a6a081aeb320"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frm_timer_reset </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>定时器重新开始计数 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>定时器编号 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2021年 八月 6日 星期五 13:53:47 , 为 CAFrame使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.3.1
+</small></address>
+</body>
+</html>

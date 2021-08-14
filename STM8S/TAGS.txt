@@ -1,0 +1,1922 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADC1	user\stm8s.h	2492;"	macro
+ADC1_AWCRH_RESET_VALUE	user\stm8s.h	337;"	macro
+ADC1_AWCRL_RESET_VALUE	user\stm8s.h	338;"	macro
+ADC1_BaseAddress	user\stm8s.h	2475;"	macro
+ADC1_CR1_ADON	user\stm8s.h	354;"	macro
+ADC1_CR1_CONT	user\stm8s.h	353;"	macro
+ADC1_CR1_RESET_VALUE	user\stm8s.h	328;"	macro
+ADC1_CR1_SPSEL	user\stm8s.h	352;"	macro
+ADC1_CR2_ALIGN	user\stm8s.h	358;"	macro
+ADC1_CR2_EXTSEL	user\stm8s.h	357;"	macro
+ADC1_CR2_EXTTRIG	user\stm8s.h	356;"	macro
+ADC1_CR2_RESET_VALUE	user\stm8s.h	329;"	macro
+ADC1_CR2_SCAN	user\stm8s.h	359;"	macro
+ADC1_CR3_DBUF	user\stm8s.h	361;"	macro
+ADC1_CR3_OVR	user\stm8s.h	362;"	macro
+ADC1_CR3_RESET_VALUE	user\stm8s.h	330;"	macro
+ADC1_CSR_AWD	user\stm8s.h	347;"	macro
+ADC1_CSR_AWDIE	user\stm8s.h	349;"	macro
+ADC1_CSR_CH	user\stm8s.h	350;"	macro
+ADC1_CSR_EOC	user\stm8s.h	346;"	macro
+ADC1_CSR_EOCIE	user\stm8s.h	348;"	macro
+ADC1_CSR_RESET_VALUE	user\stm8s.h	327;"	macro
+ADC1_HTRH_RESET_VALUE	user\stm8s.h	334;"	macro
+ADC1_HTRL_RESET_VALUE	user\stm8s.h	333;"	macro
+ADC1_LTRH_RESET_VALUE	user\stm8s.h	335;"	macro
+ADC1_LTRL_RESET_VALUE	user\stm8s.h	336;"	macro
+ADC1_TDRH_RESET_VALUE	user\stm8s.h	332;"	macro
+ADC1_TDRL_RESET_VALUE	user\stm8s.h	331;"	macro
+ADC1_TypeDef	user\stm8s.h	322;"	typedef	typeref:struct:ADC1_struct
+ADC1_struct	user\stm8s.h	282;"	struct
+ADC2	user\stm8s.h	2497;"	macro
+ADC2_BaseAddress	user\stm8s.h	2476;"	macro
+ADC2_CR1_ADON	user\stm8s.h	408;"	macro
+ADC2_CR1_CONT	user\stm8s.h	407;"	macro
+ADC2_CR1_RESET_VALUE	user\stm8s.h	391;"	macro
+ADC2_CR1_SPSEL	user\stm8s.h	406;"	macro
+ADC2_CR2_ALIGN	user\stm8s.h	412;"	macro
+ADC2_CR2_EXTSEL	user\stm8s.h	411;"	macro
+ADC2_CR2_EXTTRIG	user\stm8s.h	410;"	macro
+ADC2_CR2_RESET_VALUE	user\stm8s.h	392;"	macro
+ADC2_CSR_CH	user\stm8s.h	404;"	macro
+ADC2_CSR_EOC	user\stm8s.h	402;"	macro
+ADC2_CSR_EOCIE	user\stm8s.h	403;"	macro
+ADC2_CSR_RESET_VALUE	user\stm8s.h	390;"	macro
+ADC2_TDRH_RESET_VALUE	user\stm8s.h	394;"	macro
+ADC2_TDRL_RESET_VALUE	user\stm8s.h	393;"	macro
+ADC2_TypeDef	user\stm8s.h	385;"	typedef	typeref:struct:ADC2_struct
+ADC2_struct	user\stm8s.h	374;"	struct
+ADC_AUTO_CONVERT_TIME	user\cfg.h	41;"	macro
+APR	user\stm8s.h	427;"	member	struct:AWU_struct
+AREA	user\stm8s.h	2704;"	macro
+ARR	user\stm8s.h	1054;"	member	struct:TIM4_struct
+ARR	user\stm8s.h	1254;"	member	struct:TIM6_struct
+ARRH	user\stm8s.h	1122;"	member	struct:TIM5_struct
+ARRH	user\stm8s.h	616;"	member	struct:TIM1_struct
+ARRH	user\stm8s.h	827;"	member	struct:TIM2_struct
+ARRH	user\stm8s.h	949;"	member	struct:TIM3_struct
+ARRL	user\stm8s.h	1123;"	member	struct:TIM5_struct
+ARRL	user\stm8s.h	617;"	member	struct:TIM1_struct
+ARRL	user\stm8s.h	828;"	member	struct:TIM2_struct
+ARRL	user\stm8s.h	950;"	member	struct:TIM3_struct
+AWCRH	user\stm8s.h	319;"	member	struct:ADC1_struct
+AWCRL	user\stm8s.h	320;"	member	struct:ADC1_struct
+AWSRH	user\stm8s.h	317;"	member	struct:ADC1_struct
+AWSRL	user\stm8s.h	318;"	member	struct:ADC1_struct
+AWU	user\stm8s.h	2500;"	macro
+AWU_APR_APR	user\stm8s.h	451;"	macro
+AWU_APR_RESET_VALUE	user\stm8s.h	436;"	macro
+AWU_BaseAddress	user\stm8s.h	2462;"	macro
+AWU_CSR_AWUEN	user\stm8s.h	448;"	macro
+AWU_CSR_AWUF	user\stm8s.h	447;"	macro
+AWU_CSR_MSR	user\stm8s.h	449;"	macro
+AWU_CSR_RESET_VALUE	user\stm8s.h	435;"	macro
+AWU_TBR_AWUTB	user\stm8s.h	453;"	macro
+AWU_TBR_RESET_VALUE	user\stm8s.h	437;"	macro
+AWU_TypeDef	user\stm8s.h	430;"	typedef	typeref:struct:AWU_struct
+AWU_struct	user\stm8s.h	424;"	struct
+AffBit	user\stm8s.h	2678;"	macro
+BEEP	user\stm8s.h	2502;"	macro
+BEEP_BaseAddress	user\stm8s.h	2463;"	macro
+BEEP_CSR_BEEPDIV	user\stm8s.h	483;"	macro
+BEEP_CSR_BEEPEN	user\stm8s.h	482;"	macro
+BEEP_CSR_BEEPSEL	user\stm8s.h	481;"	macro
+BEEP_CSR_RESET_VALUE	user\stm8s.h	473;"	macro
+BEEP_OFF	user\driver.h	43;"	macro
+BEEP_ON	user\driver.h	42;"	macro
+BEEP_TypeDef	user\stm8s.h	468;"	typedef	typeref:struct:BEEP_struct
+BEEP_struct	user\stm8s.h	464;"	struct
+BKR	user\stm8s.h	627;"	member	struct:TIM1_struct
+BRR1	user\stm8s.h	1755;"	member	struct:UART1_struct
+BRR1	user\stm8s.h	1853;"	member	struct:UART2_struct
+BRR1	user\stm8s.h	1961;"	member	struct:UART3_struct
+BRR2	user\stm8s.h	1756;"	member	struct:UART1_struct
+BRR2	user\stm8s.h	1854;"	member	struct:UART2_struct
+BRR2	user\stm8s.h	1962;"	member	struct:UART3_struct
+BTR1	user\stm8s.h	2179;"	member	struct:__anon5::__anon6::__anon12
+BTR2	user\stm8s.h	2180;"	member	struct:__anon5::__anon6::__anon12
+BYTE_0	user\stm8s.h	2685;"	macro
+BYTE_1	user\stm8s.h	2686;"	macro
+BYTE_2	user\stm8s.h	2687;"	macro
+BYTE_3	user\stm8s.h	2688;"	macro
+Beep	user\app.c	38;"	function	signature:(uint8_t n)
+BitAction	user\stm8s.h	221;"	typedef	typeref:enum:__anon2
+BitClr	user\stm8s.h	2706;"	macro
+BitSet	user\stm8s.h	2707;"	macro
+BitStatus	user\stm8s.h	221;"	typedef	typeref:enum:__anon2
+BitVal	user\stm8s.h	2708;"	macro
+CAFRAME_H	user\caframe.h	2;"	macro
+CAN	user\stm8s.h	2505;"	macro
+CAN_BTR1_RESET_VALUE	user\stm8s.h	2390;"	macro
+CAN_BTR2_RESET_VALUE	user\stm8s.h	2391;"	macro
+CAN_BaseAddress	user\stm8s.h	2477;"	macro
+CAN_DGR_LBKM	user\stm8s.h	2266;"	macro
+CAN_DGR_RESET_VALUE	user\stm8s.h	2383;"	macro
+CAN_DGR_RX	user\stm8s.h	2269;"	macro
+CAN_DGR_SAMP	user\stm8s.h	2268;"	macro
+CAN_DGR_SLIM	user\stm8s.h	2267;"	macro
+CAN_DGR_TXM2E	user\stm8s.h	2270;"	macro
+CAN_EIER_BOFIE	user\stm8s.h	2307;"	macro
+CAN_EIER_EPVIE	user\stm8s.h	2306;"	macro
+CAN_EIER_ERRIE	user\stm8s.h	2309;"	macro
+CAN_EIER_EWGIE	user\stm8s.h	2305;"	macro
+CAN_EIER_LECIE	user\stm8s.h	2308;"	macro
+CAN_EIER_RESET_VALUE	user\stm8s.h	2387;"	macro
+CAN_ESR_BOFF	user\stm8s.h	2298;"	macro
+CAN_ESR_EPVF	user\stm8s.h	2297;"	macro
+CAN_ESR_EWGF	user\stm8s.h	2296;"	macro
+CAN_ESR_LEC	user\stm8s.h	2302;"	macro
+CAN_ESR_LEC0	user\stm8s.h	2299;"	macro
+CAN_ESR_LEC1	user\stm8s.h	2300;"	macro
+CAN_ESR_LEC2	user\stm8s.h	2301;"	macro
+CAN_ESR_RESET_VALUE	user\stm8s.h	2386;"	macro
+CAN_FCR1_FACT0	user\stm8s.h	2347;"	macro
+CAN_FCR1_FACT1	user\stm8s.h	2348;"	macro
+CAN_FCR1_FSC00	user\stm8s.h	2354;"	macro
+CAN_FCR1_FSC01	user\stm8s.h	2355;"	macro
+CAN_FCR1_FSC10	user\stm8s.h	2356;"	macro
+CAN_FCR1_FSC11	user\stm8s.h	2357;"	macro
+CAN_FCR2_FACT2	user\stm8s.h	2349;"	macro
+CAN_FCR2_FACT3	user\stm8s.h	2350;"	macro
+CAN_FCR2_FSC20	user\stm8s.h	2358;"	macro
+CAN_FCR2_FSC21	user\stm8s.h	2359;"	macro
+CAN_FCR2_FSC30	user\stm8s.h	2360;"	macro
+CAN_FCR2_FSC31	user\stm8s.h	2361;"	macro
+CAN_FCR3_FACT4	user\stm8s.h	2351;"	macro
+CAN_FCR3_FACT5	user\stm8s.h	2352;"	macro
+CAN_FCR3_FSC40	user\stm8s.h	2362;"	macro
+CAN_FCR3_FSC41	user\stm8s.h	2363;"	macro
+CAN_FCR3_FSC50	user\stm8s.h	2364;"	macro
+CAN_FCR3_FSC51	user\stm8s.h	2365;"	macro
+CAN_FCR_RESET_VALUE	user\stm8s.h	2394;"	macro
+CAN_FMR1_FMH0	user\stm8s.h	2333;"	macro
+CAN_FMR1_FMH1	user\stm8s.h	2335;"	macro
+CAN_FMR1_FMH2	user\stm8s.h	2337;"	macro
+CAN_FMR1_FMH3	user\stm8s.h	2339;"	macro
+CAN_FMR1_FML0	user\stm8s.h	2332;"	macro
+CAN_FMR1_FML1	user\stm8s.h	2334;"	macro
+CAN_FMR1_FML2	user\stm8s.h	2336;"	macro
+CAN_FMR1_FML3	user\stm8s.h	2338;"	macro
+CAN_FMR1_RESET_VALUE	user\stm8s.h	2392;"	macro
+CAN_FMR2_FMH4	user\stm8s.h	2342;"	macro
+CAN_FMR2_FMH5	user\stm8s.h	2344;"	macro
+CAN_FMR2_FML4	user\stm8s.h	2341;"	macro
+CAN_FMR2_FML5	user\stm8s.h	2343;"	macro
+CAN_FMR2_RESET_VALUE	user\stm8s.h	2393;"	macro
+CAN_IER_FFIE	user\stm8s.h	2260;"	macro
+CAN_IER_FMPIE	user\stm8s.h	2259;"	macro
+CAN_IER_FOVIE	user\stm8s.h	2261;"	macro
+CAN_IER_RESET_VALUE	user\stm8s.h	2382;"	macro
+CAN_IER_TMEIE	user\stm8s.h	2258;"	macro
+CAN_IER_WKUIE	user\stm8s.h	2262;"	macro
+CAN_MCR_ABOM	user\stm8s.h	2224;"	macro
+CAN_MCR_AWUM	user\stm8s.h	2223;"	macro
+CAN_MCR_INRQ	user\stm8s.h	2218;"	macro
+CAN_MCR_NART	user\stm8s.h	2222;"	macro
+CAN_MCR_RESET_VALUE	user\stm8s.h	2377;"	macro
+CAN_MCR_RFLM	user\stm8s.h	2221;"	macro
+CAN_MCR_SLEEP	user\stm8s.h	2219;"	macro
+CAN_MCR_TTCM	user\stm8s.h	2225;"	macro
+CAN_MCR_TXFP	user\stm8s.h	2220;"	macro
+CAN_MCSR_ABRQ	user\stm8s.h	2280;"	macro
+CAN_MCSR_ALST	user\stm8s.h	2283;"	macro
+CAN_MCSR_RESET_VALUE	user\stm8s.h	2398;"	macro
+CAN_MCSR_RQCP	user\stm8s.h	2281;"	macro
+CAN_MCSR_TERR	user\stm8s.h	2284;"	macro
+CAN_MCSR_TXOK	user\stm8s.h	2282;"	macro
+CAN_MCSR_TXRQ	user\stm8s.h	2279;"	macro
+CAN_MDLCR_DLC	user\stm8s.h	2286;"	macro
+CAN_MDLCR_TGT	user\stm8s.h	2287;"	macro
+CAN_MDLC_RESET_VALUE	user\stm8s.h	2397;"	macro
+CAN_MFMI_RESET_VALUE	user\stm8s.h	2396;"	macro
+CAN_MIDR1_IDE	user\stm8s.h	2290;"	macro
+CAN_MIDR1_RTR	user\stm8s.h	2289;"	macro
+CAN_MSR_ERRI	user\stm8s.h	2230;"	macro
+CAN_MSR_INAK	user\stm8s.h	2228;"	macro
+CAN_MSR_RESET_VALUE	user\stm8s.h	2378;"	macro
+CAN_MSR_RX	user\stm8s.h	2233;"	macro
+CAN_MSR_SLAK	user\stm8s.h	2229;"	macro
+CAN_MSR_TX	user\stm8s.h	2232;"	macro
+CAN_MSR_WKUI	user\stm8s.h	2231;"	macro
+CAN_PSR_PS0	user\stm8s.h	2274;"	macro
+CAN_PSR_PS1	user\stm8s.h	2275;"	macro
+CAN_PSR_PS2	user\stm8s.h	2276;"	macro
+CAN_PSR_RESET_VALUE	user\stm8s.h	2384;"	macro
+CAN_RECR_REC0	user\stm8s.h	2322;"	macro
+CAN_RECR_REC1	user\stm8s.h	2323;"	macro
+CAN_RECR_REC2	user\stm8s.h	2324;"	macro
+CAN_RECR_REC3	user\stm8s.h	2325;"	macro
+CAN_RECR_REC4	user\stm8s.h	2326;"	macro
+CAN_RECR_REC5	user\stm8s.h	2327;"	macro
+CAN_RECR_REC6	user\stm8s.h	2328;"	macro
+CAN_RECR_REC7	user\stm8s.h	2329;"	macro
+CAN_RECR_RESET_VALUE	user\stm8s.h	2389;"	macro
+CAN_RFR_FMP01	user\stm8s.h	2252;"	macro
+CAN_RFR_FOVR	user\stm8s.h	2254;"	macro
+CAN_RFR_FULL	user\stm8s.h	2253;"	macro
+CAN_RFR_RESET_VALUE	user\stm8s.h	2381;"	macro
+CAN_RFR_RFOM	user\stm8s.h	2255;"	macro
+CAN_TECR_RESET_VALUE	user\stm8s.h	2388;"	macro
+CAN_TECR_TEC0	user\stm8s.h	2312;"	macro
+CAN_TECR_TEC1	user\stm8s.h	2313;"	macro
+CAN_TECR_TEC2	user\stm8s.h	2314;"	macro
+CAN_TECR_TEC3	user\stm8s.h	2315;"	macro
+CAN_TECR_TEC4	user\stm8s.h	2316;"	macro
+CAN_TECR_TEC5	user\stm8s.h	2317;"	macro
+CAN_TECR_TEC6	user\stm8s.h	2318;"	macro
+CAN_TECR_TEC7	user\stm8s.h	2319;"	macro
+CAN_TPR_CODE0	user\stm8s.h	2244;"	macro
+CAN_TPR_LOW0	user\stm8s.h	2248;"	macro
+CAN_TPR_LOW1	user\stm8s.h	2249;"	macro
+CAN_TPR_LOW2	user\stm8s.h	2250;"	macro
+CAN_TPR_RESET_VALUE	user\stm8s.h	2380;"	macro
+CAN_TPR_TME0	user\stm8s.h	2245;"	macro
+CAN_TPR_TME1	user\stm8s.h	2246;"	macro
+CAN_TPR_TME2	user\stm8s.h	2247;"	macro
+CAN_TSR_RESET_VALUE	user\stm8s.h	2379;"	macro
+CAN_TSR_RQCP0	user\stm8s.h	2236;"	macro
+CAN_TSR_RQCP012	user\stm8s.h	2239;"	macro
+CAN_TSR_RQCP1	user\stm8s.h	2237;"	macro
+CAN_TSR_RQCP2	user\stm8s.h	2238;"	macro
+CAN_TSR_TXOK0	user\stm8s.h	2240;"	macro
+CAN_TSR_TXOK1	user\stm8s.h	2241;"	macro
+CAN_TSR_TXOK2	user\stm8s.h	2242;"	macro
+CAN_TypeDef	user\stm8s.h	2212;"	typedef	typeref:struct:__anon5
+CCER1	user\stm8s.h	1117;"	member	struct:TIM5_struct
+CCER1	user\stm8s.h	610;"	member	struct:TIM1_struct
+CCER1	user\stm8s.h	822;"	member	struct:TIM2_struct
+CCER1	user\stm8s.h	945;"	member	struct:TIM3_struct
+CCER2	user\stm8s.h	1118;"	member	struct:TIM5_struct
+CCER2	user\stm8s.h	611;"	member	struct:TIM1_struct
+CCER2	user\stm8s.h	823;"	member	struct:TIM2_struct
+CCMR1	user\stm8s.h	1114;"	member	struct:TIM5_struct
+CCMR1	user\stm8s.h	606;"	member	struct:TIM1_struct
+CCMR1	user\stm8s.h	819;"	member	struct:TIM2_struct
+CCMR1	user\stm8s.h	943;"	member	struct:TIM3_struct
+CCMR2	user\stm8s.h	1115;"	member	struct:TIM5_struct
+CCMR2	user\stm8s.h	607;"	member	struct:TIM1_struct
+CCMR2	user\stm8s.h	820;"	member	struct:TIM2_struct
+CCMR2	user\stm8s.h	944;"	member	struct:TIM3_struct
+CCMR3	user\stm8s.h	1116;"	member	struct:TIM5_struct
+CCMR3	user\stm8s.h	608;"	member	struct:TIM1_struct
+CCMR3	user\stm8s.h	821;"	member	struct:TIM2_struct
+CCMR4	user\stm8s.h	609;"	member	struct:TIM1_struct
+CCMR_TIxDirect_Set	user\stm8s.h	739;"	macro
+CCOR	user\stm8s.h	503;"	member	struct:CLK_struct
+CCR1H	user\stm8s.h	1124;"	member	struct:TIM5_struct
+CCR1H	user\stm8s.h	619;"	member	struct:TIM1_struct
+CCR1H	user\stm8s.h	829;"	member	struct:TIM2_struct
+CCR1H	user\stm8s.h	951;"	member	struct:TIM3_struct
+CCR1L	user\stm8s.h	1125;"	member	struct:TIM5_struct
+CCR1L	user\stm8s.h	620;"	member	struct:TIM1_struct
+CCR1L	user\stm8s.h	830;"	member	struct:TIM2_struct
+CCR1L	user\stm8s.h	952;"	member	struct:TIM3_struct
+CCR2H	user\stm8s.h	1126;"	member	struct:TIM5_struct
+CCR2H	user\stm8s.h	621;"	member	struct:TIM1_struct
+CCR2H	user\stm8s.h	831;"	member	struct:TIM2_struct
+CCR2H	user\stm8s.h	953;"	member	struct:TIM3_struct
+CCR2L	user\stm8s.h	1127;"	member	struct:TIM5_struct
+CCR2L	user\stm8s.h	622;"	member	struct:TIM1_struct
+CCR2L	user\stm8s.h	832;"	member	struct:TIM2_struct
+CCR2L	user\stm8s.h	954;"	member	struct:TIM3_struct
+CCR3H	user\stm8s.h	1128;"	member	struct:TIM5_struct
+CCR3H	user\stm8s.h	623;"	member	struct:TIM1_struct
+CCR3H	user\stm8s.h	833;"	member	struct:TIM2_struct
+CCR3L	user\stm8s.h	1129;"	member	struct:TIM5_struct
+CCR3L	user\stm8s.h	624;"	member	struct:TIM1_struct
+CCR3L	user\stm8s.h	834;"	member	struct:TIM2_struct
+CCR4H	user\stm8s.h	625;"	member	struct:TIM1_struct
+CCR4L	user\stm8s.h	626;"	member	struct:TIM1_struct
+CCRH	user\stm8s.h	1326;"	member	struct:I2C_struct
+CCRL	user\stm8s.h	1325;"	member	struct:I2C_struct
+CFG	user\stm8s.h	2587;"	macro
+CFG_BaseAddress	user\stm8s.h	2478;"	macro
+CFG_GCR_AL	user\stm8s.h	2429;"	macro
+CFG_GCR_RESET_VALUE	user\stm8s.h	2418;"	macro
+CFG_GCR_SWD	user\stm8s.h	2428;"	macro
+CFG_H	user\cfg.h	2;"	macro
+CFG_TypeDef	user\stm8s.h	2412;"	typedef	typeref:struct:CFG_struct
+CFG_struct	user\stm8s.h	2408;"	struct
+CKDIVR	user\stm8s.h	500;"	member	struct:CLK_struct
+CLI	user\driver.h	13;"	macro
+CLK	user\stm8s.h	2508;"	macro
+CLK_BaseAddress	user\stm8s.h	2459;"	macro
+CLK_CCOR_CCOBSY	user\stm8s.h	578;"	macro
+CLK_CCOR_CCOEN	user\stm8s.h	581;"	macro
+CLK_CCOR_CCORDY	user\stm8s.h	579;"	macro
+CLK_CCOR_CCOSEL	user\stm8s.h	580;"	macro
+CLK_CCOR_RESET_VALUE	user\stm8s.h	524;"	macro
+CLK_CKDIVR_CPUDIV	user\stm8s.h	555;"	macro
+CLK_CKDIVR_HSIDIV	user\stm8s.h	554;"	macro
+CLK_CKDIVR_RESET_VALUE	user\stm8s.h	520;"	macro
+CLK_CMSR_CKM	user\stm8s.h	545;"	macro
+CLK_CMSR_RESET_VALUE	user\stm8s.h	517;"	macro
+CLK_CSSR_AUX	user\stm8s.h	575;"	macro
+CLK_CSSR_CSSD	user\stm8s.h	573;"	macro
+CLK_CSSR_CSSDIE	user\stm8s.h	574;"	macro
+CLK_CSSR_CSSEN	user\stm8s.h	576;"	macro
+CLK_CSSR_RESET_VALUE	user\stm8s.h	523;"	macro
+CLK_ECKR_HSEEN	user\stm8s.h	543;"	macro
+CLK_ECKR_HSERDY	user\stm8s.h	542;"	macro
+CLK_ECKR_RESET_VALUE	user\stm8s.h	516;"	macro
+CLK_HSITRIMR_HSITRIM	user\stm8s.h	583;"	macro
+CLK_HSITRIMR_RESET_VALUE	user\stm8s.h	525;"	macro
+CLK_ICKR_FHWU	user\stm8s.h	538;"	macro
+CLK_ICKR_HSIEN	user\stm8s.h	540;"	macro
+CLK_ICKR_HSIRDY	user\stm8s.h	539;"	macro
+CLK_ICKR_LSIEN	user\stm8s.h	537;"	macro
+CLK_ICKR_LSIRDY	user\stm8s.h	536;"	macro
+CLK_ICKR_RESET_VALUE	user\stm8s.h	515;"	macro
+CLK_ICKR_SWUAH	user\stm8s.h	535;"	macro
+CLK_PCKENR1_I2C	user\stm8s.h	567;"	macro
+CLK_PCKENR1_RESET_VALUE	user\stm8s.h	521;"	macro
+CLK_PCKENR1_SPI	user\stm8s.h	566;"	macro
+CLK_PCKENR1_TIM1	user\stm8s.h	557;"	macro
+CLK_PCKENR1_TIM2	user\stm8s.h	559;"	macro
+CLK_PCKENR1_TIM3	user\stm8s.h	558;"	macro
+CLK_PCKENR1_TIM4	user\stm8s.h	561;"	macro
+CLK_PCKENR1_TIM5	user\stm8s.h	560;"	macro
+CLK_PCKENR1_TIM6	user\stm8s.h	562;"	macro
+CLK_PCKENR1_UART1	user\stm8s.h	565;"	macro
+CLK_PCKENR1_UART2	user\stm8s.h	564;"	macro
+CLK_PCKENR1_UART3	user\stm8s.h	563;"	macro
+CLK_PCKENR2_ADC	user\stm8s.h	570;"	macro
+CLK_PCKENR2_AWU	user\stm8s.h	571;"	macro
+CLK_PCKENR2_CAN	user\stm8s.h	569;"	macro
+CLK_PCKENR2_RESET_VALUE	user\stm8s.h	522;"	macro
+CLK_SWCR_RESET_VALUE	user\stm8s.h	519;"	macro
+CLK_SWCR_SWBSY	user\stm8s.h	552;"	macro
+CLK_SWCR_SWEN	user\stm8s.h	551;"	macro
+CLK_SWCR_SWIEN	user\stm8s.h	550;"	macro
+CLK_SWCR_SWIF	user\stm8s.h	549;"	macro
+CLK_SWIMCCR_RESET_VALUE	user\stm8s.h	526;"	macro
+CLK_SWIMCCR_SWIMDIV	user\stm8s.h	585;"	macro
+CLK_SWR_RESET_VALUE	user\stm8s.h	518;"	macro
+CLK_SWR_SWI	user\stm8s.h	547;"	macro
+CLK_TypeDef	user\stm8s.h	509;"	typedef	typeref:struct:CLK_struct
+CLK_struct	user\stm8s.h	492;"	struct
+CMD_AUTHENT1	user\fm1702.h	22;"	macro
+CMD_AUTHENT2	user\fm1702.h	23;"	macro
+CMD_CALCCRC	user\fm1702.h	29;"	macro
+CMD_IDLE	user\fm1702.h	17;"	macro
+CMD_LOADCONFIG	user\fm1702.h	20;"	macro
+CMD_LOADKEY	user\fm1702.h	25;"	macro
+CMD_LOADKEYE2	user\fm1702.h	21;"	macro
+CMD_READE2	user\fm1702.h	19;"	macro
+CMD_RECEIVE	user\fm1702.h	24;"	macro
+CMD_RESETPHASE	user\fm1702.h	28;"	macro
+CMD_TRANSCEIVE	user\fm1702.h	27;"	macro
+CMD_TRANSMIT	user\fm1702.h	26;"	macro
+CMD_WRITEE2	user\fm1702.h	18;"	macro
+CMSR	user\stm8s.h	497;"	member	struct:CLK_struct
+CNTR	user\stm8s.h	1052;"	member	struct:TIM4_struct
+CNTR	user\stm8s.h	1252;"	member	struct:TIM6_struct
+CNTRH	user\stm8s.h	1119;"	member	struct:TIM5_struct
+CNTRH	user\stm8s.h	612;"	member	struct:TIM1_struct
+CNTRH	user\stm8s.h	824;"	member	struct:TIM2_struct
+CNTRH	user\stm8s.h	946;"	member	struct:TIM3_struct
+CNTRL	user\stm8s.h	1120;"	member	struct:TIM5_struct
+CNTRL	user\stm8s.h	613;"	member	struct:TIM1_struct
+CNTRL	user\stm8s.h	825;"	member	struct:TIM2_struct
+CNTRL	user\stm8s.h	947;"	member	struct:TIM3_struct
+CONST	user\stm8s.h	116;"	macro
+CONST	user\stm8s.h	122;"	macro
+CONST	user\stm8s.h	136;"	macro
+CPU_CC_I1I0	user\stm8s.h	1446;"	macro
+CR	user\stm8s.h	1619;"	member	struct:WWDG_struct
+CR1	user\stm8s.h	1044;"	member	struct:TIM4_struct
+CR1	user\stm8s.h	1107;"	member	struct:TIM5_struct
+CR1	user\stm8s.h	1246;"	member	struct:TIM6_struct
+CR1	user\stm8s.h	1314;"	member	struct:I2C_struct
+CR1	user\stm8s.h	1459;"	member	struct:EXTI_struct
+CR1	user\stm8s.h	1500;"	member	struct:FLASH_struct
+CR1	user\stm8s.h	1682;"	member	struct:SPI_struct
+CR1	user\stm8s.h	1757;"	member	struct:UART1_struct
+CR1	user\stm8s.h	1855;"	member	struct:UART2_struct
+CR1	user\stm8s.h	1963;"	member	struct:UART3_struct
+CR1	user\stm8s.h	258;"	member	struct:GPIO_struct
+CR1	user\stm8s.h	306;"	member	struct:ADC1_struct
+CR1	user\stm8s.h	377;"	member	struct:ADC2_struct
+CR1	user\stm8s.h	598;"	member	struct:TIM1_struct
+CR1	user\stm8s.h	810;"	member	struct:TIM2_struct
+CR1	user\stm8s.h	938;"	member	struct:TIM3_struct
+CR2	user\stm8s.h	1108;"	member	struct:TIM5_struct
+CR2	user\stm8s.h	1247;"	member	struct:TIM6_struct
+CR2	user\stm8s.h	1315;"	member	struct:I2C_struct
+CR2	user\stm8s.h	1460;"	member	struct:EXTI_struct
+CR2	user\stm8s.h	1501;"	member	struct:FLASH_struct
+CR2	user\stm8s.h	1683;"	member	struct:SPI_struct
+CR2	user\stm8s.h	1758;"	member	struct:UART1_struct
+CR2	user\stm8s.h	1856;"	member	struct:UART2_struct
+CR2	user\stm8s.h	1964;"	member	struct:UART3_struct
+CR2	user\stm8s.h	259;"	member	struct:GPIO_struct
+CR2	user\stm8s.h	307;"	member	struct:ADC1_struct
+CR2	user\stm8s.h	378;"	member	struct:ADC2_struct
+CR2	user\stm8s.h	599;"	member	struct:TIM1_struct
+CR3	user\stm8s.h	1759;"	member	struct:UART1_struct
+CR3	user\stm8s.h	1857;"	member	struct:UART2_struct
+CR3	user\stm8s.h	1965;"	member	struct:UART3_struct
+CR3	user\stm8s.h	308;"	member	struct:ADC1_struct
+CR4	user\stm8s.h	1760;"	member	struct:UART1_struct
+CR4	user\stm8s.h	1858;"	member	struct:UART2_struct
+CR4	user\stm8s.h	1966;"	member	struct:UART3_struct
+CR5	user\stm8s.h	1761;"	member	struct:UART1_struct
+CR5	user\stm8s.h	1859;"	member	struct:UART2_struct
+CR6	user\stm8s.h	1860;"	member	struct:UART2_struct
+CR6	user\stm8s.h	1968;"	member	struct:UART3_struct
+CRCPR	user\stm8s.h	1687;"	member	struct:SPI_struct
+CSR	user\stm8s.h	305;"	member	struct:ADC1_struct
+CSR	user\stm8s.h	376;"	member	struct:ADC2_struct
+CSR	user\stm8s.h	426;"	member	struct:AWU_struct
+CSR	user\stm8s.h	466;"	member	struct:BEEP_struct
+CSSR	user\stm8s.h	502;"	member	struct:CLK_struct
+CardRead	user\fm1702.c	494;"	function	signature:(uint8_t *buff, uint8_t block)
+CardRead	user\fm1702.h	12;"	prototype	signature:(uint8_t *buff, uint8_t Block_Adr)
+CardWrite	user\fm1702.c	525;"	function	signature:(uint8_t *buff, uint8_t block)
+CardWrite	user\fm1702.h	13;"	prototype	signature:(uint8_t *buff, uint8_t block)
+CheckUID	user\fm1702.c	148;"	function	signature:(void)
+ChgBit	user\stm8s.h	2677;"	macro
+ClrBit	user\stm8s.h	2675;"	macro
+Config	user\stm8s.h	2189;"	member	union:__anon5::__anon6	typeref:struct:__anon5::__anon6::__anon12
+DB0RH	user\stm8s.h	284;"	member	struct:ADC1_struct
+DB0RL	user\stm8s.h	285;"	member	struct:ADC1_struct
+DB1RH	user\stm8s.h	286;"	member	struct:ADC1_struct
+DB1RL	user\stm8s.h	287;"	member	struct:ADC1_struct
+DB2RH	user\stm8s.h	288;"	member	struct:ADC1_struct
+DB2RL	user\stm8s.h	289;"	member	struct:ADC1_struct
+DB3RH	user\stm8s.h	290;"	member	struct:ADC1_struct
+DB3RL	user\stm8s.h	291;"	member	struct:ADC1_struct
+DB4RH	user\stm8s.h	292;"	member	struct:ADC1_struct
+DB4RL	user\stm8s.h	293;"	member	struct:ADC1_struct
+DB5RH	user\stm8s.h	294;"	member	struct:ADC1_struct
+DB5RL	user\stm8s.h	295;"	member	struct:ADC1_struct
+DB6RH	user\stm8s.h	296;"	member	struct:ADC1_struct
+DB6RL	user\stm8s.h	297;"	member	struct:ADC1_struct
+DB7RH	user\stm8s.h	298;"	member	struct:ADC1_struct
+DB7RL	user\stm8s.h	299;"	member	struct:ADC1_struct
+DB8RH	user\stm8s.h	300;"	member	struct:ADC1_struct
+DB8RL	user\stm8s.h	301;"	member	struct:ADC1_struct
+DB9RH	user\stm8s.h	302;"	member	struct:ADC1_struct
+DB9RL	user\stm8s.h	303;"	member	struct:ADC1_struct
+DDR	user\stm8s.h	257;"	member	struct:GPIO_struct
+DEF_FIFO_LENGTH	user\fm1702.h	48;"	macro
+DEV_RESET_CLR	user\fm1702.c	12;"	macro	file:
+DEV_RESET_SET	user\fm1702.c	11;"	macro	file:
+DEV_SELECT	user\fm1702.c	13;"	macro	file:
+DEV_UNSELECT	user\fm1702.c	14;"	macro	file:
+DGR	user\stm8s.h	2058;"	member	struct:__anon5
+DISABLE	user\stm8s.h	223;"	enumerator	enum:__anon3
+DM	user\stm8s.h	2589;"	macro
+DM_BaseAddress	user\stm8s.h	2480;"	macro
+DR	user\stm8s.h	1320;"	member	struct:I2C_struct
+DR	user\stm8s.h	1686;"	member	struct:SPI_struct
+DR	user\stm8s.h	1754;"	member	struct:UART1_struct
+DR	user\stm8s.h	1852;"	member	struct:UART2_struct
+DR	user\stm8s.h	1960;"	member	struct:UART3_struct
+DRH	user\stm8s.h	309;"	member	struct:ADC1_struct
+DRH	user\stm8s.h	380;"	member	struct:ADC2_struct
+DRIVER_H	user\driver.h	3;"	macro
+DRL	user\stm8s.h	310;"	member	struct:ADC1_struct
+DRL	user\stm8s.h	381;"	member	struct:ADC2_struct
+DS_INT	user\queue.c	6;"	macro	file:
+DTR	user\stm8s.h	628;"	member	struct:TIM1_struct
+DUKR	user\stm8s.h	1510;"	member	struct:FLASH_struct
+DelayMs	user\driver.c	19;"	function	signature:(uint16_t ms)
+DelayMs	user\driver.h	26;"	prototype	signature:(uint16_t ms)
+ECKR	user\stm8s.h	495;"	member	struct:CLK_struct
+EEPROM	user\stm8s.h	115;"	macro
+EEPROM	user\stm8s.h	121;"	macro
+EEPROM	user\stm8s.h	135;"	macro
+EGR	user\stm8s.h	1051;"	member	struct:TIM4_struct
+EGR	user\stm8s.h	1113;"	member	struct:TIM5_struct
+EGR	user\stm8s.h	1251;"	member	struct:TIM6_struct
+EGR	user\stm8s.h	605;"	member	struct:TIM1_struct
+EGR	user\stm8s.h	818;"	member	struct:TIM2_struct
+EGR	user\stm8s.h	942;"	member	struct:TIM3_struct
+EIER	user\stm8s.h	2176;"	member	struct:__anon5::__anon6::__anon12
+ENABLE	user\stm8s.h	223;"	enumerator	enum:__anon3
+EN_INT	user\queue.c	5;"	macro	file:
+ERROR	user\stm8s.h	226;"	enumerator	enum:__anon4
+ESR	user\stm8s.h	2175;"	member	struct:__anon5::__anon6::__anon12
+ETR	user\stm8s.h	601;"	member	struct:TIM1_struct
+ET_ALL_EDGE	user\caframe.h	134;"	macro
+ET_DISABLE	user\caframe.h	135;"	macro
+ET_FALLING_EDGE	user\caframe.h	132;"	macro
+ET_RISING_EDGE	user\caframe.h	133;"	macro
+EVENT	user\caframe.h	161;"	typedef	typeref:struct:tag_event
+EVENT_INPUT	user\caframe.h	130;"	typedef	typeref:struct:tag_input_event
+EVENT_MAX_COUNT	user\cfg.h	33;"	macro
+EVENT_TIMER	user\caframe.h	150;"	typedef	typeref:struct:tag_timer_event
+EVENT_UART_ID	user\cfg.h	36;"	macro
+EXTI	user\stm8s.h	2510;"	macro
+EXTI_BaseAddress	user\stm8s.h	2457;"	macro
+EXTI_CR1_PAIS	user\stm8s.h	1482;"	macro
+EXTI_CR1_PBIS	user\stm8s.h	1481;"	macro
+EXTI_CR1_PCIS	user\stm8s.h	1480;"	macro
+EXTI_CR1_PDIS	user\stm8s.h	1479;"	macro
+EXTI_CR1_RESET_VALUE	user\stm8s.h	1468;"	macro
+EXTI_CR2_PEIS	user\stm8s.h	1485;"	macro
+EXTI_CR2_RESET_VALUE	user\stm8s.h	1469;"	macro
+EXTI_CR2_TLIS	user\stm8s.h	1484;"	macro
+EXTI_TypeDef	user\stm8s.h	1462;"	typedef	typeref:struct:EXTI_struct
+EXTI_struct	user\stm8s.h	1457;"	struct
+ErrorStatus	user\stm8s.h	226;"	typedef	typeref:enum:__anon4
+F0R1	user\stm8s.h	2109;"	member	struct:__anon5::__anon6::__anon9
+F0R2	user\stm8s.h	2110;"	member	struct:__anon5::__anon6::__anon9
+F0R3	user\stm8s.h	2111;"	member	struct:__anon5::__anon6::__anon9
+F0R4	user\stm8s.h	2112;"	member	struct:__anon5::__anon6::__anon9
+F0R5	user\stm8s.h	2113;"	member	struct:__anon5::__anon6::__anon9
+F0R6	user\stm8s.h	2114;"	member	struct:__anon5::__anon6::__anon9
+F0R7	user\stm8s.h	2115;"	member	struct:__anon5::__anon6::__anon9
+F0R8	user\stm8s.h	2116;"	member	struct:__anon5::__anon6::__anon9
+F1R1	user\stm8s.h	2118;"	member	struct:__anon5::__anon6::__anon9
+F1R2	user\stm8s.h	2119;"	member	struct:__anon5::__anon6::__anon9
+F1R3	user\stm8s.h	2120;"	member	struct:__anon5::__anon6::__anon9
+F1R4	user\stm8s.h	2121;"	member	struct:__anon5::__anon6::__anon9
+F1R5	user\stm8s.h	2122;"	member	struct:__anon5::__anon6::__anon9
+F1R6	user\stm8s.h	2123;"	member	struct:__anon5::__anon6::__anon9
+F1R7	user\stm8s.h	2124;"	member	struct:__anon5::__anon6::__anon9
+F1R8	user\stm8s.h	2125;"	member	struct:__anon5::__anon6::__anon9
+F2R1	user\stm8s.h	2131;"	member	struct:__anon5::__anon6::__anon10
+F2R2	user\stm8s.h	2132;"	member	struct:__anon5::__anon6::__anon10
+F2R3	user\stm8s.h	2133;"	member	struct:__anon5::__anon6::__anon10
+F2R4	user\stm8s.h	2134;"	member	struct:__anon5::__anon6::__anon10
+F2R5	user\stm8s.h	2135;"	member	struct:__anon5::__anon6::__anon10
+F2R6	user\stm8s.h	2136;"	member	struct:__anon5::__anon6::__anon10
+F2R7	user\stm8s.h	2137;"	member	struct:__anon5::__anon6::__anon10
+F2R8	user\stm8s.h	2138;"	member	struct:__anon5::__anon6::__anon10
+F3R1	user\stm8s.h	2140;"	member	struct:__anon5::__anon6::__anon10
+F3R2	user\stm8s.h	2141;"	member	struct:__anon5::__anon6::__anon10
+F3R3	user\stm8s.h	2142;"	member	struct:__anon5::__anon6::__anon10
+F3R4	user\stm8s.h	2143;"	member	struct:__anon5::__anon6::__anon10
+F3R5	user\stm8s.h	2144;"	member	struct:__anon5::__anon6::__anon10
+F3R6	user\stm8s.h	2145;"	member	struct:__anon5::__anon6::__anon10
+F3R7	user\stm8s.h	2146;"	member	struct:__anon5::__anon6::__anon10
+F3R8	user\stm8s.h	2147;"	member	struct:__anon5::__anon6::__anon10
+F4R1	user\stm8s.h	2153;"	member	struct:__anon5::__anon6::__anon11
+F4R2	user\stm8s.h	2154;"	member	struct:__anon5::__anon6::__anon11
+F4R3	user\stm8s.h	2155;"	member	struct:__anon5::__anon6::__anon11
+F4R4	user\stm8s.h	2156;"	member	struct:__anon5::__anon6::__anon11
+F4R5	user\stm8s.h	2157;"	member	struct:__anon5::__anon6::__anon11
+F4R6	user\stm8s.h	2158;"	member	struct:__anon5::__anon6::__anon11
+F4R7	user\stm8s.h	2159;"	member	struct:__anon5::__anon6::__anon11
+F4R8	user\stm8s.h	2160;"	member	struct:__anon5::__anon6::__anon11
+F5R1	user\stm8s.h	2162;"	member	struct:__anon5::__anon6::__anon11
+F5R2	user\stm8s.h	2163;"	member	struct:__anon5::__anon6::__anon11
+F5R3	user\stm8s.h	2164;"	member	struct:__anon5::__anon6::__anon11
+F5R4	user\stm8s.h	2165;"	member	struct:__anon5::__anon6::__anon11
+F5R5	user\stm8s.h	2166;"	member	struct:__anon5::__anon6::__anon11
+F5R6	user\stm8s.h	2167;"	member	struct:__anon5::__anon6::__anon11
+F5R7	user\stm8s.h	2168;"	member	struct:__anon5::__anon6::__anon11
+F5R8	user\stm8s.h	2169;"	member	struct:__anon5::__anon6::__anon11
+FALSE	user\stm8s.h	219;"	enumerator	enum:__anon1
+FAR	user\stm8s.h	112;"	macro
+FAR	user\stm8s.h	118;"	macro
+FAR	user\stm8s.h	132;"	macro
+FCR1	user\stm8s.h	2184;"	member	struct:__anon5::__anon6::__anon12
+FCR2	user\stm8s.h	2185;"	member	struct:__anon5::__anon6::__anon12
+FCR3	user\stm8s.h	2186;"	member	struct:__anon5::__anon6::__anon12
+FLASH	user\stm8s.h	2512;"	macro
+FLASH_BaseAddress	user\stm8s.h	2456;"	macro
+FLASH_CR1_AHALT	user\stm8s.h	1534;"	macro
+FLASH_CR1_FIX	user\stm8s.h	1536;"	macro
+FLASH_CR1_HALT	user\stm8s.h	1533;"	macro
+FLASH_CR1_IE	user\stm8s.h	1535;"	macro
+FLASH_CR1_RESET_VALUE	user\stm8s.h	1518;"	macro
+FLASH_CR2_ERASE	user\stm8s.h	1540;"	macro
+FLASH_CR2_FPRG	user\stm8s.h	1541;"	macro
+FLASH_CR2_OPT	user\stm8s.h	1538;"	macro
+FLASH_CR2_PRG	user\stm8s.h	1542;"	macro
+FLASH_CR2_RESET_VALUE	user\stm8s.h	1519;"	macro
+FLASH_CR2_WPRG	user\stm8s.h	1539;"	macro
+FLASH_DUKR_DUK	user\stm8s.h	1558;"	macro
+FLASH_DUKR_RESET_VALUE	user\stm8s.h	1523;"	macro
+FLASH_IAPSR_DUL	user\stm8s.h	1551;"	macro
+FLASH_IAPSR_EOP	user\stm8s.h	1552;"	macro
+FLASH_IAPSR_HVOFF	user\stm8s.h	1550;"	macro
+FLASH_IAPSR_PUL	user\stm8s.h	1553;"	macro
+FLASH_IAPSR_RESET_VALUE	user\stm8s.h	1521;"	macro
+FLASH_IAPSR_WR_PG_DIS	user\stm8s.h	1554;"	macro
+FLASH_NCR2_NERASE	user\stm8s.h	1546;"	macro
+FLASH_NCR2_NFPRG	user\stm8s.h	1547;"	macro
+FLASH_NCR2_NOPT	user\stm8s.h	1544;"	macro
+FLASH_NCR2_NPRG	user\stm8s.h	1548;"	macro
+FLASH_NCR2_NWPRG	user\stm8s.h	1545;"	macro
+FLASH_NCR2_RESET_VALUE	user\stm8s.h	1520;"	macro
+FLASH_PUKR_PUK	user\stm8s.h	1556;"	macro
+FLASH_PUKR_RESET_VALUE	user\stm8s.h	1522;"	macro
+FLASH_TypeDef	user\stm8s.h	1512;"	typedef	typeref:struct:FLASH_struct
+FLASH_struct	user\stm8s.h	1498;"	struct
+FM1702_H	user\fm1702.h	3;"	macro
+FMR1	user\stm8s.h	2182;"	member	struct:__anon5::__anon6::__anon12
+FMR2	user\stm8s.h	2183;"	member	struct:__anon5::__anon6::__anon12
+FPR	user\stm8s.h	1503;"	member	struct:FLASH_struct
+FR01	user\stm8s.h	2086;"	member	struct:__anon5::__anon6::__anon8
+FR02	user\stm8s.h	2087;"	member	struct:__anon5::__anon6::__anon8
+FR03	user\stm8s.h	2088;"	member	struct:__anon5::__anon6::__anon8
+FR04	user\stm8s.h	2089;"	member	struct:__anon5::__anon6::__anon8
+FR05	user\stm8s.h	2090;"	member	struct:__anon5::__anon6::__anon8
+FR06	user\stm8s.h	2091;"	member	struct:__anon5::__anon6::__anon8
+FR07	user\stm8s.h	2092;"	member	struct:__anon5::__anon6::__anon8
+FR08	user\stm8s.h	2093;"	member	struct:__anon5::__anon6::__anon8
+FR09	user\stm8s.h	2095;"	member	struct:__anon5::__anon6::__anon8
+FR10	user\stm8s.h	2096;"	member	struct:__anon5::__anon6::__anon8
+FR11	user\stm8s.h	2097;"	member	struct:__anon5::__anon6::__anon8
+FR12	user\stm8s.h	2098;"	member	struct:__anon5::__anon6::__anon8
+FR13	user\stm8s.h	2099;"	member	struct:__anon5::__anon6::__anon8
+FR14	user\stm8s.h	2100;"	member	struct:__anon5::__anon6::__anon8
+FR15	user\stm8s.h	2101;"	member	struct:__anon5::__anon6::__anon8
+FR16	user\stm8s.h	2102;"	member	struct:__anon5::__anon6::__anon8
+FREQR	user\stm8s.h	1316;"	member	struct:I2C_struct
+Filter	user\stm8s.h	2104;"	member	union:__anon5::__anon6	typeref:struct:__anon5::__anon6::__anon8
+Filter01	user\stm8s.h	2127;"	member	union:__anon5::__anon6	typeref:struct:__anon5::__anon6::__anon9
+Filter23	user\stm8s.h	2149;"	member	union:__anon5::__anon6	typeref:struct:__anon5::__anon6::__anon10
+Filter45	user\stm8s.h	2171;"	member	union:__anon5::__anon6	typeref:struct:__anon5::__anon6::__anon11
+FlagStatus	user\stm8s.h	221;"	typedef	typeref:enum:__anon2
+Fm1702ClearFIFO	user\fm1702.c	85;"	function	file:	signature:(void)
+Fm1702Command	user\fm1702.c	124;"	function	file:	signature:(uint8_t cmd,uint8_t *buff,uint8_t len)
+Fm1702Init	user\fm1702.c	225;"	function	signature:(void)
+Fm1702Init	user\fm1702.h	6;"	prototype	signature:(void)
+Fm1702ReadFIFO	user\fm1702.c	102;"	function	file:	signature:(uint8_t *buff)
+Fm1702ReadReg	user\fm1702.c	60;"	function	file:	signature:(uint8_t addr)
+Fm1702WriteFIFO	user\fm1702.c	94;"	function	file:	signature:(uint8_t *buff,uint8_t len)
+Fm1702WriteReg	user\fm1702.c	76;"	function	file:	signature:(uint8_t addr, uint8_t value)
+Func	user\caframe.h	129;"	member	struct:tag_input_event
+Func	user\caframe.h	149;"	member	struct:tag_timer_event
+Func	user\caframe.h	160;"	member	struct:tag_event
+FunctionalState	user\stm8s.h	223;"	typedef	typeref:enum:__anon3
+GCR	user\stm8s.h	2410;"	member	struct:CFG_struct
+GETCHAR_PROTOTYPE	user\driver.h	19;"	macro
+GPIOA	user\stm8s.h	2516;"	macro
+GPIOA_BaseAddress	user\stm8s.h	2447;"	macro
+GPIOB	user\stm8s.h	2518;"	macro
+GPIOB_BaseAddress	user\stm8s.h	2448;"	macro
+GPIOC	user\stm8s.h	2520;"	macro
+GPIOC_BaseAddress	user\stm8s.h	2449;"	macro
+GPIOD	user\stm8s.h	2522;"	macro
+GPIOD_BaseAddress	user\stm8s.h	2450;"	macro
+GPIOE	user\stm8s.h	2524;"	macro
+GPIOE_BaseAddress	user\stm8s.h	2451;"	macro
+GPIOF	user\stm8s.h	2526;"	macro
+GPIOF_BaseAddress	user\stm8s.h	2452;"	macro
+GPIOG	user\stm8s.h	2530;"	macro
+GPIOG_BaseAddress	user\stm8s.h	2453;"	macro
+GPIOH	user\stm8s.h	2535;"	macro
+GPIOH_BaseAddress	user\stm8s.h	2454;"	macro
+GPIOI	user\stm8s.h	2536;"	macro
+GPIOI_BaseAddress	user\stm8s.h	2455;"	macro
+GPIO_CR1_RESET_VALUE	user\stm8s.h	269;"	macro
+GPIO_CR2_RESET_VALUE	user\stm8s.h	270;"	macro
+GPIO_DDR_RESET_VALUE	user\stm8s.h	268;"	macro
+GPIO_ODR_RESET_VALUE	user\stm8s.h	267;"	macro
+GPIO_TypeDef	user\stm8s.h	261;"	typedef	typeref:struct:GPIO_struct
+GPIO_struct	user\stm8s.h	253;"	struct
+GTR	user\stm8s.h	1762;"	member	struct:UART1_struct
+GTR	user\stm8s.h	1861;"	member	struct:UART2_struct
+GetBalance	user\app.c	353;"	function	signature:(void)
+GetCardID	user\app.c	139;"	function	signature:(void)
+GetRegMessage	user\app.c	162;"	function	signature:(void)
+GetUID	user\fm1702.c	573;"	function	signature:(uint8_t *buff)
+GetUID	user\fm1702.h	14;"	prototype	signature:(uint8_t *buff)
+HQUEUE	user\queue.h	13;"	typedef	typeref:struct:QUEUE_S
+HSE_VALUE	user\stm8s.h	101;"	macro
+HSE_VALUE	user\stm8s.h	99;"	macro
+HSITRIMR	user\stm8s.h	506;"	member	struct:CLK_struct
+HSI_VALUE	user\stm8s.h	108;"	macro
+HTRH	user\stm8s.h	313;"	member	struct:ADC1_struct
+HTRL	user\stm8s.h	314;"	member	struct:ADC1_struct
+I2C	user\stm8s.h	2545;"	macro
+I2C_BaseAddress	user\stm8s.h	2465;"	macro
+I2C_CCRH_CCR	user\stm8s.h	1406;"	macro
+I2C_CCRH_DUTY	user\stm8s.h	1405;"	macro
+I2C_CCRH_FS	user\stm8s.h	1404;"	macro
+I2C_CCRH_RESET_VALUE	user\stm8s.h	1347;"	macro
+I2C_CCRL_CCR	user\stm8s.h	1402;"	macro
+I2C_CCRL_RESET_VALUE	user\stm8s.h	1346;"	macro
+I2C_CR1_ENGC	user\stm8s.h	1359;"	macro
+I2C_CR1_NOSTRETCH	user\stm8s.h	1358;"	macro
+I2C_CR1_PE	user\stm8s.h	1360;"	macro
+I2C_CR1_RESET_VALUE	user\stm8s.h	1336;"	macro
+I2C_CR2_ACK	user\stm8s.h	1364;"	macro
+I2C_CR2_POS	user\stm8s.h	1363;"	macro
+I2C_CR2_RESET_VALUE	user\stm8s.h	1337;"	macro
+I2C_CR2_START	user\stm8s.h	1366;"	macro
+I2C_CR2_STOP	user\stm8s.h	1365;"	macro
+I2C_CR2_SWRST	user\stm8s.h	1362;"	macro
+I2C_DR_DR	user\stm8s.h	1377;"	macro
+I2C_DR_RESET_VALUE	user\stm8s.h	1341;"	macro
+I2C_FREQR_FREQ	user\stm8s.h	1368;"	macro
+I2C_FREQR_RESET_VALUE	user\stm8s.h	1338;"	macro
+I2C_ITR_ITBUFEN	user\stm8s.h	1398;"	macro
+I2C_ITR_ITERREN	user\stm8s.h	1400;"	macro
+I2C_ITR_ITEVTEN	user\stm8s.h	1399;"	macro
+I2C_ITR_RESET_VALUE	user\stm8s.h	1345;"	macro
+I2C_OARH_ADD	user\stm8s.h	1375;"	macro
+I2C_OARH_ADDCONF	user\stm8s.h	1374;"	macro
+I2C_OARH_ADDMODE	user\stm8s.h	1373;"	macro
+I2C_OARH_RESET_VALUE	user\stm8s.h	1340;"	macro
+I2C_OARL_ADD	user\stm8s.h	1370;"	macro
+I2C_OARL_ADD0	user\stm8s.h	1371;"	macro
+I2C_OARL_RESET_VALUE	user\stm8s.h	1339;"	macro
+I2C_SR1_ADD10	user\stm8s.h	1382;"	macro
+I2C_SR1_ADDR	user\stm8s.h	1384;"	macro
+I2C_SR1_BTF	user\stm8s.h	1383;"	macro
+I2C_SR1_RESET_VALUE	user\stm8s.h	1342;"	macro
+I2C_SR1_RXNE	user\stm8s.h	1380;"	macro
+I2C_SR1_SB	user\stm8s.h	1385;"	macro
+I2C_SR1_STOPF	user\stm8s.h	1381;"	macro
+I2C_SR1_TXE	user\stm8s.h	1379;"	macro
+I2C_SR2_AF	user\stm8s.h	1389;"	macro
+I2C_SR2_ARLO	user\stm8s.h	1390;"	macro
+I2C_SR2_BERR	user\stm8s.h	1391;"	macro
+I2C_SR2_OVR	user\stm8s.h	1388;"	macro
+I2C_SR2_RESET_VALUE	user\stm8s.h	1343;"	macro
+I2C_SR2_WUFH	user\stm8s.h	1387;"	macro
+I2C_SR3_BUSY	user\stm8s.h	1395;"	macro
+I2C_SR3_GENCALL	user\stm8s.h	1393;"	macro
+I2C_SR3_MSL	user\stm8s.h	1396;"	macro
+I2C_SR3_RESET_VALUE	user\stm8s.h	1344;"	macro
+I2C_SR3_TRA	user\stm8s.h	1394;"	macro
+I2C_TRISER_RESET_VALUE	user\stm8s.h	1348;"	macro
+I2C_TRISER_TRISE	user\stm8s.h	1408;"	macro
+I2C_TypeDef	user\stm8s.h	1330;"	typedef	typeref:struct:I2C_struct
+I2C_struct	user\stm8s.h	1312;"	struct
+IAPSR	user\stm8s.h	1505;"	member	struct:FLASH_struct
+ICKR	user\stm8s.h	494;"	member	struct:CLK_struct
+ICR	user\stm8s.h	1684;"	member	struct:SPI_struct
+IDR	user\stm8s.h	256;"	member	struct:GPIO_struct
+IER	user\stm8s.h	1049;"	member	struct:TIM4_struct
+IER	user\stm8s.h	1110;"	member	struct:TIM5_struct
+IER	user\stm8s.h	1249;"	member	struct:TIM6_struct
+IER	user\stm8s.h	2057;"	member	struct:__anon5
+IER	user\stm8s.h	602;"	member	struct:TIM1_struct
+IER	user\stm8s.h	815;"	member	struct:TIM2_struct
+IER	user\stm8s.h	939;"	member	struct:TIM3_struct
+INPUT_MAX_COUNT	user\cfg.h	31;"	macro
+INTERRUPT	user\stm8s.h	2655;"	macro
+INTERRUPT	user\stm8s.h	2657;"	macro
+INTERRUPT_HANDLER	user\stm8s.h	2633;"	macro
+INTERRUPT_HANDLER	user\stm8s.h	2638;"	macro
+INTERRUPT_HANDLER	user\stm8s.h	2645;"	macro
+INTERRUPT_HANDLER_TRAP	user\stm8s.h	2634;"	macro
+INTERRUPT_HANDLER_TRAP	user\stm8s.h	2639;"	macro
+INTERRUPT_HANDLER_TRAP	user\stm8s.h	2648;"	macro
+IN_RAM	user\stm8s.h	159;"	macro
+IN_RAM	user\stm8s.h	161;"	macro
+IN_RAM	user\stm8s.h	163;"	macro
+IN_RAM	user\stm8s.h	166;"	macro
+IO_AI1	user\driver.h	62;"	macro
+IO_AI2	user\driver.h	63;"	macro
+IO_AO1	user\driver.h	66;"	macro
+IO_AO2	user\driver.h	67;"	macro
+IO_X1	user\driver.h	54;"	macro
+IO_X2	user\driver.h	55;"	macro
+IO_X3	user\driver.h	56;"	macro
+IO_X4	user\driver.h	57;"	macro
+IO_X5	user\driver.h	58;"	macro
+IO_X6	user\driver.h	59;"	macro
+IO_Y1	user\driver.h	46;"	macro
+IO_Y2	user\driver.h	47;"	macro
+IO_Y3	user\driver.h	48;"	macro
+IO_Y4	user\driver.h	49;"	macro
+IO_Y5	user\driver.h	50;"	macro
+IO_Y6	user\driver.h	51;"	macro
+ISPR1	user\stm8s.h	1421;"	member	struct:ITC_struct
+ISPR2	user\stm8s.h	1422;"	member	struct:ITC_struct
+ISPR3	user\stm8s.h	1423;"	member	struct:ITC_struct
+ISPR4	user\stm8s.h	1424;"	member	struct:ITC_struct
+ISPR5	user\stm8s.h	1425;"	member	struct:ITC_struct
+ISPR6	user\stm8s.h	1426;"	member	struct:ITC_struct
+ISPR7	user\stm8s.h	1427;"	member	struct:ITC_struct
+ISPR8	user\stm8s.h	1428;"	member	struct:ITC_struct
+IS_FUNCTIONALSTATE_OK	user\stm8s.h	224;"	macro
+IS_STATE_VALUE_OK	user\stm8s.h	2691;"	macro
+ITC	user\stm8s.h	2585;"	macro
+ITC_BaseAddress	user\stm8s.h	2479;"	macro
+ITC_SPRX_RESET_VALUE	user\stm8s.h	1436;"	macro
+ITC_TypeDef	user\stm8s.h	1430;"	typedef	typeref:struct:ITC_struct
+ITC_struct	user\stm8s.h	1419;"	struct
+ITR	user\stm8s.h	1324;"	member	struct:I2C_struct
+ITStatus	user\stm8s.h	221;"	typedef	typeref:enum:__anon2
+IWDG	user\stm8s.h	2542;"	macro
+IWDG_BaseAddress	user\stm8s.h	2461;"	macro
+IWDG_PR_RESET_VALUE	user\stm8s.h	1605;"	macro
+IWDG_RLR_RESET_VALUE	user\stm8s.h	1606;"	macro
+IWDG_TypeDef	user\stm8s.h	1599;"	typedef	typeref:struct:IWDG_struct
+IWDG_struct	user\stm8s.h	1593;"	struct
+InitApp	user\app.c	487;"	function	signature:(void)
+InitApp	user\frame.c	25;"	prototype	file:	signature:(void)
+KR	user\stm8s.h	1595;"	member	struct:IWDG_struct
+LED_OFF	user\driver.h	35;"	macro
+LED_ON	user\driver.h	36;"	macro
+LED_POWER_OFF	user\driver.h	40;"	macro
+LED_POWER_ON	user\driver.h	39;"	macro
+LED_POWER_TOGGLE	user\driver.h	38;"	macro
+LED_TOGGLE	user\driver.h	34;"	macro
+LSI_VALUE	user\stm8s.h	109;"	macro
+LTRH	user\stm8s.h	315;"	member	struct:ADC1_struct
+LTRL	user\stm8s.h	316;"	member	struct:ADC1_struct
+LedOn	user\app.c	46;"	function	signature:(uint8_t dly)
+MCR	user\stm8s.h	2052;"	member	struct:__anon5
+MCSR	user\stm8s.h	2065;"	member	struct:__anon5::__anon6::__anon7
+MDAR1	user\stm8s.h	2071;"	member	struct:__anon5::__anon6::__anon7
+MDAR1	user\stm8s.h	2199;"	member	struct:__anon5::__anon6::__anon13
+MDAR2	user\stm8s.h	2072;"	member	struct:__anon5::__anon6::__anon7
+MDAR2	user\stm8s.h	2200;"	member	struct:__anon5::__anon6::__anon13
+MDAR3	user\stm8s.h	2073;"	member	struct:__anon5::__anon6::__anon7
+MDAR3	user\stm8s.h	2201;"	member	struct:__anon5::__anon6::__anon13
+MDAR4	user\stm8s.h	2074;"	member	struct:__anon5::__anon6::__anon7
+MDAR4	user\stm8s.h	2202;"	member	struct:__anon5::__anon6::__anon13
+MDAR5	user\stm8s.h	2075;"	member	struct:__anon5::__anon6::__anon7
+MDAR5	user\stm8s.h	2203;"	member	struct:__anon5::__anon6::__anon13
+MDAR6	user\stm8s.h	2076;"	member	struct:__anon5::__anon6::__anon7
+MDAR6	user\stm8s.h	2204;"	member	struct:__anon5::__anon6::__anon13
+MDAR7	user\stm8s.h	2077;"	member	struct:__anon5::__anon6::__anon7
+MDAR7	user\stm8s.h	2205;"	member	struct:__anon5::__anon6::__anon13
+MDAR8	user\stm8s.h	2078;"	member	struct:__anon5::__anon6::__anon7
+MDAR8	user\stm8s.h	2206;"	member	struct:__anon5::__anon6::__anon13
+MDLCR	user\stm8s.h	2066;"	member	struct:__anon5::__anon6::__anon7
+MDLCR	user\stm8s.h	2194;"	member	struct:__anon5::__anon6::__anon13
+MEMCPY	user\stm8s.h	126;"	macro
+MEMCPY	user\stm8s.h	129;"	macro
+MFMI	user\stm8s.h	2193;"	member	struct:__anon5::__anon6::__anon13
+MIDR1	user\stm8s.h	2067;"	member	struct:__anon5::__anon6::__anon7
+MIDR1	user\stm8s.h	2195;"	member	struct:__anon5::__anon6::__anon13
+MIDR2	user\stm8s.h	2068;"	member	struct:__anon5::__anon6::__anon7
+MIDR2	user\stm8s.h	2196;"	member	struct:__anon5::__anon6::__anon13
+MIDR3	user\stm8s.h	2069;"	member	struct:__anon5::__anon6::__anon7
+MIDR3	user\stm8s.h	2197;"	member	struct:__anon5::__anon6::__anon13
+MIDR4	user\stm8s.h	2070;"	member	struct:__anon5::__anon6::__anon7
+MIDR4	user\stm8s.h	2198;"	member	struct:__anon5::__anon6::__anon13
+MSR	user\stm8s.h	2053;"	member	struct:__anon5
+MTSRH	user\stm8s.h	2080;"	member	struct:__anon5::__anon6::__anon7
+MTSRH	user\stm8s.h	2208;"	member	struct:__anon5::__anon6::__anon13
+MTSRL	user\stm8s.h	2079;"	member	struct:__anon5::__anon6::__anon7
+MTSRL	user\stm8s.h	2207;"	member	struct:__anon5::__anon6::__anon13
+MY_DEBUG	user\driver.h	10;"	macro
+MskBit	user\stm8s.h	2681;"	macro
+NCR2	user\stm8s.h	1502;"	member	struct:FLASH_struct
+NEAR	user\stm8s.h	113;"	macro
+NEAR	user\stm8s.h	119;"	macro
+NEAR	user\stm8s.h	133;"	macro
+NEW_SECTOR_INDEX	user\app.c	14;"	macro	file:
+NFPR	user\stm8s.h	1504;"	member	struct:FLASH_struct
+NOPT1	user\stm8s.h	1572;"	member	struct:OPT_struct
+NOPT2	user\stm8s.h	1574;"	member	struct:OPT_struct
+NOPT3	user\stm8s.h	1576;"	member	struct:OPT_struct
+NOPT4	user\stm8s.h	1578;"	member	struct:OPT_struct
+NOPT5	user\stm8s.h	1580;"	member	struct:OPT_struct
+NOPT7	user\stm8s.h	1584;"	member	struct:OPT_struct
+NULL	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	9;"	macro
+NonHandledInterrupt	user\stm8_interrupt_vector.c	13;"	function	signature:(void)
+OARH	user\stm8s.h	1318;"	member	struct:I2C_struct
+OARL	user\stm8s.h	1317;"	member	struct:I2C_struct
+ODR	user\stm8s.h	255;"	member	struct:GPIO_struct
+OISR	user\stm8s.h	629;"	member	struct:TIM1_struct
+OLD_SECTOR_INDEX	user\app.c	19;"	macro	file:
+OLD_SECTOR_KEYS_COUNT	user\app.c	20;"	macro	file:
+OPT	user\stm8s.h	2514;"	macro
+OPT0	user\stm8s.h	1570;"	member	struct:OPT_struct
+OPT1	user\stm8s.h	1571;"	member	struct:OPT_struct
+OPT2	user\stm8s.h	1573;"	member	struct:OPT_struct
+OPT3	user\stm8s.h	1575;"	member	struct:OPT_struct
+OPT4	user\stm8s.h	1577;"	member	struct:OPT_struct
+OPT5	user\stm8s.h	1579;"	member	struct:OPT_struct
+OPT7	user\stm8s.h	1583;"	member	struct:OPT_struct
+OPT_BaseAddress	user\stm8s.h	2446;"	macro
+OPT_TypeDef	user\stm8s.h	1586;"	typedef	typeref:struct:OPT_struct
+OPT_struct	user\stm8s.h	1568;"	struct
+PCKENR1	user\stm8s.h	501;"	member	struct:CLK_struct
+PCKENR2	user\stm8s.h	504;"	member	struct:CLK_struct
+PEVENT	user\caframe.h	161;"	typedef	typeref:struct:tag_event
+PEVENT_INPUT	user\caframe.h	130;"	typedef	typeref:struct:tag_input_event
+PEVENT_TIMER	user\caframe.h	150;"	typedef	typeref:struct:tag_timer_event
+PHQUEUE	user\queue.h	13;"	typedef	typeref:struct:QUEUE_S
+PR	user\stm8s.h	1596;"	member	struct:IWDG_struct
+PSCR	user\stm8s.h	1053;"	member	struct:TIM4_struct
+PSCR	user\stm8s.h	1121;"	member	struct:TIM5_struct
+PSCR	user\stm8s.h	1253;"	member	struct:TIM6_struct
+PSCR	user\stm8s.h	1763;"	member	struct:UART1_struct
+PSCR	user\stm8s.h	1862;"	member	struct:UART2_struct
+PSCR	user\stm8s.h	826;"	member	struct:TIM2_struct
+PSCR	user\stm8s.h	948;"	member	struct:TIM3_struct
+PSCRH	user\stm8s.h	614;"	member	struct:TIM1_struct
+PSCRL	user\stm8s.h	615;"	member	struct:TIM1_struct
+PSR	user\stm8s.h	2059;"	member	struct:__anon5
+PTIMER_TASK	user\caframe.h	171;"	typedef	typeref:struct:tag_timer_task
+PUKR	user\stm8s.h	1508;"	member	struct:FLASH_struct
+PUTCHAR_PROTOTYPE	user\driver.h	18;"	macro
+Page	user\stm8s.h	2211;"	member	struct:__anon5	typeref:union:__anon5::__anon6
+PcdAntiColl	user\fm1702.c	326;"	function	signature:(void)
+PcdAntiColl	user\fm1702.h	8;"	prototype	signature:(void)
+PcdAuthentication	user\fm1702.c	449;"	function	signature:(uint8_t sec, uint8_t mode)
+PcdAuthentication	user\fm1702.h	11;"	prototype	signature:(uint8_t sec, uint8_t mode)
+PcdLoadKey	user\fm1702.c	424;"	function	signature:(uint8_t *keys)
+PcdLoadKey	user\fm1702.h	9;"	prototype	signature:(uint8_t *keys)
+PcdRequest	user\fm1702.c	274;"	function	signature:(void)
+PcdRequest	user\fm1702.h	7;"	prototype	signature:(void)
+PcdSelectCard	user\fm1702.c	392;"	function	signature:(void)
+PcdSelectCard	user\fm1702.h	10;"	prototype	signature:(void)
+PointerAttr	user\stm8s.h	146;"	macro
+PointerAttr	user\stm8s.h	149;"	macro
+QUEUE_H	user\queue.h	2;"	macro
+QUEUE_S	user\queue.h	5;"	struct
+QueueClear	user\queue.c	80;"	function	signature:(PHQUEUE Q)
+QueueClear	user\queue.h	20;"	prototype	signature:(PHQUEUE Q)
+QueueCreate	user\queue.c	91;"	function	signature:(PHQUEUE Q,uint8_t *buffer,uint8_t buf_size)
+QueueCreate	user\queue.h	21;"	prototype	signature:(PHQUEUE Q,uint8_t *buffer,uint8_t buf_size)
+QueueGetSize	user\queue.c	74;"	function	signature:(PHQUEUE Q)
+QueueGetSize	user\queue.h	19;"	prototype	signature:(PHQUEUE Q)
+QueueInput	user\queue.c	24;"	function	signature:(PHQUEUE Q,uint8_t dat)
+QueueInput	user\queue.h	15;"	prototype	signature:(PHQUEUE Q,uint8_t dat)
+QueueInputFromISR	user\queue.c	9;"	function	signature:(PHQUEUE Q,uint8_t dat)
+QueueInputFromISR	user\queue.h	17;"	prototype	signature:(PHQUEUE Q,uint8_t dat)
+QueueOutput	user\queue.c	56;"	function	signature:(PHQUEUE Q)
+QueueOutput	user\queue.h	16;"	prototype	signature:(PHQUEUE Q)
+QueueOutputFromISR	user\queue.c	41;"	function	signature:(PHQUEUE Q)
+QueueOutputFromISR	user\queue.h	18;"	prototype	signature:(PHQUEUE Q)
+RCR	user\stm8s.h	618;"	member	struct:TIM1_struct
+RECR	user\stm8s.h	2178;"	member	struct:__anon5::__anon6::__anon12
+REG_BIT_FRAMEING	user\fm1702.h	68;"	macro
+REG_BIT_PHASE	user\fm1702.h	80;"	macro
+REG_BPSKDEM_CONTROL	user\fm1702.h	82;"	macro
+REG_CHANNEL_REDUNDANCY	user\fm1702.h	87;"	macro
+REG_CLOCKQ_CONTROL	user\fm1702.h	84;"	macro
+REG_CODER_CONTROL	user\fm1702.h	73;"	macro
+REG_COLLPOS	user\fm1702.h	64;"	macro
+REG_COMMAND	user\fm1702.h	54;"	macro
+REG_CONTROL	user\fm1702.h	62;"	macro
+REG_CRC_PRESET_LSB	user\fm1702.h	88;"	macro
+REG_CRC_PRESET_MSB	user\fm1702.h	89;"	macro
+REG_CRC_RESULT_LSB	user\fm1702.h	66;"	macro
+REG_CRC_RESULT_MSB	user\fm1702.h	67;"	macro
+REG_CW_CONDUCTANCE	user\fm1702.h	71;"	macro
+REG_DECODER_CONTROL	user\fm1702.h	79;"	macro
+REG_ERROR_FLAG	user\fm1702.h	63;"	macro
+REG_FIFO	user\fm1702.h	55;"	macro
+REG_FIFO_LENGTH	user\fm1702.h	57;"	macro
+REG_INT_EN	user\fm1702.h	59;"	macro
+REG_INT_REQ	user\fm1702.h	60;"	macro
+REG_MOD_CONDUCTANCE	user\fm1702.h	72;"	macro
+REG_MOD_WIDTH	user\fm1702.h	74;"	macro
+REG_MOD_WIDTH_SOF	user\fm1702.h	75;"	macro
+REG_PAGE	user\fm1702.h	53;"	macro
+REG_PRIMARY_STATUS	user\fm1702.h	56;"	macro
+REG_RX_CONTROL1	user\fm1702.h	78;"	macro
+REG_RX_CONTROL2	user\fm1702.h	83;"	macro
+REG_RX_THREASHOLD	user\fm1702.h	81;"	macro
+REG_RX_WAIT	user\fm1702.h	86;"	macro
+REG_SECONDRY_STATUS	user\fm1702.h	58;"	macro
+REG_TIMER_VALUE	user\fm1702.h	65;"	macro
+REG_TX_CONTROL	user\fm1702.h	70;"	macro
+REG_TYPEB_FRAMING	user\fm1702.h	76;"	macro
+REG_TYPESH	user\fm1702.h	102;"	macro
+RESERVED	user\stm8s.h	1967;"	member	struct:UART3_struct
+RESERVED	user\stm8s.h	304;"	member	struct:ADC1_struct
+RESERVED	user\stm8s.h	379;"	member	struct:ADC2_struct
+RESERVED	user\stm8s.h	496;"	member	struct:CLK_struct
+RESERVED1	user\stm8s.h	1046;"	member	struct:TIM4_struct
+RESERVED1	user\stm8s.h	1319;"	member	struct:I2C_struct
+RESERVED1	user\stm8s.h	1506;"	member	struct:FLASH_struct
+RESERVED1	user\stm8s.h	1581;"	member	struct:OPT_struct
+RESERVED1	user\stm8s.h	505;"	member	struct:CLK_struct
+RESERVED1	user\stm8s.h	812;"	member	struct:TIM2_struct
+RESERVED2	user\stm8s.h	1047;"	member	struct:TIM4_struct
+RESERVED2	user\stm8s.h	1328;"	member	struct:I2C_struct
+RESERVED2	user\stm8s.h	1507;"	member	struct:FLASH_struct
+RESERVED2	user\stm8s.h	1582;"	member	struct:OPT_struct
+RESERVED2	user\stm8s.h	813;"	member	struct:TIM2_struct
+RESERVED3	user\stm8s.h	1509;"	member	struct:FLASH_struct
+RESET	user\stm8s.h	221;"	enumerator	enum:__anon2
+RFR	user\stm8s.h	2056;"	member	struct:__anon5
+RFU27	user\fm1702.h	92;"	macro
+RFU2E	user\fm1702.h	99;"	macro
+RFU2F	user\fm1702.h	100;"	macro
+RFU32	user\fm1702.h	103;"	macro
+RFU33	user\fm1702.h	104;"	macro
+RFU34	user\fm1702.h	105;"	macro
+RFU35	user\fm1702.h	106;"	macro
+RFU36	user\fm1702.h	107;"	macro
+RFU37	user\fm1702.h	108;"	macro
+RFU39	user\fm1702.h	110;"	macro
+RFU3B	user\fm1702.h	112;"	macro
+RFU3C	user\fm1702.h	113;"	macro
+RFU3E	user\fm1702.h	115;"	macro
+RFU3F	user\fm1702.h	116;"	macro
+RF_CMD_ANTICOL	user\fm1702.h	34;"	macro
+RF_CMD_AUTH_LA	user\fm1702.h	36;"	macro
+RF_CMD_AUTH_LB	user\fm1702.h	37;"	macro
+RF_CMD_DEC	user\fm1702.h	41;"	macro
+RF_CMD_HALT	user\fm1702.h	44;"	macro
+RF_CMD_INC	user\fm1702.h	40;"	macro
+RF_CMD_READ	user\fm1702.h	38;"	macro
+RF_CMD_REQUEST_ALL	user\fm1702.h	33;"	macro
+RF_CMD_REQUEST_STD	user\fm1702.h	32;"	macro
+RF_CMD_RESTORE	user\fm1702.h	42;"	macro
+RF_CMD_SELECT	user\fm1702.h	35;"	macro
+RF_CMD_TRANSFER	user\fm1702.h	43;"	macro
+RF_CMD_WRITE	user\fm1702.h	39;"	macro
+RF_TRY_TIME	user\fm1702.c	5;"	macro	file:
+RLR	user\stm8s.h	1597;"	member	struct:IWDG_struct
+RST	user\stm8s.h	2539;"	macro
+RST_BaseAddress	user\stm8s.h	2458;"	macro
+RST_SR_EMCF	user\stm8s.h	1665;"	macro
+RST_SR_ILLOPF	user\stm8s.h	1667;"	macro
+RST_SR_IWDGF	user\stm8s.h	1668;"	macro
+RST_SR_SWIMF	user\stm8s.h	1666;"	macro
+RST_SR_WWDGF	user\stm8s.h	1669;"	macro
+RST_TypeDef	user\stm8s.h	1659;"	typedef	typeref:struct:RST_struct
+RST_struct	user\stm8s.h	1655;"	struct
+RXCRCR	user\stm8s.h	1688;"	member	struct:SPI_struct
+ReadBalance	user\app.c	87;"	function	signature:(uint8_t *buf)
+RegCard	user\app.c	209;"	function	signature:(void)
+RegFIFOLevel	user\fm1702.h	94;"	macro
+RegIRqPinConfig	user\fm1702.h	98;"	macro
+RegMfOutSelect	user\fm1702.h	91;"	macro
+RegTestAnaSelect	user\fm1702.h	111;"	macro
+RegTestDigiSelect	user\fm1702.h	114;"	macro
+RegTimeSlotPeriod	user\fm1702.h	90;"	macro
+RegTimerClock	user\fm1702.h	95;"	macro
+RegTimerControl	user\fm1702.h	96;"	macro
+RegTimerReload	user\fm1702.h	97;"	macro
+Reserved1	user\stm8s.h	2181;"	member	struct:__anon5::__anon6::__anon12
+Reserved2	user\stm8s.h	2187;"	member	struct:__anon5::__anon6::__anon12
+RestoreCard	user\app.c	297;"	function	signature:(void)
+RxFIFO	user\stm8s.h	2210;"	member	union:__anon5::__anon6	typeref:struct:__anon5::__anon6::__anon13
+S16_MAX	user\stm8s.h	232;"	macro
+S16_MIN	user\stm8s.h	233;"	macro
+S32_MAX	user\stm8s.h	235;"	macro
+S32_MIN	user\stm8s.h	236;"	macro
+S8_MAX	user\stm8s.h	229;"	macro
+S8_MIN	user\stm8s.h	230;"	macro
+SEI	user\driver.h	14;"	macro
+SERIAL_BAUD	user\cfg.h	11;"	macro
+SERIAL_BUFF_SIZE	user\cfg.h	21;"	macro
+SERIAL_RECV_AFFIRM_TIME	user\cfg.h	16;"	macro
+SERIAL_RECV_BUFFER_SIZE	user\cfg.h	23;"	macro
+SERIAL_SEND_BUFFER_SIZE	user\cfg.h	22;"	macro
+SET	user\stm8s.h	221;"	enumerator	enum:__anon2
+SMCR	user\stm8s.h	1109;"	member	struct:TIM5_struct
+SMCR	user\stm8s.h	1248;"	member	struct:TIM6_struct
+SMCR	user\stm8s.h	600;"	member	struct:TIM1_struct
+SPI	user\stm8s.h	2544;"	macro
+SPI_BaseAddress	user\stm8s.h	2464;"	macro
+SPI_CR1_BR	user\stm8s.h	1716;"	macro
+SPI_CR1_CPHA	user\stm8s.h	1719;"	macro
+SPI_CR1_CPOL	user\stm8s.h	1718;"	macro
+SPI_CR1_LSBFIRST	user\stm8s.h	1714;"	macro
+SPI_CR1_MSTR	user\stm8s.h	1717;"	macro
+SPI_CR1_RESET_VALUE	user\stm8s.h	1697;"	macro
+SPI_CR1_SPE	user\stm8s.h	1715;"	macro
+SPI_CR2_BDM	user\stm8s.h	1721;"	macro
+SPI_CR2_BDOE	user\stm8s.h	1722;"	macro
+SPI_CR2_CRCEN	user\stm8s.h	1723;"	macro
+SPI_CR2_CRCNEXT	user\stm8s.h	1724;"	macro
+SPI_CR2_RESET_VALUE	user\stm8s.h	1698;"	macro
+SPI_CR2_RXONLY	user\stm8s.h	1725;"	macro
+SPI_CR2_SSI	user\stm8s.h	1727;"	macro
+SPI_CR2_SSM	user\stm8s.h	1726;"	macro
+SPI_CRCPR_RESET_VALUE	user\stm8s.h	1702;"	macro
+SPI_DR_RESET_VALUE	user\stm8s.h	1701;"	macro
+SPI_ICR_ERRIE	user\stm8s.h	1731;"	macro
+SPI_ICR_RESET_VALUE	user\stm8s.h	1699;"	macro
+SPI_ICR_RXEI	user\stm8s.h	1730;"	macro
+SPI_ICR_TXEI	user\stm8s.h	1729;"	macro
+SPI_ICR_WKIE	user\stm8s.h	1732;"	macro
+SPI_MISO_STATUS	user\fm1702.c	19;"	macro	file:
+SPI_MOSI_CLR	user\fm1702.c	18;"	macro	file:
+SPI_MOSI_SET	user\fm1702.c	17;"	macro	file:
+SPI_RXCRCR_RESET_VALUE	user\stm8s.h	1703;"	macro
+SPI_SCK_CLR	user\fm1702.c	16;"	macro	file:
+SPI_SCK_SET	user\fm1702.c	15;"	macro	file:
+SPI_SR_BSY	user\stm8s.h	1734;"	macro
+SPI_SR_CRCERR	user\stm8s.h	1737;"	macro
+SPI_SR_MODF	user\stm8s.h	1736;"	macro
+SPI_SR_OVR	user\stm8s.h	1735;"	macro
+SPI_SR_RESET_VALUE	user\stm8s.h	1700;"	macro
+SPI_SR_RXNE	user\stm8s.h	1740;"	macro
+SPI_SR_TXE	user\stm8s.h	1739;"	macro
+SPI_SR_WKUP	user\stm8s.h	1738;"	macro
+SPI_TXCRCR_RESET_VALUE	user\stm8s.h	1704;"	macro
+SPI_TypeDef	user\stm8s.h	1691;"	typedef	typeref:struct:SPI_struct
+SPI_struct	user\stm8s.h	1680;"	struct
+SR	user\stm8s.h	1657;"	member	struct:RST_struct
+SR	user\stm8s.h	1685;"	member	struct:SPI_struct
+SR	user\stm8s.h	1753;"	member	struct:UART1_struct
+SR	user\stm8s.h	1851;"	member	struct:UART2_struct
+SR	user\stm8s.h	1959;"	member	struct:UART3_struct
+SR1	user\stm8s.h	1050;"	member	struct:TIM4_struct
+SR1	user\stm8s.h	1111;"	member	struct:TIM5_struct
+SR1	user\stm8s.h	1250;"	member	struct:TIM6_struct
+SR1	user\stm8s.h	1321;"	member	struct:I2C_struct
+SR1	user\stm8s.h	603;"	member	struct:TIM1_struct
+SR1	user\stm8s.h	816;"	member	struct:TIM2_struct
+SR1	user\stm8s.h	940;"	member	struct:TIM3_struct
+SR2	user\stm8s.h	1112;"	member	struct:TIM5_struct
+SR2	user\stm8s.h	1322;"	member	struct:I2C_struct
+SR2	user\stm8s.h	604;"	member	struct:TIM1_struct
+SR2	user\stm8s.h	817;"	member	struct:TIM2_struct
+SR2	user\stm8s.h	941;"	member	struct:TIM3_struct
+SR3	user\stm8s.h	1323;"	member	struct:I2C_struct
+STRINGVECTOR	user\stm8s.h	2643;"	macro
+SUCCESS	user\stm8s.h	226;"	enumerator	enum:__anon4
+SWCR	user\stm8s.h	499;"	member	struct:CLK_struct
+SWIMCCR	user\stm8s.h	507;"	member	struct:CLK_struct
+SWR	user\stm8s.h	498;"	member	struct:CLK_struct
+SaveUID	user\fm1702.c	164;"	function	file:	signature:(uint8_t row, uint8_t col, uint8_t length)
+SendErrorCode	user\app.c	341;"	function	signature:(uint8_t err)
+SetBit	user\stm8s.h	2674;"	macro
+SetBitFraming	user\fm1702.c	198;"	function	file:	signature:(uint8_t row, uint8_t col)
+TBR	user\stm8s.h	428;"	member	struct:AWU_struct
+TDRH	user\stm8s.h	311;"	member	struct:ADC1_struct
+TDRH	user\stm8s.h	382;"	member	struct:ADC2_struct
+TDRL	user\stm8s.h	312;"	member	struct:ADC1_struct
+TDRL	user\stm8s.h	383;"	member	struct:ADC2_struct
+TECR	user\stm8s.h	2177;"	member	struct:__anon5::__anon6::__anon12
+TIM1	user\stm8s.h	2561;"	macro
+TIM1_ARRH_ARR	user\stm8s.h	765;"	macro
+TIM1_ARRH_RESET_VALUE	user\stm8s.h	655;"	macro
+TIM1_ARRL_ARR	user\stm8s.h	766;"	macro
+TIM1_ARRL_RESET_VALUE	user\stm8s.h	656;"	macro
+TIM1_BKR_AOE	user\stm8s.h	783;"	macro
+TIM1_BKR_BKE	user\stm8s.h	785;"	macro
+TIM1_BKR_BKP	user\stm8s.h	784;"	macro
+TIM1_BKR_LOCK	user\stm8s.h	788;"	macro
+TIM1_BKR_MOE	user\stm8s.h	782;"	macro
+TIM1_BKR_OSSI	user\stm8s.h	787;"	macro
+TIM1_BKR_OSSR	user\stm8s.h	786;"	macro
+TIM1_BKR_RESET_VALUE	user\stm8s.h	666;"	macro
+TIM1_BaseAddress	user\stm8s.h	2469;"	macro
+TIM1_CCER1_CC1E	user\stm8s.h	748;"	macro
+TIM1_CCER1_CC1NE	user\stm8s.h	746;"	macro
+TIM1_CCER1_CC1NP	user\stm8s.h	745;"	macro
+TIM1_CCER1_CC1P	user\stm8s.h	747;"	macro
+TIM1_CCER1_CC2E	user\stm8s.h	744;"	macro
+TIM1_CCER1_CC2NE	user\stm8s.h	742;"	macro
+TIM1_CCER1_CC2NP	user\stm8s.h	741;"	macro
+TIM1_CCER1_CC2P	user\stm8s.h	743;"	macro
+TIM1_CCER1_RESET_VALUE	user\stm8s.h	649;"	macro
+TIM1_CCER2_CC3E	user\stm8s.h	755;"	macro
+TIM1_CCER2_CC3NE	user\stm8s.h	753;"	macro
+TIM1_CCER2_CC3NP	user\stm8s.h	752;"	macro
+TIM1_CCER2_CC3P	user\stm8s.h	754;"	macro
+TIM1_CCER2_CC4E	user\stm8s.h	751;"	macro
+TIM1_CCER2_CC4P	user\stm8s.h	750;"	macro
+TIM1_CCER2_RESET_VALUE	user\stm8s.h	650;"	macro
+TIM1_CCMR1_RESET_VALUE	user\stm8s.h	645;"	macro
+TIM1_CCMR2_RESET_VALUE	user\stm8s.h	646;"	macro
+TIM1_CCMR3_RESET_VALUE	user\stm8s.h	647;"	macro
+TIM1_CCMR4_RESET_VALUE	user\stm8s.h	648;"	macro
+TIM1_CCMR_CCxS	user\stm8s.h	737;"	macro
+TIM1_CCMR_ICxF	user\stm8s.h	733;"	macro
+TIM1_CCMR_ICxPSC	user\stm8s.h	732;"	macro
+TIM1_CCMR_OCM	user\stm8s.h	734;"	macro
+TIM1_CCMR_OCxFE	user\stm8s.h	736;"	macro
+TIM1_CCMR_OCxPE	user\stm8s.h	735;"	macro
+TIM1_CCR1H_CCR1	user\stm8s.h	770;"	macro
+TIM1_CCR1H_RESET_VALUE	user\stm8s.h	658;"	macro
+TIM1_CCR1L_CCR1	user\stm8s.h	771;"	macro
+TIM1_CCR1L_RESET_VALUE	user\stm8s.h	659;"	macro
+TIM1_CCR2H_CCR2	user\stm8s.h	773;"	macro
+TIM1_CCR2H_RESET_VALUE	user\stm8s.h	660;"	macro
+TIM1_CCR2L_CCR2	user\stm8s.h	774;"	macro
+TIM1_CCR2L_RESET_VALUE	user\stm8s.h	661;"	macro
+TIM1_CCR3H_CCR3	user\stm8s.h	776;"	macro
+TIM1_CCR3H_RESET_VALUE	user\stm8s.h	662;"	macro
+TIM1_CCR3L_CCR3	user\stm8s.h	777;"	macro
+TIM1_CCR3L_RESET_VALUE	user\stm8s.h	663;"	macro
+TIM1_CCR4H_CCR4	user\stm8s.h	779;"	macro
+TIM1_CCR4H_RESET_VALUE	user\stm8s.h	664;"	macro
+TIM1_CCR4L_CCR4	user\stm8s.h	780;"	macro
+TIM1_CCR4L_RESET_VALUE	user\stm8s.h	665;"	macro
+TIM1_CNTRH_CNT	user\stm8s.h	757;"	macro
+TIM1_CNTRH_RESET_VALUE	user\stm8s.h	651;"	macro
+TIM1_CNTRL_CNT	user\stm8s.h	759;"	macro
+TIM1_CNTRL_RESET_VALUE	user\stm8s.h	652;"	macro
+TIM1_CR1_ARPE	user\stm8s.h	678;"	macro
+TIM1_CR1_CEN	user\stm8s.h	684;"	macro
+TIM1_CR1_CMS	user\stm8s.h	679;"	macro
+TIM1_CR1_DIR	user\stm8s.h	680;"	macro
+TIM1_CR1_OPM	user\stm8s.h	681;"	macro
+TIM1_CR1_RESET_VALUE	user\stm8s.h	637;"	macro
+TIM1_CR1_UDIS	user\stm8s.h	683;"	macro
+TIM1_CR1_URS	user\stm8s.h	682;"	macro
+TIM1_CR2_CCPC	user\stm8s.h	689;"	macro
+TIM1_CR2_COMS	user\stm8s.h	688;"	macro
+TIM1_CR2_MMS	user\stm8s.h	687;"	macro
+TIM1_CR2_RESET_VALUE	user\stm8s.h	638;"	macro
+TIM1_CR2_TI1S	user\stm8s.h	686;"	macro
+TIM1_DTR_DTG	user\stm8s.h	790;"	macro
+TIM1_DTR_RESET_VALUE	user\stm8s.h	667;"	macro
+TIM1_EGR_BG	user\stm8s.h	723;"	macro
+TIM1_EGR_CC1G	user\stm8s.h	729;"	macro
+TIM1_EGR_CC2G	user\stm8s.h	728;"	macro
+TIM1_EGR_CC3G	user\stm8s.h	727;"	macro
+TIM1_EGR_CC4G	user\stm8s.h	726;"	macro
+TIM1_EGR_COMG	user\stm8s.h	725;"	macro
+TIM1_EGR_RESET_VALUE	user\stm8s.h	644;"	macro
+TIM1_EGR_TG	user\stm8s.h	724;"	macro
+TIM1_EGR_UG	user\stm8s.h	730;"	macro
+TIM1_ETR_ECE	user\stm8s.h	696;"	macro
+TIM1_ETR_ETF	user\stm8s.h	698;"	macro
+TIM1_ETR_ETP	user\stm8s.h	695;"	macro
+TIM1_ETR_ETPS	user\stm8s.h	697;"	macro
+TIM1_ETR_RESET_VALUE	user\stm8s.h	640;"	macro
+TIM1_IER_BIE	user\stm8s.h	700;"	macro
+TIM1_IER_CC1IE	user\stm8s.h	706;"	macro
+TIM1_IER_CC2IE	user\stm8s.h	705;"	macro
+TIM1_IER_CC3IE	user\stm8s.h	704;"	macro
+TIM1_IER_CC4IE	user\stm8s.h	703;"	macro
+TIM1_IER_COMIE	user\stm8s.h	702;"	macro
+TIM1_IER_RESET_VALUE	user\stm8s.h	641;"	macro
+TIM1_IER_TIE	user\stm8s.h	701;"	macro
+TIM1_IER_UIE	user\stm8s.h	707;"	macro
+TIM1_IRQHandler	user\driver.c	34;"	function	signature:(void)
+TIM1_IRQHandler	user\stm8_interrupt_vector.c	22;"	prototype	file:	signature:(void)
+TIM1_OISR_OIS1	user\stm8s.h	798;"	macro
+TIM1_OISR_OIS1N	user\stm8s.h	797;"	macro
+TIM1_OISR_OIS2	user\stm8s.h	796;"	macro
+TIM1_OISR_OIS2N	user\stm8s.h	795;"	macro
+TIM1_OISR_OIS3	user\stm8s.h	794;"	macro
+TIM1_OISR_OIS3N	user\stm8s.h	793;"	macro
+TIM1_OISR_OIS4	user\stm8s.h	792;"	macro
+TIM1_OISR_RESET_VALUE	user\stm8s.h	668;"	macro
+TIM1_PSCH_PSC	user\stm8s.h	761;"	macro
+TIM1_PSCL_PSC	user\stm8s.h	763;"	macro
+TIM1_PSCRH_RESET_VALUE	user\stm8s.h	653;"	macro
+TIM1_PSCRL_RESET_VALUE	user\stm8s.h	654;"	macro
+TIM1_RCR_REP	user\stm8s.h	768;"	macro
+TIM1_RCR_RESET_VALUE	user\stm8s.h	657;"	macro
+TIM1_SMCR_MSM	user\stm8s.h	691;"	macro
+TIM1_SMCR_RESET_VALUE	user\stm8s.h	639;"	macro
+TIM1_SMCR_SMS	user\stm8s.h	693;"	macro
+TIM1_SMCR_TS	user\stm8s.h	692;"	macro
+TIM1_SR1_BIF	user\stm8s.h	709;"	macro
+TIM1_SR1_CC1IF	user\stm8s.h	715;"	macro
+TIM1_SR1_CC2IF	user\stm8s.h	714;"	macro
+TIM1_SR1_CC3IF	user\stm8s.h	713;"	macro
+TIM1_SR1_CC4IF	user\stm8s.h	712;"	macro
+TIM1_SR1_COMIF	user\stm8s.h	711;"	macro
+TIM1_SR1_RESET_VALUE	user\stm8s.h	642;"	macro
+TIM1_SR1_TIF	user\stm8s.h	710;"	macro
+TIM1_SR1_UIF	user\stm8s.h	716;"	macro
+TIM1_SR2_CC1OF	user\stm8s.h	721;"	macro
+TIM1_SR2_CC2OF	user\stm8s.h	720;"	macro
+TIM1_SR2_CC3OF	user\stm8s.h	719;"	macro
+TIM1_SR2_CC4OF	user\stm8s.h	718;"	macro
+TIM1_SR2_RESET_VALUE	user\stm8s.h	643;"	macro
+TIM1_TypeDef	user\stm8s.h	631;"	typedef	typeref:struct:TIM1_struct
+TIM1_struct	user\stm8s.h	596;"	struct
+TIM2	user\stm8s.h	2566;"	macro
+TIM2_ARRH_ARR	user\stm8s.h	916;"	macro
+TIM2_ARRH_RESET_VALUE	user\stm8s.h	855;"	macro
+TIM2_ARRL_ARR	user\stm8s.h	917;"	macro
+TIM2_ARRL_RESET_VALUE	user\stm8s.h	856;"	macro
+TIM2_BaseAddress	user\stm8s.h	2470;"	macro
+TIM2_CCER1_CC1E	user\stm8s.h	906;"	macro
+TIM2_CCER1_CC1P	user\stm8s.h	905;"	macro
+TIM2_CCER1_CC2E	user\stm8s.h	904;"	macro
+TIM2_CCER1_CC2P	user\stm8s.h	903;"	macro
+TIM2_CCER1_RESET_VALUE	user\stm8s.h	850;"	macro
+TIM2_CCER2_CC3E	user\stm8s.h	909;"	macro
+TIM2_CCER2_CC3P	user\stm8s.h	908;"	macro
+TIM2_CCER2_RESET_VALUE	user\stm8s.h	851;"	macro
+TIM2_CCMR1_RESET_VALUE	user\stm8s.h	847;"	macro
+TIM2_CCMR2_RESET_VALUE	user\stm8s.h	848;"	macro
+TIM2_CCMR3_RESET_VALUE	user\stm8s.h	849;"	macro
+TIM2_CCMR_CCxS	user\stm8s.h	901;"	macro
+TIM2_CCMR_ICxF	user\stm8s.h	898;"	macro
+TIM2_CCMR_ICxPSC	user\stm8s.h	897;"	macro
+TIM2_CCMR_OCM	user\stm8s.h	899;"	macro
+TIM2_CCMR_OCxPE	user\stm8s.h	900;"	macro
+TIM2_CCR1H_CCR1	user\stm8s.h	919;"	macro
+TIM2_CCR1H_RESET_VALUE	user\stm8s.h	857;"	macro
+TIM2_CCR1L_CCR1	user\stm8s.h	920;"	macro
+TIM2_CCR1L_RESET_VALUE	user\stm8s.h	858;"	macro
+TIM2_CCR2H_CCR2	user\stm8s.h	922;"	macro
+TIM2_CCR2H_RESET_VALUE	user\stm8s.h	859;"	macro
+TIM2_CCR2L_CCR2	user\stm8s.h	923;"	macro
+TIM2_CCR2L_RESET_VALUE	user\stm8s.h	860;"	macro
+TIM2_CCR3H_CCR3	user\stm8s.h	925;"	macro
+TIM2_CCR3H_RESET_VALUE	user\stm8s.h	861;"	macro
+TIM2_CCR3L_CCR3	user\stm8s.h	926;"	macro
+TIM2_CCR3L_RESET_VALUE	user\stm8s.h	862;"	macro
+TIM2_CNTRH_CNT	user\stm8s.h	911;"	macro
+TIM2_CNTRH_RESET_VALUE	user\stm8s.h	852;"	macro
+TIM2_CNTRL_CNT	user\stm8s.h	912;"	macro
+TIM2_CNTRL_RESET_VALUE	user\stm8s.h	853;"	macro
+TIM2_CR1_ARPE	user\stm8s.h	872;"	macro
+TIM2_CR1_CEN	user\stm8s.h	876;"	macro
+TIM2_CR1_OPM	user\stm8s.h	873;"	macro
+TIM2_CR1_RESET_VALUE	user\stm8s.h	842;"	macro
+TIM2_CR1_UDIS	user\stm8s.h	875;"	macro
+TIM2_CR1_URS	user\stm8s.h	874;"	macro
+TIM2_EGR_CC1G	user\stm8s.h	894;"	macro
+TIM2_EGR_CC2G	user\stm8s.h	893;"	macro
+TIM2_EGR_CC3G	user\stm8s.h	892;"	macro
+TIM2_EGR_RESET_VALUE	user\stm8s.h	846;"	macro
+TIM2_EGR_UG	user\stm8s.h	895;"	macro
+TIM2_IER_CC1IE	user\stm8s.h	880;"	macro
+TIM2_IER_CC2IE	user\stm8s.h	879;"	macro
+TIM2_IER_CC3IE	user\stm8s.h	878;"	macro
+TIM2_IER_RESET_VALUE	user\stm8s.h	843;"	macro
+TIM2_IER_UIE	user\stm8s.h	881;"	macro
+TIM2_PSCR_PSC	user\stm8s.h	914;"	macro
+TIM2_PSCR_RESET_VALUE	user\stm8s.h	854;"	macro
+TIM2_SR1_CC1IF	user\stm8s.h	885;"	macro
+TIM2_SR1_CC2IF	user\stm8s.h	884;"	macro
+TIM2_SR1_CC3IF	user\stm8s.h	883;"	macro
+TIM2_SR1_RESET_VALUE	user\stm8s.h	844;"	macro
+TIM2_SR1_UIF	user\stm8s.h	886;"	macro
+TIM2_SR2_CC1OF	user\stm8s.h	890;"	macro
+TIM2_SR2_CC2OF	user\stm8s.h	889;"	macro
+TIM2_SR2_CC3OF	user\stm8s.h	888;"	macro
+TIM2_SR2_RESET_VALUE	user\stm8s.h	845;"	macro
+TIM2_TypeDef	user\stm8s.h	836;"	typedef	typeref:struct:TIM2_struct
+TIM2_struct	user\stm8s.h	808;"	struct
+TIM3	user\stm8s.h	2571;"	macro
+TIM3_ARRH_ARR	user\stm8s.h	1025;"	macro
+TIM3_ARRH_RESET_VALUE	user\stm8s.h	973;"	macro
+TIM3_ARRL_ARR	user\stm8s.h	1026;"	macro
+TIM3_ARRL_RESET_VALUE	user\stm8s.h	974;"	macro
+TIM3_BaseAddress	user\stm8s.h	2471;"	macro
+TIM3_CCER1_CC1E	user\stm8s.h	1018;"	macro
+TIM3_CCER1_CC1P	user\stm8s.h	1017;"	macro
+TIM3_CCER1_CC2E	user\stm8s.h	1016;"	macro
+TIM3_CCER1_CC2P	user\stm8s.h	1015;"	macro
+TIM3_CCER1_RESET_VALUE	user\stm8s.h	969;"	macro
+TIM3_CCMR1_RESET_VALUE	user\stm8s.h	967;"	macro
+TIM3_CCMR2_RESET_VALUE	user\stm8s.h	968;"	macro
+TIM3_CCMR_CCxS	user\stm8s.h	1013;"	macro
+TIM3_CCMR_ICxF	user\stm8s.h	1010;"	macro
+TIM3_CCMR_ICxPSC	user\stm8s.h	1009;"	macro
+TIM3_CCMR_OCM	user\stm8s.h	1011;"	macro
+TIM3_CCMR_OCxPE	user\stm8s.h	1012;"	macro
+TIM3_CCR1H_CCR1	user\stm8s.h	1028;"	macro
+TIM3_CCR1H_RESET_VALUE	user\stm8s.h	975;"	macro
+TIM3_CCR1L_CCR1	user\stm8s.h	1029;"	macro
+TIM3_CCR1L_RESET_VALUE	user\stm8s.h	976;"	macro
+TIM3_CCR2H_CCR2	user\stm8s.h	1031;"	macro
+TIM3_CCR2H_RESET_VALUE	user\stm8s.h	977;"	macro
+TIM3_CCR2L_CCR2	user\stm8s.h	1032;"	macro
+TIM3_CCR2L_RESET_VALUE	user\stm8s.h	978;"	macro
+TIM3_CNTRH_CNT	user\stm8s.h	1020;"	macro
+TIM3_CNTRH_RESET_VALUE	user\stm8s.h	970;"	macro
+TIM3_CNTRL_CNT	user\stm8s.h	1021;"	macro
+TIM3_CNTRL_RESET_VALUE	user\stm8s.h	971;"	macro
+TIM3_CR1_ARPE	user\stm8s.h	988;"	macro
+TIM3_CR1_CEN	user\stm8s.h	992;"	macro
+TIM3_CR1_OPM	user\stm8s.h	989;"	macro
+TIM3_CR1_RESET_VALUE	user\stm8s.h	962;"	macro
+TIM3_CR1_UDIS	user\stm8s.h	991;"	macro
+TIM3_CR1_URS	user\stm8s.h	990;"	macro
+TIM3_EGR_CC1G	user\stm8s.h	1006;"	macro
+TIM3_EGR_CC2G	user\stm8s.h	1005;"	macro
+TIM3_EGR_RESET_VALUE	user\stm8s.h	966;"	macro
+TIM3_EGR_UG	user\stm8s.h	1007;"	macro
+TIM3_IER_CC1IE	user\stm8s.h	995;"	macro
+TIM3_IER_CC2IE	user\stm8s.h	994;"	macro
+TIM3_IER_RESET_VALUE	user\stm8s.h	963;"	macro
+TIM3_IER_UIE	user\stm8s.h	996;"	macro
+TIM3_PSCR_PSC	user\stm8s.h	1023;"	macro
+TIM3_PSCR_RESET_VALUE	user\stm8s.h	972;"	macro
+TIM3_SR1_CC1IF	user\stm8s.h	999;"	macro
+TIM3_SR1_CC2IF	user\stm8s.h	998;"	macro
+TIM3_SR1_RESET_VALUE	user\stm8s.h	964;"	macro
+TIM3_SR1_UIF	user\stm8s.h	1000;"	macro
+TIM3_SR2_CC1OF	user\stm8s.h	1003;"	macro
+TIM3_SR2_CC2OF	user\stm8s.h	1002;"	macro
+TIM3_SR2_RESET_VALUE	user\stm8s.h	965;"	macro
+TIM3_TypeDef	user\stm8s.h	956;"	typedef	typeref:struct:TIM3_struct
+TIM3_struct	user\stm8s.h	936;"	struct
+TIM4	user\stm8s.h	2577;"	macro
+TIM4_ARR_ARR	user\stm8s.h	1094;"	macro
+TIM4_ARR_RESET_VALUE	user\stm8s.h	1068;"	macro
+TIM4_BaseAddress	user\stm8s.h	2472;"	macro
+TIM4_CNTR_CNT	user\stm8s.h	1090;"	macro
+TIM4_CNTR_RESET_VALUE	user\stm8s.h	1066;"	macro
+TIM4_CR1_ARPE	user\stm8s.h	1078;"	macro
+TIM4_CR1_CEN	user\stm8s.h	1082;"	macro
+TIM4_CR1_OPM	user\stm8s.h	1079;"	macro
+TIM4_CR1_RESET_VALUE	user\stm8s.h	1062;"	macro
+TIM4_CR1_UDIS	user\stm8s.h	1081;"	macro
+TIM4_CR1_URS	user\stm8s.h	1080;"	macro
+TIM4_EGR_RESET_VALUE	user\stm8s.h	1065;"	macro
+TIM4_EGR_UG	user\stm8s.h	1088;"	macro
+TIM4_IER_RESET_VALUE	user\stm8s.h	1063;"	macro
+TIM4_IER_UIE	user\stm8s.h	1084;"	macro
+TIM4_IRQHandler	user\driver.c	284;"	function	signature:(void)
+TIM4_IRQHandler	user\stm8_interrupt_vector.c	23;"	prototype	file:	signature:(void)
+TIM4_PSCR_PSC	user\stm8s.h	1092;"	macro
+TIM4_PSCR_RESET_VALUE	user\stm8s.h	1067;"	macro
+TIM4_SR1_RESET_VALUE	user\stm8s.h	1064;"	macro
+TIM4_SR1_UIF	user\stm8s.h	1086;"	macro
+TIM4_TypeDef	user\stm8s.h	1056;"	typedef	typeref:struct:TIM4_struct
+TIM4_struct	user\stm8s.h	1042;"	struct
+TIM5	user\stm8s.h	2581;"	macro
+TIM5_ARRH_ARR	user\stm8s.h	1222;"	macro
+TIM5_ARRH_RESET_VALUE	user\stm8s.h	1151;"	macro
+TIM5_ARRL_ARR	user\stm8s.h	1223;"	macro
+TIM5_ARRL_RESET_VALUE	user\stm8s.h	1152;"	macro
+TIM5_BaseAddress	user\stm8s.h	2473;"	macro
+TIM5_CCER1_CC1E	user\stm8s.h	1212;"	macro
+TIM5_CCER1_CC1P	user\stm8s.h	1211;"	macro
+TIM5_CCER1_CC2E	user\stm8s.h	1210;"	macro
+TIM5_CCER1_CC2P	user\stm8s.h	1209;"	macro
+TIM5_CCER1_RESET_VALUE	user\stm8s.h	1146;"	macro
+TIM5_CCER2_CC3E	user\stm8s.h	1215;"	macro
+TIM5_CCER2_CC3P	user\stm8s.h	1214;"	macro
+TIM5_CCER2_RESET_VALUE	user\stm8s.h	1147;"	macro
+TIM5_CCMR1_RESET_VALUE	user\stm8s.h	1143;"	macro
+TIM5_CCMR2_RESET_VALUE	user\stm8s.h	1144;"	macro
+TIM5_CCMR3_RESET_VALUE	user\stm8s.h	1145;"	macro
+TIM5_CCMR_CCxS	user\stm8s.h	1207;"	macro
+TIM5_CCMR_ICxF	user\stm8s.h	1204;"	macro
+TIM5_CCMR_ICxPSC	user\stm8s.h	1203;"	macro
+TIM5_CCMR_OCM	user\stm8s.h	1205;"	macro
+TIM5_CCMR_OCxPE	user\stm8s.h	1206;"	macro
+TIM5_CCMR_TIxDirect_Set	user\stm8s.h	1234;"	macro
+TIM5_CCR1H_CCR1	user\stm8s.h	1225;"	macro
+TIM5_CCR1H_RESET_VALUE	user\stm8s.h	1153;"	macro
+TIM5_CCR1L_CCR1	user\stm8s.h	1226;"	macro
+TIM5_CCR1L_RESET_VALUE	user\stm8s.h	1154;"	macro
+TIM5_CCR2H_CCR2	user\stm8s.h	1228;"	macro
+TIM5_CCR2H_RESET_VALUE	user\stm8s.h	1155;"	macro
+TIM5_CCR2L_CCR2	user\stm8s.h	1229;"	macro
+TIM5_CCR2L_RESET_VALUE	user\stm8s.h	1156;"	macro
+TIM5_CCR3H_CCR3	user\stm8s.h	1231;"	macro
+TIM5_CCR3H_RESET_VALUE	user\stm8s.h	1157;"	macro
+TIM5_CCR3L_CCR3	user\stm8s.h	1232;"	macro
+TIM5_CCR3L_RESET_VALUE	user\stm8s.h	1158;"	macro
+TIM5_CNTRH_CNT	user\stm8s.h	1217;"	macro
+TIM5_CNTRH_RESET_VALUE	user\stm8s.h	1148;"	macro
+TIM5_CNTRL_CNT	user\stm8s.h	1218;"	macro
+TIM5_CNTRL_RESET_VALUE	user\stm8s.h	1149;"	macro
+TIM5_CR1_ARPE	user\stm8s.h	1168;"	macro
+TIM5_CR1_CEN	user\stm8s.h	1172;"	macro
+TIM5_CR1_OPM	user\stm8s.h	1169;"	macro
+TIM5_CR1_RESET_VALUE	user\stm8s.h	1136;"	macro
+TIM5_CR1_UDIS	user\stm8s.h	1171;"	macro
+TIM5_CR1_URS	user\stm8s.h	1170;"	macro
+TIM5_CR2_MMS	user\stm8s.h	1175;"	macro
+TIM5_CR2_RESET_VALUE	user\stm8s.h	1137;"	macro
+TIM5_CR2_TI1S	user\stm8s.h	1174;"	macro
+TIM5_EGR_CC1G	user\stm8s.h	1200;"	macro
+TIM5_EGR_CC2G	user\stm8s.h	1199;"	macro
+TIM5_EGR_CC3G	user\stm8s.h	1198;"	macro
+TIM5_EGR_RESET_VALUE	user\stm8s.h	1142;"	macro
+TIM5_EGR_TG	user\stm8s.h	1197;"	macro
+TIM5_EGR_UG	user\stm8s.h	1201;"	macro
+TIM5_IER_CC1IE	user\stm8s.h	1184;"	macro
+TIM5_IER_CC2IE	user\stm8s.h	1183;"	macro
+TIM5_IER_CC3IE	user\stm8s.h	1182;"	macro
+TIM5_IER_RESET_VALUE	user\stm8s.h	1139;"	macro
+TIM5_IER_TIE	user\stm8s.h	1181;"	macro
+TIM5_IER_UIE	user\stm8s.h	1185;"	macro
+TIM5_PSCR_PSC	user\stm8s.h	1220;"	macro
+TIM5_PSCR_RESET_VALUE	user\stm8s.h	1150;"	macro
+TIM5_SMCR_MSM	user\stm8s.h	1177;"	macro
+TIM5_SMCR_RESET_VALUE	user\stm8s.h	1138;"	macro
+TIM5_SMCR_SMS	user\stm8s.h	1179;"	macro
+TIM5_SMCR_TS	user\stm8s.h	1178;"	macro
+TIM5_SR1_CC1IF	user\stm8s.h	1190;"	macro
+TIM5_SR1_CC2IF	user\stm8s.h	1189;"	macro
+TIM5_SR1_CC3IF	user\stm8s.h	1188;"	macro
+TIM5_SR1_RESET_VALUE	user\stm8s.h	1140;"	macro
+TIM5_SR1_TIF	user\stm8s.h	1187;"	macro
+TIM5_SR1_UIF	user\stm8s.h	1191;"	macro
+TIM5_SR2_CC1OF	user\stm8s.h	1195;"	macro
+TIM5_SR2_CC2OF	user\stm8s.h	1194;"	macro
+TIM5_SR2_CC3OF	user\stm8s.h	1193;"	macro
+TIM5_SR2_RESET_VALUE	user\stm8s.h	1141;"	macro
+TIM5_TypeDef	user\stm8s.h	1130;"	typedef	typeref:struct:TIM5_struct
+TIM5_struct	user\stm8s.h	1105;"	struct
+TIM6	user\stm8s.h	2582;"	macro
+TIM6_ARR_ARR	user\stm8s.h	1303;"	macro
+TIM6_ARR_RESET_VALUE	user\stm8s.h	1268;"	macro
+TIM6_BaseAddress	user\stm8s.h	2474;"	macro
+TIM6_CNTR_CNT	user\stm8s.h	1299;"	macro
+TIM6_CNTR_RESET_VALUE	user\stm8s.h	1266;"	macro
+TIM6_CR1_ARPE	user\stm8s.h	1278;"	macro
+TIM6_CR1_CEN	user\stm8s.h	1282;"	macro
+TIM6_CR1_OPM	user\stm8s.h	1279;"	macro
+TIM6_CR1_RESET_VALUE	user\stm8s.h	1260;"	macro
+TIM6_CR1_UDIS	user\stm8s.h	1281;"	macro
+TIM6_CR1_URS	user\stm8s.h	1280;"	macro
+TIM6_CR2_MMS	user\stm8s.h	1284;"	macro
+TIM6_CR2_RESET_VALUE	user\stm8s.h	1261;"	macro
+TIM6_EGR_RESET_VALUE	user\stm8s.h	1265;"	macro
+TIM6_EGR_TG	user\stm8s.h	1296;"	macro
+TIM6_EGR_UG	user\stm8s.h	1297;"	macro
+TIM6_IER_RESET_VALUE	user\stm8s.h	1263;"	macro
+TIM6_IER_TIE	user\stm8s.h	1290;"	macro
+TIM6_IER_UIE	user\stm8s.h	1291;"	macro
+TIM6_PSCR_PSC	user\stm8s.h	1301;"	macro
+TIM6_PSCR_RESET_VALUE	user\stm8s.h	1267;"	macro
+TIM6_SMCR_MSM	user\stm8s.h	1286;"	macro
+TIM6_SMCR_RESET_VALUE	user\stm8s.h	1262;"	macro
+TIM6_SMCR_SMS	user\stm8s.h	1288;"	macro
+TIM6_SMCR_TS	user\stm8s.h	1287;"	macro
+TIM6_SR1_RESET_VALUE	user\stm8s.h	1264;"	macro
+TIM6_SR1_TIF	user\stm8s.h	1293;"	macro
+TIM6_SR1_UIF	user\stm8s.h	1294;"	macro
+TIM6_TypeDef	user\stm8s.h	1256;"	typedef	typeref:struct:TIM6_struct
+TIM6_struct	user\stm8s.h	1244;"	struct
+TIMER_MAX_COUNT	user\cfg.h	29;"	macro
+TIMER_TASK	user\caframe.h	171;"	typedef	typeref:struct:tag_timer_task
+TINY	user\stm8s.h	114;"	macro
+TINY	user\stm8s.h	120;"	macro
+TINY	user\stm8s.h	134;"	macro
+TPR	user\stm8s.h	2055;"	member	struct:__anon5
+TRISER	user\stm8s.h	1327;"	member	struct:I2C_struct
+TRUE	user\stm8s.h	219;"	enumerator	enum:__anon1
+TSR	user\stm8s.h	2054;"	member	struct:__anon5
+TXCRCR	user\stm8s.h	1689;"	member	struct:SPI_struct
+Timer1Event	user\app.c	457;"	function	signature:(void)
+Timer1Open	user\driver.c	45;"	function	signature:(void)
+TxMailbox	user\stm8s.h	2082;"	member	union:__anon5::__anon6	typeref:struct:__anon5::__anon6::__anon7
+U16_MAX	user\stm8s.h	231;"	macro
+U32_MAX	user\stm8s.h	234;"	macro
+U8_MAX	user\stm8s.h	228;"	macro
+UART1	user\stm8s.h	2549;"	macro
+UART1_BRR1_DIVM	user\stm8s.h	1799;"	macro
+UART1_BRR1_RESET_VALUE	user\stm8s.h	1772;"	macro
+UART1_BRR2_DIVF	user\stm8s.h	1802;"	macro
+UART1_BRR2_DIVM	user\stm8s.h	1801;"	macro
+UART1_BRR2_RESET_VALUE	user\stm8s.h	1773;"	macro
+UART1_BaseAddress	user\stm8s.h	2466;"	macro
+UART1_CR1_M	user\stm8s.h	1807;"	macro
+UART1_CR1_PCEN	user\stm8s.h	1809;"	macro
+UART1_CR1_PIEN	user\stm8s.h	1811;"	macro
+UART1_CR1_PS	user\stm8s.h	1810;"	macro
+UART1_CR1_R8	user\stm8s.h	1804;"	macro
+UART1_CR1_RESET_VALUE	user\stm8s.h	1774;"	macro
+UART1_CR1_T8	user\stm8s.h	1805;"	macro
+UART1_CR1_UARTD	user\stm8s.h	1806;"	macro
+UART1_CR1_WAKE	user\stm8s.h	1808;"	macro
+UART1_CR2_ILIEN	user\stm8s.h	1816;"	macro
+UART1_CR2_REN	user\stm8s.h	1818;"	macro
+UART1_CR2_RESET_VALUE	user\stm8s.h	1775;"	macro
+UART1_CR2_RIEN	user\stm8s.h	1815;"	macro
+UART1_CR2_RWU	user\stm8s.h	1819;"	macro
+UART1_CR2_SBK	user\stm8s.h	1820;"	macro
+UART1_CR2_TCIEN	user\stm8s.h	1814;"	macro
+UART1_CR2_TEN	user\stm8s.h	1817;"	macro
+UART1_CR2_TIEN	user\stm8s.h	1813;"	macro
+UART1_CR3_CKEN	user\stm8s.h	1824;"	macro
+UART1_CR3_CPHA	user\stm8s.h	1826;"	macro
+UART1_CR3_CPOL	user\stm8s.h	1825;"	macro
+UART1_CR3_LBCL	user\stm8s.h	1827;"	macro
+UART1_CR3_LINEN	user\stm8s.h	1822;"	macro
+UART1_CR3_RESET_VALUE	user\stm8s.h	1776;"	macro
+UART1_CR3_STOP	user\stm8s.h	1823;"	macro
+UART1_CR4_ADD	user\stm8s.h	1832;"	macro
+UART1_CR4_LBDF	user\stm8s.h	1831;"	macro
+UART1_CR4_LBDIEN	user\stm8s.h	1829;"	macro
+UART1_CR4_LBDL	user\stm8s.h	1830;"	macro
+UART1_CR4_RESET_VALUE	user\stm8s.h	1777;"	macro
+UART1_CR5_HDSEL	user\stm8s.h	1836;"	macro
+UART1_CR5_IREN	user\stm8s.h	1838;"	macro
+UART1_CR5_IRLP	user\stm8s.h	1837;"	macro
+UART1_CR5_NACK	user\stm8s.h	1835;"	macro
+UART1_CR5_RESET_VALUE	user\stm8s.h	1778;"	macro
+UART1_CR5_SCEN	user\stm8s.h	1834;"	macro
+UART1_GTR_RESET_VALUE	user\stm8s.h	1779;"	macro
+UART1_Init	user\driver.h	20;"	prototype	signature:(void)
+UART1_PSCR_RESET_VALUE	user\stm8s.h	1780;"	macro
+UART1_RX_Handler	user\driver.c	320;"	function	signature:(void)
+UART1_RX_Handler	user\stm8_interrupt_vector.c	24;"	prototype	file:	signature:(void)
+UART1_SR_FE	user\stm8s.h	1796;"	macro
+UART1_SR_IDLE	user\stm8s.h	1793;"	macro
+UART1_SR_NF	user\stm8s.h	1795;"	macro
+UART1_SR_OR	user\stm8s.h	1794;"	macro
+UART1_SR_PE	user\stm8s.h	1797;"	macro
+UART1_SR_RESET_VALUE	user\stm8s.h	1771;"	macro
+UART1_SR_RXNE	user\stm8s.h	1792;"	macro
+UART1_SR_TC	user\stm8s.h	1791;"	macro
+UART1_SR_TXE	user\stm8s.h	1790;"	macro
+UART1_TX_Handler	user\driver.c	330;"	function	signature:(void)
+UART1_TX_Handler	user\stm8_interrupt_vector.c	25;"	prototype	file:	signature:(void)
+UART1_TypeDef	user\stm8s.h	1765;"	typedef	typeref:struct:UART1_struct
+UART1_struct	user\stm8s.h	1751;"	struct
+UART2	user\stm8s.h	2553;"	macro
+UART2_BRR1_DIVM	user\stm8s.h	1899;"	macro
+UART2_BRR1_RESET_VALUE	user\stm8s.h	1871;"	macro
+UART2_BRR2_DIVF	user\stm8s.h	1902;"	macro
+UART2_BRR2_DIVM	user\stm8s.h	1901;"	macro
+UART2_BRR2_RESET_VALUE	user\stm8s.h	1872;"	macro
+UART2_BaseAddress	user\stm8s.h	2467;"	macro
+UART2_CR1_M	user\stm8s.h	1907;"	macro
+UART2_CR1_PCEN	user\stm8s.h	1909;"	macro
+UART2_CR1_PIEN	user\stm8s.h	1911;"	macro
+UART2_CR1_PS	user\stm8s.h	1910;"	macro
+UART2_CR1_R8	user\stm8s.h	1904;"	macro
+UART2_CR1_RESET_VALUE	user\stm8s.h	1873;"	macro
+UART2_CR1_T8	user\stm8s.h	1905;"	macro
+UART2_CR1_UARTD	user\stm8s.h	1906;"	macro
+UART2_CR1_WAKE	user\stm8s.h	1908;"	macro
+UART2_CR2_ILIEN	user\stm8s.h	1916;"	macro
+UART2_CR2_REN	user\stm8s.h	1918;"	macro
+UART2_CR2_RESET_VALUE	user\stm8s.h	1874;"	macro
+UART2_CR2_RIEN	user\stm8s.h	1915;"	macro
+UART2_CR2_RWU	user\stm8s.h	1919;"	macro
+UART2_CR2_SBK	user\stm8s.h	1920;"	macro
+UART2_CR2_TCIEN	user\stm8s.h	1914;"	macro
+UART2_CR2_TEN	user\stm8s.h	1917;"	macro
+UART2_CR2_TIEN	user\stm8s.h	1913;"	macro
+UART2_CR3_CKEN	user\stm8s.h	1924;"	macro
+UART2_CR3_CPHA	user\stm8s.h	1926;"	macro
+UART2_CR3_CPOL	user\stm8s.h	1925;"	macro
+UART2_CR3_LBCL	user\stm8s.h	1927;"	macro
+UART2_CR3_LINEN	user\stm8s.h	1922;"	macro
+UART2_CR3_RESET_VALUE	user\stm8s.h	1875;"	macro
+UART2_CR3_STOP	user\stm8s.h	1923;"	macro
+UART2_CR4_ADD	user\stm8s.h	1932;"	macro
+UART2_CR4_LBDF	user\stm8s.h	1931;"	macro
+UART2_CR4_LBDIEN	user\stm8s.h	1929;"	macro
+UART2_CR4_LBDL	user\stm8s.h	1930;"	macro
+UART2_CR4_RESET_VALUE	user\stm8s.h	1876;"	macro
+UART2_CR5_HDSEL	user\stm8s.h	1936;"	macro
+UART2_CR5_IREN	user\stm8s.h	1938;"	macro
+UART2_CR5_IRLP	user\stm8s.h	1937;"	macro
+UART2_CR5_NACK	user\stm8s.h	1935;"	macro
+UART2_CR5_RESET_VALUE	user\stm8s.h	1877;"	macro
+UART2_CR5_SCEN	user\stm8s.h	1934;"	macro
+UART2_CR6_LASE	user\stm8s.h	1942;"	macro
+UART2_CR6_LDUM	user\stm8s.h	1940;"	macro
+UART2_CR6_LHDF	user\stm8s.h	1944;"	macro
+UART2_CR6_LHDIEN	user\stm8s.h	1943;"	macro
+UART2_CR6_LSF	user\stm8s.h	1945;"	macro
+UART2_CR6_LSLV	user\stm8s.h	1941;"	macro
+UART2_CR6_RESET_VALUE	user\stm8s.h	1878;"	macro
+UART2_GTR_RESET_VALUE	user\stm8s.h	1879;"	macro
+UART2_PSCR_RESET_VALUE	user\stm8s.h	1880;"	macro
+UART2_SR_FE	user\stm8s.h	1896;"	macro
+UART2_SR_IDLE	user\stm8s.h	1893;"	macro
+UART2_SR_NF	user\stm8s.h	1895;"	macro
+UART2_SR_OR	user\stm8s.h	1894;"	macro
+UART2_SR_PE	user\stm8s.h	1897;"	macro
+UART2_SR_RESET_VALUE	user\stm8s.h	1870;"	macro
+UART2_SR_RXNE	user\stm8s.h	1892;"	macro
+UART2_SR_TC	user\stm8s.h	1891;"	macro
+UART2_SR_TXE	user\stm8s.h	1890;"	macro
+UART2_TypeDef	user\stm8s.h	1864;"	typedef	typeref:struct:UART2_struct
+UART2_struct	user\stm8s.h	1849;"	struct
+UART3	user\stm8s.h	2558;"	macro
+UART3_BRR1_DIVM	user\stm8s.h	2002;"	macro
+UART3_BRR1_RESET_VALUE	user\stm8s.h	1977;"	macro
+UART3_BRR2_DIVF	user\stm8s.h	2005;"	macro
+UART3_BRR2_DIVM	user\stm8s.h	2004;"	macro
+UART3_BRR2_RESET_VALUE	user\stm8s.h	1978;"	macro
+UART3_BaseAddress	user\stm8s.h	2468;"	macro
+UART3_CR1_M	user\stm8s.h	2010;"	macro
+UART3_CR1_PCEN	user\stm8s.h	2012;"	macro
+UART3_CR1_PIEN	user\stm8s.h	2014;"	macro
+UART3_CR1_PS	user\stm8s.h	2013;"	macro
+UART3_CR1_R8	user\stm8s.h	2007;"	macro
+UART3_CR1_RESET_VALUE	user\stm8s.h	1979;"	macro
+UART3_CR1_T8	user\stm8s.h	2008;"	macro
+UART3_CR1_UARTD	user\stm8s.h	2009;"	macro
+UART3_CR1_WAKE	user\stm8s.h	2011;"	macro
+UART3_CR2_ILIEN	user\stm8s.h	2019;"	macro
+UART3_CR2_REN	user\stm8s.h	2021;"	macro
+UART3_CR2_RESET_VALUE	user\stm8s.h	1980;"	macro
+UART3_CR2_RIEN	user\stm8s.h	2018;"	macro
+UART3_CR2_RWU	user\stm8s.h	2022;"	macro
+UART3_CR2_SBK	user\stm8s.h	2023;"	macro
+UART3_CR2_TCIEN	user\stm8s.h	2017;"	macro
+UART3_CR2_TEN	user\stm8s.h	2020;"	macro
+UART3_CR2_TIEN	user\stm8s.h	2016;"	macro
+UART3_CR3_LINEN	user\stm8s.h	2025;"	macro
+UART3_CR3_RESET_VALUE	user\stm8s.h	1981;"	macro
+UART3_CR3_STOP	user\stm8s.h	2026;"	macro
+UART3_CR4_ADD	user\stm8s.h	2031;"	macro
+UART3_CR4_LBDF	user\stm8s.h	2030;"	macro
+UART3_CR4_LBDIEN	user\stm8s.h	2028;"	macro
+UART3_CR4_LBDL	user\stm8s.h	2029;"	macro
+UART3_CR4_RESET_VALUE	user\stm8s.h	1982;"	macro
+UART3_CR6_LASE	user\stm8s.h	2035;"	macro
+UART3_CR6_LDUM	user\stm8s.h	2033;"	macro
+UART3_CR6_LHDF	user\stm8s.h	2037;"	macro
+UART3_CR6_LHDIEN	user\stm8s.h	2036;"	macro
+UART3_CR6_LSF	user\stm8s.h	2038;"	macro
+UART3_CR6_LSLV	user\stm8s.h	2034;"	macro
+UART3_CR6_RESET_VALUE	user\stm8s.h	1983;"	macro
+UART3_SR_FE	user\stm8s.h	1999;"	macro
+UART3_SR_IDLE	user\stm8s.h	1996;"	macro
+UART3_SR_NF	user\stm8s.h	1998;"	macro
+UART3_SR_OR	user\stm8s.h	1997;"	macro
+UART3_SR_PE	user\stm8s.h	2000;"	macro
+UART3_SR_RESET_VALUE	user\stm8s.h	1976;"	macro
+UART3_SR_RXNE	user\stm8s.h	1995;"	macro
+UART3_SR_TC	user\stm8s.h	1994;"	macro
+UART3_SR_TXE	user\stm8s.h	1993;"	macro
+UART3_TypeDef	user\stm8s.h	1970;"	typedef	typeref:struct:UART3_struct
+UART3_struct	user\stm8s.h	1957;"	struct
+UartPutc	user\driver.h	22;"	prototype	signature:(uint8_t c)
+UartRecv	user\app.c	401;"	function	signature:(void)
+UartSend	user\driver.h	21;"	prototype	signature:(uint8_t *buf,uint8_t size)
+VECTOR_ID	user\stm8s.h	2644;"	macro
+ValBit	user\stm8s.h	2683;"	macro
+WDT_ENABLE	user\driver.h	11;"	macro
+WR	user\stm8s.h	1620;"	member	struct:WWDG_struct
+WWDG	user\stm8s.h	2541;"	macro
+WWDG_BaseAddress	user\stm8s.h	2460;"	macro
+WWDG_CR_RESET_VALUE	user\stm8s.h	1628;"	macro
+WWDG_CR_T	user\stm8s.h	1641;"	macro
+WWDG_CR_T6	user\stm8s.h	1640;"	macro
+WWDG_CR_WDGA	user\stm8s.h	1639;"	macro
+WWDG_TypeDef	user\stm8s.h	1622;"	typedef	typeref:struct:WWDG_struct
+WWDG_WR_MSB	user\stm8s.h	1643;"	macro
+WWDG_WR_RESET_VALUE	user\stm8s.h	1629;"	macro
+WWDG_WR_W	user\stm8s.h	1644;"	macro
+WWDG_struct	user\stm8s.h	1617;"	struct
+WriteBalance	user\app.c	110;"	function	signature:(uint8_t *buf,uint16_t val)
+_COSMIC_	user\stm8s.h	73;"	macro
+_IAR_	user\stm8s.h	77;"	macro
+_RAISONANCE_	user\stm8s.h	75;"	macro
+__I	user\stm8s.h	194;"	macro
+__IO	user\stm8s.h	196;"	macro
+__MODSL0__	c:\program files\cosmic\cxstm8_32k\hstm8\modsl0.h	8;"	macro
+__O	user\stm8s.h	195;"	macro
+__STM8S_H	user\stm8s.h	24;"	macro
+__STM8S_STDPERIPH_VERSION	user\stm8s.h	174;"	macro
+__STM8S_STDPERIPH_VERSION_MAIN	user\stm8s.h	170;"	macro
+__STM8S_STDPERIPH_VERSION_RC	user\stm8s.h	173;"	macro
+__STM8S_STDPERIPH_VERSION_SUB1	user\stm8s.h	171;"	macro
+__STM8S_STDPERIPH_VERSION_SUB2	user\stm8s.h	172;"	macro
+__STRING__	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	6;"	macro
+_stext	user\stm8_interrupt_vector.c	21;"	prototype	file:
+_vectab	user\stm8_interrupt_vector.c	27;"	variable
+bool	user\stm8s.h	219;"	typedef	typeref:enum:__anon1
+buf_size	user\queue.h	9;"	member	struct:QUEUE_S
+busy	user\caframe.h	169;"	member	struct:tag_timer_task
+cfg	user\caframe.h	145;"	member	struct:tag_timer_event
+cnt	user\caframe.h	147;"	member	struct:tag_timer_event
+counter	user\caframe.h	170;"	member	struct:tag_timer_task
+crc16_update	user\app.c	54;"	function	signature:(uint16_t crc, uint8_t a)
+data_count	user\queue.h	11;"	member	struct:QUEUE_S
+disableInterrupts	user\stm8s.h	2602;"	macro
+disableInterrupts	user\stm8s.h	2611;"	macro
+disableInterrupts	user\stm8s.h	2621;"	macro
+drv_eeprom_read	user\caframe.h	290;"	prototype	signature:(uint16_t addr,uint8_t *buf,uint8_t size)
+drv_eeprom_read	user\driver.c	161;"	function	signature:(uint16_t addr,uint8_t *buf,uint8_t size)
+drv_eeprom_write	user\caframe.h	298;"	prototype	signature:(uint16_t addr,uint8_t *buf,uint8_t size)
+drv_eeprom_write	user\driver.c	170;"	function	signature:(uint16_t addr,uint8_t *buf,uint8_t size)
+drv_enter_critical	user\caframe.h	262;"	prototype	signature:(void)
+drv_enter_critical	user\driver.c	109;"	function	signature:(void)
+drv_exit_critical	user\caframe.h	267;"	prototype	signature:(void)
+drv_exit_critical	user\driver.c	114;"	function	signature:(void)
+drv_init	user\caframe.h	252;"	prototype	signature:(void)
+drv_init	user\driver.c	59;"	function	signature:(void)
+drv_input	user\caframe.h	274;"	prototype	signature:(uint8_t port)
+drv_input	user\driver.c	147;"	function	signature:(uint8_t port)
+drv_output	user\caframe.h	281;"	prototype	signature:(uint8_t port,uint8_t val)
+drv_output	user\driver.c	130;"	function	signature:(uint8_t port,uint8_t val)
+drv_serial_get_input_size	user\driver.c	385;"	function	signature:(void)
+drv_serial_get_input_size	user\driver.h	30;"	prototype	signature:(void)
+drv_serial_input	user\driver.c	367;"	function	signature:(uint8_t *buf)
+drv_serial_input	user\driver.h	29;"	prototype	signature:(uint8_t *buf)
+drv_serial_output	user\driver.c	349;"	function	signature:(uint8_t *buf,uint8_t len)
+drv_serial_output	user\driver.h	28;"	prototype	signature:(uint8_t *buf,uint8_t len)
+drv_serial_recv_clear	user\driver.c	391;"	function	signature:(void)
+drv_serial_recv_clear	user\driver.h	31;"	prototype	signature:(void)
+drv_wdt_reset	user\caframe.h	257;"	prototype	signature:(void)
+drv_wdt_reset	user\driver.c	119;"	function	signature:(void)
+eepera	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	35;"	macro
+enableInterrupts	user\stm8s.h	2601;"	macro
+enableInterrupts	user\stm8s.h	2610;"	macro
+enableInterrupts	user\stm8s.h	2620;"	macro
+error	user\queue.h	12;"	member	struct:QUEUE_S
+filter_config	user\caframe.h	125;"	member	struct:tag_input_event
+filter_counter	user\caframe.h	127;"	member	struct:tag_input_event
+flag	user\caframe.h	158;"	member	struct:tag_event
+frm_begin_timer_task	user\caframe.h	177;"	prototype	signature:(PTIMER_TASK pTask)
+frm_begin_timer_task	user\frame.c	232;"	function	signature:(PTIMER_TASK pTask)
+frm_event_trigger	user\frame.c	135;"	function	signature:(void)
+frm_get_event_state	user\caframe.h	244;"	prototype	signature:(uint8_t id)
+frm_get_event_state	user\frame.c	65;"	function	signature:(uint8_t event_id)
+frm_inc_timer_tick	user\caframe.h	232;"	prototype	signature:(void)
+frm_inc_timer_tick	user\frame.c	45;"	function	signature:(void)
+frm_init	user\frame.c	27;"	function	signature:(void)
+frm_input	user\caframe.h	184;"	prototype	signature:(uint8_t port)
+frm_input	user\frame.c	112;"	function	signature:(uint8_t port)
+frm_input_trigger	user\frame.c	73;"	function	signature:(void)
+frm_install_event	user\caframe.h	226;"	prototype	signature:(uint8_t id,void (*fn)(void))
+frm_install_event	user\frame.c	203;"	function	signature:(uint8_t id,void (*fn)(void))
+frm_install_input_event	user\caframe.h	193;"	prototype	signature:(uint8_t port,void (*fn)(uint16_t),uint8_t filter,uint8_t type)
+frm_install_input_event	user\frame.c	178;"	function	signature:(uint8_t port,void (*fn)(uint16_t),uint8_t filter,uint8_t type)
+frm_install_timer_event	user\caframe.h	201;"	prototype	signature:(uint8_t id,uint16_t tms,void (*fn)(void))
+frm_install_timer_event	user\frame.c	192;"	function	signature:(uint8_t id,uint16_t tms,void (*fn)(void))
+frm_set_event	user\caframe.h	238;"	prototype	signature:(uint8_t id)
+frm_set_event	user\frame.c	51;"	function	signature:(uint8_t event_id)
+frm_timer_disable	user\caframe.h	213;"	prototype	signature:(uint8_t id)
+frm_timer_disable	user\frame.c	218;"	function	signature:(uint8_t id)
+frm_timer_enable	user\caframe.h	207;"	prototype	signature:(uint8_t id)
+frm_timer_enable	user\frame.c	211;"	function	signature:(uint8_t id)
+frm_timer_reset	user\caframe.h	219;"	prototype	signature:(uint8_t id)
+frm_timer_reset	user\frame.c	225;"	function	signature:(uint8_t id)
+frm_timer_trigger	user\frame.c	118;"	function	signature:(void)
+g_BeepCounter	user\app.c	36;"	variable
+g_Buf	user\app.c	32;"	variable	file:
+g_Buffer	user\fm1702.c	7;"	variable	file:
+g_CardType	user\fm1702.c	9;"	variable	file:
+g_CardUID	user\fm1702.c	8;"	variable	file:
+g_DefKey	user\app.c	15;"	variable
+g_DelayTimer	user\driver.c	17;"	variable	file:
+g_GenEvent	user\frame.c	19;"	variable	file:
+g_InputEvent	user\frame.c	23;"	variable	file:
+g_LedCounter	user\app.c	35;"	variable
+g_NewSectorNewKeyA	user\app.c	16;"	variable
+g_NewSectorNewKeyB	user\app.c	17;"	variable
+g_OldSectorKeys	user\app.c	21;"	variable
+g_RWCode	user\app.c	30;"	variable
+g_RWCodeDef	user\app.c	31;"	variable
+g_RecvBuf	user\app.c	33;"	variable	file:
+g_RecvWaitCounter	user\driver.c	255;"	variable
+g_RxBuffer	user\driver.c	253;"	variable
+g_RxQueue	user\driver.c	251;"	variable
+g_TimerEvent	user\frame.c	22;"	variable	file:
+g_TimerFlag	user\frame.c	16;"	variable
+g_TxBuffer	user\driver.c	254;"	variable
+g_TxQueue	user\driver.c	252;"	variable
+halt	user\stm8s.h	2608;"	macro
+halt	user\stm8s.h	2617;"	macro
+halt	user\stm8s.h	2627;"	macro
+hold	user\caframe.h	123;"	member	struct:tag_input_event
+id	user\caframe.h	143;"	member	struct:tag_timer_event
+in_index	user\queue.h	7;"	member	struct:QUEUE_S
+int16_t	user\stm8s.h	200;"	typedef
+int32_t	user\stm8s.h	201;"	typedef
+int8_t	user\stm8s.h	199;"	typedef
+interrupt_handler	user\stm8_interrupt_vector.c	10;"	member	struct:interrupt_vector	file:
+interrupt_handler_t	user\stm8_interrupt_vector.c	6;"	typedef	file:
+interrupt_instruction	user\stm8_interrupt_vector.c	9;"	member	struct:interrupt_vector	file:
+interrupt_vector	user\stm8_interrupt_vector.c	8;"	struct	file:
+main	user\frame.c	151;"	function	signature:(void)
+mbCRC16	user\app.c	69;"	function	signature:( uint8_t * pucFrame, uint16_t usLen )
+memchr	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	28;"	prototype	signature:(void *s, char c, unsigned int n)
+memcmp	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	22;"	prototype	signature:(void *s1, void *s2, unsigned int n)
+memcpy	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	29;"	prototype	signature:(void *s1, void *s2, unsigned int n)
+memmove	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	30;"	prototype	signature:(void *s1, void *s2, unsigned int n)
+memset	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	31;"	prototype	signature:(void *s, char c, unsigned int n)
+nop	user\stm8s.h	2605;"	macro
+nop	user\stm8s.h	2614;"	macro
+nop	user\stm8s.h	2624;"	macro
+out_index	user\queue.h	8;"	member	struct:QUEUE_S
+pBuffer	user\queue.h	10;"	member	struct:QUEUE_S
+port	user\caframe.h	117;"	member	struct:tag_input_event
+rim	user\stm8s.h	2603;"	macro
+rim	user\stm8s.h	2612;"	macro
+rim	user\stm8s.h	2622;"	macro
+s16	user\stm8s.h	211;"	typedef
+s32	user\stm8s.h	210;"	typedef
+s8	user\stm8s.h	212;"	typedef
+ser_init	user\driver.c	294;"	function	signature:(void)
+ser_init	user\driver.h	27;"	prototype	signature:(void)
+ser_timer_disable	user\driver.c	278;"	function	signature:(void)
+ser_timer_enable	user\driver.c	271;"	function	signature:(void)
+ser_timer_init	user\driver.c	258;"	function	signature:(void)
+sim	user\stm8s.h	2604;"	macro
+sim	user\stm8s.h	2613;"	macro
+sim	user\stm8s.h	2623;"	macro
+spi_init	user\fm1702.c	21;"	function	file:	signature:(void)
+spi_rw_byte	user\fm1702.c	36;"	function	file:	signature:(uint8_t dat)
+state	user\caframe.h	121;"	member	struct:tag_input_event
+step	user\caframe.h	168;"	member	struct:tag_timer_task
+strcat	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	14;"	prototype	signature:(char *s1, char *s2)
+strchr	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	15;"	prototype	signature:(char *s, char c)
+strcmp	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	23;"	prototype	signature:(char *s1, char *s2)
+strcpy	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	16;"	prototype	signature:(char *s1, char *s2)
+strcspn	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	25;"	prototype	signature:(char *s1, char *s2)
+strlen	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	26;"	prototype	signature:(char *s)
+strncat	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	17;"	prototype	signature:(char *s1, char *s2, unsigned int n)
+strncmp	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	24;"	prototype	signature:(char *s1, char *s2, unsigned int n)
+strncpy	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	18;"	prototype	signature:(char *s1, char *s2, unsigned int n)
+strpbrk	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	19;"	prototype	signature:(char *s1, char *s2)
+strrchr	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	20;"	prototype	signature:(char *s, char c)
+strspn	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	27;"	prototype	signature:(char *s1, char *s2)
+strstr	c:\program files\cosmic\cxstm8_32k\hstm8\string.h	21;"	prototype	signature:(char *s1, char *s2)
+tag_event	user\caframe.h	155;"	struct
+tag_input_event	user\caframe.h	114;"	struct
+tag_timer_event	user\caframe.h	140;"	struct
+tag_timer_task	user\caframe.h	166;"	struct
+trap	user\stm8s.h	2606;"	macro
+trap	user\stm8s.h	2615;"	macro
+trap	user\stm8s.h	2625;"	macro
+type	user\caframe.h	119;"	member	struct:tag_input_event
+u16	user\stm8s.h	215;"	typedef
+u32	user\stm8s.h	214;"	typedef
+u8	user\stm8s.h	216;"	typedef
+uint16_t	user\stm8s.h	205;"	typedef
+uint32_t	user\stm8s.h	206;"	typedef
+uint8_t	user\stm8s.h	204;"	typedef
+wfi	user\stm8s.h	2607;"	macro
+wfi	user\stm8s.h	2616;"	macro
+wfi	user\stm8s.h	2626;"	macro

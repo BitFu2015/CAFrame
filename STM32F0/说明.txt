@@ -1,0 +1,14 @@
+	uVersion(V5.12) + MDK-ARM(V5.12) + STM32F0标准外设库V1.5.0 + CAFrame 工程模板	
+	
+	版权说明：
+	芯艺设计室(http://www.chipart.cn)  版权所有
+	转载请保留本注释在内的完整内容
+	
+	芯艺 2015-08-12  
+
+说明：
+Listings和Objects是uVersion自动生成目录，存放编译生成的文件
+STLib是STM32F0标准外设库存放目录，标准外设库版本为V1.5.0,为了减少占用空间，已删减了一些不常用的文件；
+Source是用户程序存放目录,规划是用户自己创建的所有源文件(.c)和声明文件(.h)都放到此处；
+为了提高编译速度，在工程文件中没有包含所有标准库源文件，用到时请从STLib/STM32F0xx_StdPeriph_Driver/src添加所需的模块
+并在Source目录下的stm32f0xx_conf.h文件中对应的声明文件(.h)前的注释去掉即可。

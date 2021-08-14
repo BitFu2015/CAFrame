@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.3.1"/>
+<title>CAFrame: 框架事件触发接口</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">CAFrame
+   &#160;<span id="projectnumber">V2.2</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.3.1 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">框架事件触发接口</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ga81c0d6feba01b9b163c3dc44508a912d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___gen_frame.html#ga81c0d6feba01b9b163c3dc44508a912d">frm_install_event</a> (uint8_t id, void(*fn)(void))</td></tr>
+<tr class="memdesc:ga81c0d6feba01b9b163c3dc44508a912d"><td class="mdescLeft">&#160;</td><td class="mdescRight">安装通用事件  <a href="#ga81c0d6feba01b9b163c3dc44508a912d">更多...</a><br/></td></tr>
+<tr class="separator:ga81c0d6feba01b9b163c3dc44508a912d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7d9277246264b92e5b68a905d13e677b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___gen_frame.html#ga7d9277246264b92e5b68a905d13e677b">frm_inc_timer_tick</a> (void)</td></tr>
+<tr class="memdesc:ga7d9277246264b92e5b68a905d13e677b"><td class="mdescLeft">&#160;</td><td class="mdescRight">框架1ms滴答驱动，此函数必须在驱动中每一毫秒调用一次  <a href="#ga7d9277246264b92e5b68a905d13e677b">更多...</a><br/></td></tr>
+<tr class="separator:ga7d9277246264b92e5b68a905d13e677b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga996815659c1f5822af0d097650c6494b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___gen_frame.html#ga996815659c1f5822af0d097650c6494b">frm_set_event</a> (uint8_t id)</td></tr>
+<tr class="memdesc:ga996815659c1f5822af0d097650c6494b"><td class="mdescLeft">&#160;</td><td class="mdescRight">触发通用事件，此函数通常在驱动的中断中调用，用于实现对应事件的触发  <a href="#ga996815659c1f5822af0d097650c6494b">更多...</a><br/></td></tr>
+<tr class="separator:ga996815659c1f5822af0d097650c6494b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabda7bddb490fcd5aefaa0747cac3d0f6"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___gen_frame.html#gabda7bddb490fcd5aefaa0747cac3d0f6">frm_get_event_state</a> (uint8_t id)</td></tr>
+<tr class="memdesc:gabda7bddb490fcd5aefaa0747cac3d0f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">查询指定事件的触发状态  <a href="#gabda7bddb490fcd5aefaa0747cac3d0f6">更多...</a><br/></td></tr>
+<tr class="separator:gabda7bddb490fcd5aefaa0747cac3d0f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga56c9e8b074f53be769cd4169baafc044"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___gen_frame.html#ga56c9e8b074f53be769cd4169baafc044">CAFrameInit</a> (void)</td></tr>
+<tr class="memdesc:ga56c9e8b074f53be769cd4169baafc044"><td class="mdescLeft">&#160;</td><td class="mdescRight">初始化框架，托管应用中无需调用  <a href="#ga56c9e8b074f53be769cd4169baafc044">更多...</a><br/></td></tr>
+<tr class="separator:ga56c9e8b074f53be769cd4169baafc044"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacb50aa0ecae07ea3944341db9643b2f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___gen_frame.html#gacb50aa0ecae07ea3944341db9643b2f2">CAFramePoll</a> (void)</td></tr>
+<tr class="memdesc:gacb50aa0ecae07ea3944341db9643b2f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">框架功能轮循处理，托管应用中无需调用  <a href="#gacb50aa0ecae07ea3944341db9643b2f2">更多...</a><br/></td></tr>
+<tr class="separator:gacb50aa0ecae07ea3944341db9643b2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<p>在驱动中触发框架用的接口函数 </p>
+<h2 class="groupheader">函数说明</h2>
+<a class="anchor" id="ga56c9e8b074f53be769cd4169baafc044"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CAFrameInit </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初始化框架，托管应用中无需调用 </p>
+<dl class="section note"><dt>注解</dt><dd>需要在main函数开始处调用 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gacb50aa0ecae07ea3944341db9643b2f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CAFramePoll </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>框架功能轮循处理，托管应用中无需调用 </p>
+<dl class="section note"><dt>注解</dt><dd>main函数主循环中调用 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="gabda7bddb490fcd5aefaa0747cac3d0f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t frm_get_event_state </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>查询指定事件的触发状态 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>查询事件ID </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga7d9277246264b92e5b68a905d13e677b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frm_inc_timer_tick </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>框架1ms滴答驱动，此函数必须在驱动中每一毫秒调用一次 </p>
+<dl class="section note"><dt>注解</dt><dd>用于支持框架的输入检测和定时触发功能 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga81c0d6feba01b9b163c3dc44508a912d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frm_install_event </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)(void)&#160;</td>
+          <td class="paramname"><em>fn</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>安装通用事件 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>事件ID </td></tr>
+    <tr><td class="paramname">fn</td><td>事件处理函数<br/>
+原型：void func(void) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ga996815659c1f5822af0d097650c6494b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frm_set_event </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>触发通用事件，此函数通常在驱动的中断中调用，用于实现对应事件的触发 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>触发事件ID </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2021年 八月 6日 星期五 13:53:47 , 为 CAFrame使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.3.1
+</small></address>
+</body>
+</html>

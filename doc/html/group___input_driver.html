@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.3.1"/>
+<title>CAFrame: 开关输入接口</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">CAFrame
+   &#160;<span id="projectnumber">V2.2</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.3.1 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="modules.html"><span>模块</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">开关输入接口</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ga16d30425df5cf2cfa21f841ed8581fbe"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input_driver.html#ga16d30425df5cf2cfa21f841ed8581fbe">frm_input</a> (uint8_t port)</td></tr>
+<tr class="memdesc:ga16d30425df5cf2cfa21f841ed8581fbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">读取开关输入端口状态，用于读取滤波后的开关输入状态  <a href="#ga16d30425df5cf2cfa21f841ed8581fbe">更多...</a><br/></td></tr>
+<tr class="separator:ga16d30425df5cf2cfa21f841ed8581fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4e7408177e8c7ac0714cfd5831d12727"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input_driver.html#ga4e7408177e8c7ac0714cfd5831d12727">frm_install_input_event</a> (uint8_t port, void(*fn)(uint16_t), uint8_t filter, uint8_t type)</td></tr>
+<tr class="memdesc:ga4e7408177e8c7ac0714cfd5831d12727"><td class="mdescLeft">&#160;</td><td class="mdescRight">安装开关输入事件  <a href="#ga4e7408177e8c7ac0714cfd5831d12727">更多...</a><br/></td></tr>
+<tr class="separator:ga4e7408177e8c7ac0714cfd5831d12727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6d2f47a2c7c9cc6ee6015c8373671411"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___input_driver.html#ga6d2f47a2c7c9cc6ee6015c8373671411">drv_input</a> (uint8_t port)</td></tr>
+<tr class="memdesc:ga6d2f47a2c7c9cc6ee6015c8373671411"><td class="mdescLeft">&#160;</td><td class="mdescRight">读取开关输入端口状态，直接读取端口当前的输入信号，在驱动(driver.c)中必须实现此函数。  <a href="#ga6d2f47a2c7c9cc6ee6015c8373671411">更多...</a><br/></td></tr>
+<tr class="separator:ga6d2f47a2c7c9cc6ee6015c8373671411"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<pre class="fragment">开关输入处理方式有两种
+</pre> <dl class="section user"><dt>事件驱动方式</dt><dd><pre class="fragment">示例如下(app.c)：
+</pre> <div class="fragment"><div class="line"><span class="keywordtype">void</span> InputEvent1(uint16_t x)</div>
+<div class="line">{</div>
+<div class="line">    <span class="comment">//x为事件产生前的电平状态保持时间</span></div>
+<div class="line">    LED_FLASH;</div>
+<div class="line">}    </div>
+<div class="line"><span class="keywordtype">void</span> InitApp(<span class="keywordtype">void</span>)</div>
+<div class="line">{</div>
+<div class="line">    <a class="code" href="group___input_driver.html#ga4e7408177e8c7ac0714cfd5831d12727" title="安装开关输入事件">frm_install_input_event</a>(IO_X1,InputEvent1,5,ET_ALL_EDGE);<span class="comment">//1号输入口状态发生改变时调用InputEvent1函数</span></div>
+<div class="line">    <span class="comment">// ... 其它事件函数的安装</span></div>
+<div class="line">}</div>
+</div><!-- fragment --></dd></dl>
+<dl class="section user"><dt>定时器内扫描方式</dt><dd><pre class="fragment">在定时器内通过drv_input或frm_input函数检测输入状态，并作出相应的操作;
+</pre> </dd></dl>
+<dl class="section note"><dt>注解</dt><dd>如果使用frm_input函数，则必须在InitApp中将相应端口输入事件初始化成ET_DISABLE模式,如：</dd></dl>
+<div class="fragment"><div class="line"><a class="code" href="group___input_driver.html#ga4e7408177e8c7ac0714cfd5831d12727" title="安装开关输入事件">frm_install_input_event</a>(IO_X1,0,5,ET_DISABLE); </div>
+</div><!-- fragment --> <h2 class="groupheader">函数说明</h2>
+<a class="anchor" id="ga6d2f47a2c7c9cc6ee6015c8373671411"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t drv_input </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>port</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>读取开关输入端口状态，直接读取端口当前的输入信号，在驱动(driver.c)中必须实现此函数。 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">port</td><td>端口:IO_X1 ~ IO_X6 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>有信号返回1 无信号返回0 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga16d30425df5cf2cfa21f841ed8581fbe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t frm_input </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>port</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>读取开关输入端口状态，用于读取滤波后的开关输入状态 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">port</td><td>端口:IO_X1 ~ IO_X6 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>有信号返回1 无信号返回0 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga4e7408177e8c7ac0714cfd5831d12727"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void frm_install_input_event </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)(uint16_t)&#160;</td>
+          <td class="paramname"><em>fn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>filter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>安装开关输入事件 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">port</td><td>端口号:IO_X1 ~ IO_X6 </td></tr>
+    <tr><td class="paramname">fn</td><td>事件处理函数，原型: void func(uint16_t t)<br/>
+参数t为之前电平状态保持的时间(ms)，如果保持时间大于0xFFFF则t返回0xFFFF; </td></tr>
+    <tr><td class="paramname">filter</td><td>滤波计数器，以毫秒为单位的信号确认时间 </td></tr>
+    <tr><td class="paramname">type</td><td>ET_FALLING_EDGE：下降沿触发<br/>
+ ET_RISING_EDGE：上升沿触发 <br/>
+ET_ALL_EDGE：边沿触发<br/>
+ET_DISABLE：事件触发禁止(检测应用时使用) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+生成于 2021年 八月 6日 星期五 13:53:47 , 为 CAFrame使用  &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.3.1
+</small></address>
+</body>
+</html>

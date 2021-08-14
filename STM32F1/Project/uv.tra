@@ -1,0 +1,29 @@
+*** Creating Trace Output File 'uv.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"stm32f10x_it.o"'
+### List of Objects: adding '"misc.o"'
+### List of Objects: adding '"stm32f10x_rcc.o"'
+### List of Objects: adding '"stm32f10x_spi.o"'
+### List of Objects: adding '"stm32f10x_gpio.o"'
+### List of Objects: adding '"stm32f10x_usart.o"'
+### List of Objects: adding '"stm32f10x_fsmc.o"'
+### List of Objects: adding '".\startup_stm32f10x_md.o"'
+### List of Objects: adding '"core_cm3.o"'
+### List of Objects: adding '"system_stm32f10x.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "main.o" "stm32f10x_it.o" "misc.o" "stm32f10x_rcc.o" "stm32f10x_spi.o" "stm32f10x_gpio.o" "stm32f10x_usart.o" "stm32f10x_fsmc.o" ".\startup_stm32f10x_md.o" "core_cm3.o" "system_stm32f10x.o" --library_type=microlib --strict --scatter "uv.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\uv.map" -o "uv.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'uv.axf'
+### ADS-LD Command File: 'uv.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'uv.lnp', Handle=0x000002F4
+### Writing '.lnp' file
+### ADS-LD Command file 'uv.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

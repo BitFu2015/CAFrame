@@ -1,0 +1,23 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.Source Files...\frame\frame.c.Config.0]
+ExternDep= ..\frame\frame.c  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\Hstm8\modsl0.h" ..\frame\CAFrame.h  user\Driver.h user\stm8s.h user\queue.h user\fm1702.h  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\Hstm8\string.h" user\cfg.h
+
+[Root.Source Files.user\app.c.Config.0]
+ExternDep= user\app.c  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\Hstm8\modsl0.h" ..\frame\CAFrame.h  user\Driver.h user\stm8s.h user\queue.h user\fm1702.h  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\Hstm8\string.h" user\cfg.h
+
+[Root.Source Files.user\driver.c.Config.0]
+ExternDep= user\driver.c  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\Hstm8\modsl0.h" ..\frame\caframe.h  user\Driver.h user\stm8s.h user\queue.h user\fm1702.h  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\Hstm8\string.h" user\cfg.h
+
+[Root.Source Files.user\fm1702.c.Config.0]
+ExternDep= user\fm1702.c  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\Hstm8\modsl0.h" ..\frame\caframe.h  user\Driver.h user\stm8s.h user\queue.h user\fm1702.h  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\Hstm8\string.h" user\cfg.h
+
+[Root.Source Files.user\queue.c.Config.0]
+ExternDep= user\queue.c  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\Hstm8\modsl0.h" ..\frame\CAFrame.h  user\Driver.h user\stm8s.h user\queue.h user\fm1702.h  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\Hstm8\string.h" user\cfg.h
+
+[Root.Source Files.user\stm8_interrupt_vector.c.Config.0]
+ExternDep= user\stm8_interrupt_vector.c  "C:\Program Files (x86)\COSMIC\CXSTM8_32K\Hstm8\modsl0.h" user\stm8s.h

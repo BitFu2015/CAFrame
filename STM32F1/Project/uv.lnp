@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "main.o" "stm32f10x_it.o" "misc.o" "stm32f10x_rcc.o" "stm32f10x_spi.o" "stm32f10x_gpio.o" "stm32f10x_usart.o" "stm32f10x_fsmc.o" ".\startup_stm32f10x_md.o" "core_cm3.o" "system_stm32f10x.o" --library_type=microlib --strict --scatter "uv.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\uv.map" -o "uv.axf"
