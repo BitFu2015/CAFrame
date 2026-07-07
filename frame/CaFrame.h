@@ -271,6 +271,8 @@ typedef struct tag_input_event
 	uint8_t filter_counter;	
 	//事件处理函数	
 	void (*Func)(uint16_t);	
+
+	//struct tag_input_event * next;
 }EVENT_INPUT,*PEVENT_INPUT;
 //输入事件触发类型符号定义
 #define ET_FALLING_EDGE	0
@@ -308,6 +310,8 @@ typedef struct tag_timer_event
 	
 	//定时任务列表
 	struct tag_timer_task *pTaskList;	
+	
+	//struct tag_timer_event *next;
 }EVENT_TIMER,*PEVENT_TIMER;
 
 /*
@@ -315,10 +319,15 @@ typedef struct tag_timer_event
 */
 typedef struct tag_event
 {
+	//事件ID
+	uint8_t id;
+
 	//事件发生标记
 	uint8_t flag;
 	//事件处理函数
 	void (*Func)(void);
+
+	//struct tag_event *next;
 }EVENT,*PEVENT;
 
 /** \ingroup InputDriver

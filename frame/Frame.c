@@ -1,7 +1,7 @@
 /*********************************************
 	文件名：Frame.c
 	功  能：CAFrame应用程序框架 
-	版  本：V2.2.4
+	版  本：V2.2.6
 	
 	芯艺设计室(http://www.chipart.cn)  版权所有
 	工程主页:http://www.chipart.cn/projects/prj_hit.asp?id=8
@@ -17,6 +17,8 @@
 	芯艺 V2.2.2 2017-10-07	输入事件中之前电平状态保持时间的问题修正
 	芯艺 V2.2.3 2019-05-07  通用事件处理时无论是否安装处理函数，检测到标志后就清除
 	芯艺 V2.2.4 2021-07-27  定时任务执行后后边的定时器暂不执行问题解决
+	芯艺 V2.2.5 2022-02-25  使能定时器时复位定时器
+	芯艺 V2.2.6 2025-04-12  增加阻塞运行时是否滴答计数选项
 *********************************************/
 #include "CAFrame.h"
 
@@ -51,7 +53,11 @@ void frm_init(void)
 //向框架发送1ms定时信号
 void frm_inc_timer_tick(void)
 {
-	g_TimerFlag++;	
+	#if FRM_SKIP_TICK_EN > 0
+		g_TimerFlag=1;
+	#else
+		g_TimerFlag++;	
+	#endif
 }
 
 //触发通用事件，在driver.c中调用
@@ -246,7 +252,10 @@ void frm_install_event(uint8_t id,void (*fn)(void))
 void frm_timer_enable(uint8_t id)
 {
 	if(id<TIMER_MAX_COUNT)
+	{
 		g_TimerEvent[id].id=id;
+		g_TimerEvent[id].cnt=0;
+	}	
 }
 
 //定时器禁用

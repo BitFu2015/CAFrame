@@ -1,0 +1,24 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+*.lst
+*.lss
+*.eep
+*.lst
+*.sym
+
+# doxygen
+*.cfg
+
+
+
+
