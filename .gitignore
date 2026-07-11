@@ -19,8 +19,8 @@ obj/
 *.sym
 
 # doxygen
-INMAGE/
-*.cfg
+IMAGE/
+*.CFG
 *.hhc
 *.hhk
 *.hhp
