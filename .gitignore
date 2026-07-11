@@ -2,9 +2,11 @@
 *.d
 
 # Object files
+obj/
 *.o
 *.obj
 *.elf
+
 
 # Linker output
 *.ilk
@@ -17,7 +19,13 @@
 *.sym
 
 # doxygen
+INMAGE/
 *.cfg
+*.hhc
+*.hhk
+*.hhp
+*.bak
+
 
 
 

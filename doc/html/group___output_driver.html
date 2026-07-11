@@ -1,13 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<meta name="generator" content="Doxygen 1.8.3.1"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.17.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>CAFrame: 输出控制接口</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="dynsections.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -15,10 +14,10 @@
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
- <tr style="height: 56px;">
-  <td style="padding-left: 0.5em;">
-   <div id="projectname">CAFrame
-   &#160;<span id="projectnumber">V2.2</span>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="caslogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">CAFrame<span id="projectnumber">&#160;V2.3</span>
    </div>
   </td>
  </tr>
@@ -26,51 +25,49 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- 制作者 Doxygen 1.8.3.1 -->
+<!-- 制作者 Doxygen 1.17.0 -->
+<div id="main-nav">
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>首页</span></a></li>
-      <li><a href="modules.html"><span>模块</span></a></li>
+      <li class="current"><a href="topics.html"><span>专题</span></a></li>
     </ul>
   </div>
+</div><!-- main-nav -->
 </div><!-- top -->
+<div id="doc-content">
 <div class="header">
   <div class="summary">
 <a href="#func-members">函数</a>  </div>
-  <div class="headertitle">
-<div class="title">输出控制接口</div>  </div>
+  <div class="headertitle"><div class="title">输出控制接口 </div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 函数</h2></td></tr>
-<tr class="memitem:gaf2720512412f6e60150ca5f4bf8a3d78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___output_driver.html#gaf2720512412f6e60150ca5f4bf8a3d78">drv_output</a> (uint8_t port, uint8_t val)</td></tr>
-<tr class="memdesc:gaf2720512412f6e60150ca5f4bf8a3d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">开关量输出控制函数，在驱动(driver.c)中必须实现此函数。  <a href="#gaf2720512412f6e60150ca5f4bf8a3d78">更多...</a><br/></td></tr>
-<tr class="separator:gaf2720512412f6e60150ca5f4bf8a3d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf2720512412f6e60150ca5f4bf8a3d78" id="r_gaf2720512412f6e60150ca5f4bf8a3d78"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#gaf2720512412f6e60150ca5f4bf8a3d78">drv_output</a> (uint8_t port, uint8_t val)</td></tr>
+<tr class="memdesc:gaf2720512412f6e60150ca5f4bf8a3d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">开关量输出控制函数，在驱动(driver.c)中必须实现此函数。  <br /></td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
-<p>输出控制函数包含开关量输出接口函数drv_output和模拟量输出接口函数drv_dac_output. </p>
-<h2 class="groupheader">函数说明</h2>
-<a class="anchor" id="gaf2720512412f6e60150ca5f4bf8a3d78"></a>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">详细描述</h2>
+<div class="textblock"><p>输出控制接口函数drv_output以框架统一的方式控制单片机IO口的输出行为，<br  />
+ 这些IO口被编号成IO_Y1,IO_Y2 ... <br  />
+ drv_output函数实现编号对应的IO的输出控制行为。 </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">函数说明</h2>
+<a id="gaf2720512412f6e60150ca5f4bf8a3d78" name="gaf2720512412f6e60150ca5f4bf8a3d78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf2720512412f6e60150ca5f4bf8a3d78">&#9670;&#160;</a></span>drv_output()</h2>
+
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void drv_output </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>port</em>, </td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>port</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>val</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -89,9 +86,8 @@
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-生成于 2021年 八月 6日 星期五 13:53:47 , 为 CAFrame使用  &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.3.1
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.17.0
 </small></address>
+</div><!-- doc-content -->
 </body>
 </html>

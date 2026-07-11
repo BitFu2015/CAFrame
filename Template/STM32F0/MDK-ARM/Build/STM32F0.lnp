@@ -1,0 +1,21 @@
+--cpu Cortex-M0
+".\build\stm32f0xx_it.o"
+".\build\startup_stm32f030x6.o"
+".\build\app.o"
+".\build\driver.o"
+".\build\eep.o"
+".\build\iic.o"
+".\build\stm32f0xx_ll_gpio.o"
+".\build\stm32f0xx_ll_adc.o"
+".\build\stm32f0xx_ll_rcc.o"
+".\build\stm32f0xx_ll_utils.o"
+".\build\stm32f0xx_ll_exti.o"
+".\build\stm32f0xx_ll_pwr.o"
+".\build\stm32f0xx_ll_usart.o"
+".\build\stm32f0xx_ll_tim.o"
+".\build\system_stm32f0xx.o"
+".\build\frame.o"
+--library_type=microlib --strict --scatter ".\Build\STM32F0.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32F0.map" -o .\Build\STM32F0.axf

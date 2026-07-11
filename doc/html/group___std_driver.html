@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.17.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>CAFrame: 标准驱动函数</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="caslogo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">CAFrame<span id="projectnumber">&#160;V2.3</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.17.0 -->
+<div id="main-nav">
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li class="current"><a href="topics.html"><span>专题</span></a></li>
+    </ul>
+  </div>
+</div><!-- main-nav -->
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle"><div class="title">标准驱动函数 </div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:gae7a0c579c1ea1c7d8b7b2497e88ed74b" id="r_gae7a0c579c1ea1c7d8b7b2497e88ed74b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#gae7a0c579c1ea1c7d8b7b2497e88ed74b">drv_eeprom_read</a> (uint16_t addr, uint8_t *buf, uint8_t size)</td></tr>
+<tr class="memdesc:gae7a0c579c1ea1c7d8b7b2497e88ed74b"><td class="mdescLeft">&#160;</td><td class="mdescRight">安全读取EEPROM接口函数,在驱动(driver.c)中必须实现此函数。  <br /></td></tr>
+<tr class="memitem:gad5536e0589213449fe40a486f90f0e68" id="r_gad5536e0589213449fe40a486f90f0e68"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#gad5536e0589213449fe40a486f90f0e68">drv_eeprom_write</a> (uint16_t addr, uint8_t *buf, uint8_t size)</td></tr>
+<tr class="memdesc:gad5536e0589213449fe40a486f90f0e68"><td class="mdescLeft">&#160;</td><td class="mdescRight">安全写入EEPROM接口函数,在驱动(driver.c)中必须实现此函数。  <br /></td></tr>
+<tr class="memitem:ga133863cc6cc0f29a4bb08a91b33bf891" id="r_ga133863cc6cc0f29a4bb08a91b33bf891"><td class="memItemLeft">UINT&#160;</td><td class="memItemRight"><a class="el" href="#ga133863cc6cc0f29a4bb08a91b33bf891">drv_get_current_tick</a> (void)</td></tr>
+<tr class="memdesc:ga133863cc6cc0f29a4bb08a91b33bf891"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取当前系统滴答计数值  <br /></td></tr>
+<tr class="memitem:ga395679fe6c88b18b62b8c0756e040292" id="r_ga395679fe6c88b18b62b8c0756e040292"><td class="memItemLeft">UINT&#160;</td><td class="memItemRight"><a class="el" href="#ga395679fe6c88b18b62b8c0756e040292">drv_get_past_tick</a> (UINT t)</td></tr>
+<tr class="memdesc:ga395679fe6c88b18b62b8c0756e040292"><td class="mdescLeft">&#160;</td><td class="mdescRight">获取过去某一时刻到现在的系统滴答个数  <br /></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">详细描述</h2>
+<div class="textblock"><p>框架定义的标准化驱动函数，为了使驱动层和应用层接口程序标准化，框架定义了一些标准化的函数， 框架移植到新的硬件上时应在driver.c中实现这些函数，框架本身不调用这些函数，为此在项目中用不到 时可忽略函数内容，简单返回即可。 </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">函数说明</h2>
+<a id="gae7a0c579c1ea1c7d8b7b2497e88ed74b" name="gae7a0c579c1ea1c7d8b7b2497e88ed74b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae7a0c579c1ea1c7d8b7b2497e88ed74b">&#9670;&#160;</a></span>drv_eeprom_read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void drv_eeprom_read </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t</td>          <td class="paramname"><span class="paramname"><em>addr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *</td>          <td class="paramname"><span class="paramname"><em>buf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>安全读取EEPROM接口函数,在驱动(driver.c)中必须实现此函数。 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">addr</td><td>读取地址 </td></tr>
+    <tr><td class="paramname">buf</td><td>读取缓冲区 </td></tr>
+    <tr><td class="paramname">size</td><td>读取长度(字节) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad5536e0589213449fe40a486f90f0e68" name="gad5536e0589213449fe40a486f90f0e68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5536e0589213449fe40a486f90f0e68">&#9670;&#160;</a></span>drv_eeprom_write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void drv_eeprom_write </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t</td>          <td class="paramname"><span class="paramname"><em>addr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *</td>          <td class="paramname"><span class="paramname"><em>buf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>安全写入EEPROM接口函数,在驱动(driver.c)中必须实现此函数。 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">addr</td><td>写入地址 </td></tr>
+    <tr><td class="paramname">buf</td><td>写入缓冲区 </td></tr>
+    <tr><td class="paramname">size</td><td>写入长度(字节) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga133863cc6cc0f29a4bb08a91b33bf891" name="ga133863cc6cc0f29a4bb08a91b33bf891"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga133863cc6cc0f29a4bb08a91b33bf891">&#9670;&#160;</a></span>drv_get_current_tick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UINT drv_get_current_tick </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>获取当前系统滴答计数值 </p>
+<dl class="section return"><dt>返回</dt><dd>返回当前系统滴答计数值 </dd></dl>
+
+</div>
+</div>
+<a id="ga395679fe6c88b18b62b8c0756e040292" name="ga395679fe6c88b18b62b8c0756e040292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga395679fe6c88b18b62b8c0756e040292">&#9670;&#160;</a></span>drv_get_past_tick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UINT drv_get_past_tick </td>
+          <td>(</td>
+          <td class="paramtype">UINT</td>          <td class="paramname"><span class="paramname"><em>t</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>获取过去某一时刻到现在的系统滴答个数 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">t</td><td>过去某一时刻记录的系统滴答计数值 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>返回</dt><dd>返回该时间段内发生的系统滴答数 </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.17.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>
