@@ -9,8 +9,7 @@
 	版  本：V2.3.0
 	
 	工程主页:http://www.chipart.cn/projects/prj_hit.asp?id=8
-	开源地址1：
-	开源地址2:
+	开源地址1：https://github.com/BitFu2015/CAFrame
 	
 	历史记录
 	芯艺 V1.0.0 2012-05-27  创建
