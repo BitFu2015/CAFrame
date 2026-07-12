@@ -96,7 +96,13 @@
 	}
 	\endcode
 	如果在InitApp函数中已经用frm_install_event安装了事件处理函数，那么中断中一触发这个事件，框架会在中断结束后在后台（APP_LEVEL级）调用
-	事件处理函数。
+	事件处理函数。\n
+
+	\par 框架示例项目
+	空气质量网络记录仪-C523  https://gitee.com/BitFu/C523  
+	无线射频IC卡读写模块-C1411  https://gitee.com/BitFu/C1411  
+	Modbus IO 模块-C720  https://gitee.com/BitFu/C720  
+
 \n\n
 	\par 软件许可
 	* <pre>
